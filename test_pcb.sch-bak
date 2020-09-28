@@ -213,7 +213,7 @@ L Connector:USB_A Power_out1
 U 1 1 5F70B71C
 P 6400 4750
 F 0 "Power_out1" H 6170 4647 50  0000 R CNN
-F 1 "+ power out -" H 6170 4738 50  0000 R CNN
+F 1 "Power out" H 6170 4738 50  0000 R CNN
 F 2 "Connector_USB:USB_A_Molex_105057_Vertical" H 6550 4700 50  0001 C CNN
 F 3 " ~" H 6550 4700 50  0001 C CNN
 	1    6400 4750
@@ -401,15 +401,13 @@ Wire Wire Line
 Wire Wire Line
 	1200 5150 1800 5150
 Wire Wire Line
-	1800 5150 1800 3350
-Wire Wire Line
 	1200 4400 2050 4400
 Wire Wire Line
-	2050 4400 2050 3250
+	2050 4400 2050 3350
 Wire Wire Line
 	1200 3700 1650 3700
 Wire Wire Line
-	1650 3700 1650 3150
+	1650 3700 1650 3250
 Wire Wire Line
 	1200 2850 2600 2850
 Wire Wire Line
@@ -468,23 +466,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F88C57C
-P 1250 6100
-F 0 "H1" H 1350 6146 50  0000 L CNN
-F 1 "MountingHole" H 1350 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1250 6100 50  0001 C CNN
-F 3 "~" H 1250 6100 50  0001 C CNN
-	1    1250 6100
+P 5700 1800
+F 0 "H1" H 5800 1846 50  0000 L CNN
+F 1 "MountingHole" H 5800 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1800 50  0001 C CNN
+F 3 "~" H 5700 1800 50  0001 C CNN
+	1    5700 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5F88DFB7
-P 3050 3900
-F 0 "H3" H 3150 3946 50  0000 L CNN
-F 1 "MountingHole" H 3150 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3050 3900 50  0001 C CNN
-F 3 "~" H 3050 3900 50  0001 C CNN
-	1    3050 3900
+P 5700 1300
+F 0 "H3" H 5800 1346 50  0000 L CNN
+F 1 "MountingHole" H 5800 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1300 50  0001 C CNN
+F 3 "~" H 5700 1300 50  0001 C CNN
+	1    5700 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -530,32 +528,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 2400 4600 3650
 Wire Wire Line
-	1650 3150 2300 3150
-Wire Wire Line
-	2300 3150 2300 3250
-Wire Wire Line
-	2300 3250 2600 3250
-Wire Wire Line
-	2050 3250 2150 3250
-Wire Wire Line
-	2150 3250 2150 3350
-Wire Wire Line
-	2150 3350 2600 3350
-Wire Wire Line
-	1800 3350 2000 3350
-Wire Wire Line
-	2000 3350 2000 3450
-Wire Wire Line
-	2000 3450 2600 3450
-Wire Wire Line
-	1850 2750 1850 3100
-Wire Wire Line
-	1850 3100 2350 3100
-Wire Wire Line
-	2350 3100 2350 3150
-Wire Wire Line
-	2350 3150 2600 3150
-Wire Wire Line
 	3800 1400 3800 3950
 Wire Wire Line
 	3800 3950 3950 3950
@@ -588,12 +560,24 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F72F458
-P 1150 5650
-F 0 "H2" H 1250 5696 50  0000 L CNN
-F 1 "MountingHole" H 1250 5605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1150 5650 50  0001 C CNN
-F 3 "~" H 1150 5650 50  0001 C CNN
-	1    1150 5650
+P 5700 1550
+F 0 "H2" H 5800 1596 50  0000 L CNN
+F 1 "MountingHole" H 5800 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1550 50  0001 C CNN
+F 3 "~" H 5700 1550 50  0001 C CNN
+	1    5700 1550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 5150 1800 3450
+Wire Wire Line
+	1800 3450 2600 3450
+Wire Wire Line
+	2050 3350 2600 3350
+Wire Wire Line
+	1650 3250 2600 3250
+Wire Wire Line
+	1850 2750 1850 3150
+Wire Wire Line
+	1850 3150 2600 3150
 $EndSCHEMATC

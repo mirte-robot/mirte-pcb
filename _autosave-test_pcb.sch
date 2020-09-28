@@ -426,8 +426,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3550 3950 3550
 Wire Wire Line
-	4600 3650 3950 3650
-Wire Wire Line
 	4500 4350 3950 4350
 Wire Wire Line
 	4450 4250 3950 4250
@@ -521,8 +519,6 @@ Wire Wire Line
 	4450 2650 4450 4250
 Wire Wire Line
 	5200 2400 4600 2400
-Wire Wire Line
-	4600 2400 4600 3650
 Wire Wire Line
 	3800 3950 3950 3950
 Wire Wire Line
@@ -660,4 +656,8 @@ Text Label 3750 2850 0    50   ~ 0
 5v
 Text Label 3750 2950 0    50   ~ 0
 b9
+Wire Wire Line
+	4600 3750 3950 3750
+Wire Wire Line
+	4600 2400 4600 3750
 $EndSCHEMATC
