@@ -18,7 +18,7 @@ L Switch:SW_DIP_x01 SW1
 U 1 1 5F7085D4
 P 5850 5650
 F 0 "SW1" H 5850 5917 50  0000 C CNN
-F 1 "SW_DIP_x01" H 5850 5826 50  0000 C CNN
+F 1 "on/off switch" H 5850 5826 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm" H 5850 5825 50  0001 C CNN
 F 3 "~" H 5850 5650 50  0001 C CNN
 	1    5850 5650
@@ -191,8 +191,8 @@ L Connector:Conn_01x02_Female M_power1
 U 1 1 5F7414E9
 P 6550 3850
 F 0 "M_power1" H 6578 3826 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6578 3735 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6550 3850 50  0001 C CNN
+F 1 "+ motor power -" H 6578 3735 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 6550 3850 50  0001 C CNN
 F 3 "~" H 6550 3850 50  0001 C CNN
 	1    6550 3850
 	1    0    0    -1  
@@ -202,7 +202,7 @@ L Connector:USB_B_Micro Power_in1
 U 1 1 5F70AB2E
 P 5300 6400
 F 0 "Power_in1" V 5403 6730 50  0000 L CNN
-F 1 "USB_B_Micro" V 5312 6730 50  0000 L CNN
+F 1 "Power in" V 5312 6730 50  0000 L CNN
 F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 5450 6350 50  0001 C CNN
 F 3 "~" H 5450 6350 50  0001 C CNN
 	1    5300 6400
@@ -213,7 +213,7 @@ L Connector:USB_A Power_out1
 U 1 1 5F70B71C
 P 6400 4750
 F 0 "Power_out1" H 6170 4647 50  0000 R CNN
-F 1 "USB_A" H 6170 4738 50  0000 R CNN
+F 1 "Power out" H 6170 4738 50  0000 R CNN
 F 2 "Connector_USB:USB_A_Molex_105057_Vertical" H 6550 4700 50  0001 C CNN
 F 3 " ~" H 6550 4700 50  0001 C CNN
 	1    6400 4750
@@ -401,15 +401,13 @@ Wire Wire Line
 Wire Wire Line
 	1200 5150 1800 5150
 Wire Wire Line
-	1800 5150 1800 3350
-Wire Wire Line
 	1200 4400 2050 4400
 Wire Wire Line
-	2050 4400 2050 3250
+	2050 4400 2050 3350
 Wire Wire Line
 	1200 3700 1650 3700
 Wire Wire Line
-	1650 3700 1650 3150
+	1650 3700 1650 3250
 Wire Wire Line
 	1200 2850 2600 2850
 Wire Wire Line
@@ -468,23 +466,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F88C57C
-P 1250 6100
-F 0 "H1" H 1350 6146 50  0000 L CNN
-F 1 "MountingHole" H 1350 6055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1250 6100 50  0001 C CNN
-F 3 "~" H 1250 6100 50  0001 C CNN
-	1    1250 6100
+P 5700 1800
+F 0 "H1" H 5800 1846 50  0000 L CNN
+F 1 "MountingHole" H 5800 1755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1800 50  0001 C CNN
+F 3 "~" H 5700 1800 50  0001 C CNN
+	1    5700 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5F88DFB7
-P 3050 3900
-F 0 "H3" H 3150 3946 50  0000 L CNN
-F 1 "MountingHole" H 3150 3855 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3050 3900 50  0001 C CNN
-F 3 "~" H 3050 3900 50  0001 C CNN
-	1    3050 3900
+P 5700 1300
+F 0 "H3" H 5800 1346 50  0000 L CNN
+F 1 "MountingHole" H 5800 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1300 50  0001 C CNN
+F 3 "~" H 5700 1300 50  0001 C CNN
+	1    5700 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -530,32 +528,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 2400 4600 3650
 Wire Wire Line
-	1650 3150 2300 3150
-Wire Wire Line
-	2300 3150 2300 3250
-Wire Wire Line
-	2300 3250 2600 3250
-Wire Wire Line
-	2050 3250 2150 3250
-Wire Wire Line
-	2150 3250 2150 3350
-Wire Wire Line
-	2150 3350 2600 3350
-Wire Wire Line
-	1800 3350 2000 3350
-Wire Wire Line
-	2000 3350 2000 3450
-Wire Wire Line
-	2000 3450 2600 3450
-Wire Wire Line
-	1850 2750 1850 3100
-Wire Wire Line
-	1850 3100 2350 3100
-Wire Wire Line
-	2350 3100 2350 3150
-Wire Wire Line
-	2350 3150 2600 3150
-Wire Wire Line
 	3800 1400 3800 3950
 Wire Wire Line
 	3800 3950 3950 3950
@@ -585,4 +557,27 @@ Wire Wire Line
 	2200 1900 2200 3050
 Wire Wire Line
 	2200 3050 2600 3050
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F72F458
+P 5700 1550
+F 0 "H2" H 5800 1596 50  0000 L CNN
+F 1 "MountingHole" H 5800 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1550 50  0001 C CNN
+F 3 "~" H 5700 1550 50  0001 C CNN
+	1    5700 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5150 1800 3450
+Wire Wire Line
+	1800 3450 2600 3450
+Wire Wire Line
+	2050 3350 2600 3350
+Wire Wire Line
+	1650 3250 2600 3250
+Wire Wire Line
+	1850 2750 1850 3150
+Wire Wire Line
+	1850 3150 2600 3150
 $EndSCHEMATC

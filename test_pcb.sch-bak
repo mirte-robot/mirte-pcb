@@ -18,7 +18,7 @@ L Switch:SW_DIP_x01 SW1
 U 1 1 5F7085D4
 P 5850 5650
 F 0 "SW1" H 5850 5917 50  0000 C CNN
-F 1 "SW_DIP_x01" H 5850 5826 50  0000 C CNN
+F 1 "on/off switch" H 5850 5826 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm" H 5850 5825 50  0001 C CNN
 F 3 "~" H 5850 5650 50  0001 C CNN
 	1    5850 5650
@@ -191,8 +191,8 @@ L Connector:Conn_01x02_Female M_power1
 U 1 1 5F7414E9
 P 6550 3850
 F 0 "M_power1" H 6578 3826 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6578 3735 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6550 3850 50  0001 C CNN
+F 1 "+ motor power -" H 6578 3735 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal" H 6550 3850 50  0001 C CNN
 F 3 "~" H 6550 3850 50  0001 C CNN
 	1    6550 3850
 	1    0    0    -1  
@@ -202,7 +202,7 @@ L Connector:USB_B_Micro Power_in1
 U 1 1 5F70AB2E
 P 5300 6400
 F 0 "Power_in1" V 5403 6730 50  0000 L CNN
-F 1 "USB_B_Micro" V 5312 6730 50  0000 L CNN
+F 1 "Power in" V 5312 6730 50  0000 L CNN
 F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 5450 6350 50  0001 C CNN
 F 3 "~" H 5450 6350 50  0001 C CNN
 	1    5300 6400
@@ -213,7 +213,7 @@ L Connector:USB_A Power_out1
 U 1 1 5F70B71C
 P 6400 4750
 F 0 "Power_out1" H 6170 4647 50  0000 R CNN
-F 1 "USB_A" H 6170 4738 50  0000 R CNN
+F 1 "+ power out -" H 6170 4738 50  0000 R CNN
 F 2 "Connector_USB:USB_A_Molex_105057_Vertical" H 6550 4700 50  0001 C CNN
 F 3 " ~" H 6550 4700 50  0001 C CNN
 	1    6400 4750
@@ -530,12 +530,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 2400 4600 3650
 Wire Wire Line
-	1200 1900 2250 1900
-Wire Wire Line
-	2250 1900 2250 2950
-Wire Wire Line
-	2250 2950 2600 2950
-Wire Wire Line
 	1650 3150 2300 3150
 Wire Wire Line
 	2300 3150 2300 3250
@@ -585,4 +579,21 @@ Wire Wire Line
 Connection ~ 5350 3150
 Wire Wire Line
 	5350 3150 5350 3350
+Wire Wire Line
+	1200 1900 2200 1900
+Wire Wire Line
+	2200 1900 2200 3050
+Wire Wire Line
+	2200 3050 2600 3050
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F72F458
+P 1150 5650
+F 0 "H2" H 1250 5696 50  0000 L CNN
+F 1 "MountingHole" H 1250 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1150 5650 50  0001 C CNN
+F 3 "~" H 1150 5650 50  0001 C CNN
+	1    1150 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
