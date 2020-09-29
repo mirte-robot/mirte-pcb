@@ -69,10 +69,10 @@ F 3 "~" H 2050 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female Keys1
+L Connector:Conn_01x03_Female Keys
 U 1 1 5F72E14B
 P 1000 5250
-F 0 "Keys1" H 892 4925 50  0000 C CNN
+F 0 "Keys" H 892 4925 50  0000 C CNN
 F 1 "(GND 3V3 A4)" H 892 5016 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1000 5250 50  0001 C CNN
 F 3 "~" H 1000 5250 50  0001 C CNN
