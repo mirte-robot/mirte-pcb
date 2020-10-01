@@ -18,7 +18,7 @@ L Switch:SW_DIP_x01 SW1
 U 1 1 5F7085D4
 P 5850 5650
 F 0 "SW1" H 5850 5917 50  0001 C CNN
-F 1 "on/off switch" H 5850 5826 50  0000 C CNN
+F 1 "on/off" H 5850 5826 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 5850 5825 50  0001 C CNN
 F 3 "~" H 5850 5650 50  0001 C CNN
 	1    5850 5650
@@ -394,28 +394,6 @@ Wire Wire Line
 	2350 1850 3400 1850
 Wire Wire Line
 	5850 3350 5850 3800
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5F88C57C
-P 5700 1800
-F 0 "H1" H 5800 1846 50  0000 L CNN
-F 1 "MountingHole" H 5800 1755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1800 50  0001 C CNN
-F 3 "~" H 5700 1800 50  0001 C CNN
-	1    5700 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5F88DFB7
-P 5700 1300
-F 0 "H3" H 5800 1346 50  0000 L CNN
-F 1 "MountingHole" H 5800 1255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1300 50  0001 C CNN
-F 3 "~" H 5700 1300 50  0001 C CNN
-	1    5700 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 4000 4600 4000
 Wire Wire Line
@@ -453,17 +431,6 @@ Wire Wire Line
 Connection ~ 5350 3150
 Wire Wire Line
 	5350 3150 5350 3350
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5F72F458
-P 5700 1550
-F 0 "H2" H 5800 1596 50  0000 L CNN
-F 1 "MountingHole" H 5800 1505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1550 50  0001 C CNN
-F 3 "~" H 5700 1550 50  0001 C CNN
-	1    5700 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 3450 2600 3450
 Wire Wire Line
@@ -751,5 +718,60 @@ F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4900 3250 50  0001 C
 F 3 "~" H 4900 3250 50  0001 C CNN
 	1    4900 3250
 	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F7F8696
+P 6700 1000
+F 0 "H1" H 6800 1046 50  0000 L CNN
+F 1 "MountingHole" H 6800 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 6700 1000 50  0001 C CNN
+F 3 "~" H 6700 1000 50  0001 C CNN
+	1    6700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F88DFB7
+P 5700 1300
+F 0 "H3" H 5800 1346 50  0000 L CNN
+F 1 "MountingHole" H 5800 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1300 50  0001 C CNN
+F 3 "~" H 5700 1300 50  0001 C CNN
+	1    5700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F8155E9
+P 6700 1250
+F 0 "H2" H 6800 1296 50  0000 L CNN
+F 1 "MountingHole" H 6800 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 6700 1250 50  0001 C CNN
+F 3 "~" H 6700 1250 50  0001 C CNN
+	1    6700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5F815A9E
+P 6750 1450
+F 0 "H5" H 6850 1496 50  0000 L CNN
+F 1 "MountingHole" H 6850 1405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 6750 1450 50  0001 C CNN
+F 3 "~" H 6750 1450 50  0001 C CNN
+	1    6750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F815F08
+P 6700 1750
+F 0 "H4" H 6800 1796 50  0000 L CNN
+F 1 "MountingHole" H 6800 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580" H 6700 1750 50  0001 C CNN
+F 3 "~" H 6700 1750 50  0001 C CNN
+	1    6700 1750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
