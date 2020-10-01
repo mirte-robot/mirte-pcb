@@ -303,7 +303,7 @@ Wire Wire Line
 	2550 1700 2550 1400
 Connection ~ 4000 1700
 Wire Wire Line
-	5350 1800 4500 1800
+	5350 1800 4600 1800
 Wire Wire Line
 	3700 1800 3700 1400
 Wire Wire Line
@@ -616,16 +616,6 @@ F 3 "~" H 4600 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4500 1550 4500 1800
-Connection ~ 4500 1800
-Wire Wire Line
-	4500 1800 3700 1800
-Wire Wire Line
-	4600 1550 4600 1700
-Connection ~ 4600 1700
-Wire Wire Line
-	4600 1700 4000 1700
-Wire Wire Line
 	4250 5100 4250 3250
 Wire Wire Line
 	4700 1550 4700 2050
@@ -644,8 +634,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 1550 5300 1700
 Connection ~ 5300 1700
-Wire Wire Line
-	5300 1700 4600 1700
 $Comp
 L Connector:Conn_01x02_Female led1
 U 1 1 5F87F7F2
@@ -774,4 +762,16 @@ F 3 "~" H 6700 1750 50  0001 C CNN
 	1    6700 1750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4000 1700 4500 1700
+Wire Wire Line
+	4600 1550 4600 1800
+Connection ~ 4600 1800
+Wire Wire Line
+	3700 1800 4600 1800
+Wire Wire Line
+	4500 1550 4500 1700
+Connection ~ 4500 1700
+Wire Wire Line
+	4500 1700 5300 1700
 $EndSCHEMATC

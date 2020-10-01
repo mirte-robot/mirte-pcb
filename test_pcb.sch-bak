@@ -651,7 +651,7 @@ L Connector:Conn_01x02_Female led1
 U 1 1 5F87F7F2
 P 5200 1350
 F 0 "led1" H 5228 1326 50  0001 L CNN
-F 1 "led" H 5228 1235 50  0000 L CNN
+F 1 "Led" H 5228 1235 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5200 1350 50  0001 C CNN
 F 3 "~" H 5200 1350 50  0001 C CNN
 	1    5200 1350
