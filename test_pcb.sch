@@ -322,9 +322,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4350 2600 4350
 Wire Wire Line
-	1950 4750 2600 4750
-Wire Wire Line
-	2600 4750 2600 4550
+	1950 4750 2500 4750
 Connection ~ 1950 4750
 Wire Wire Line
 	1950 4750 1950 4500
@@ -774,4 +772,40 @@ Wire Wire Line
 Connection ~ 4500 1700
 Wire Wire Line
 	4500 1700 5300 1700
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5F902E35
+P 3300 4000
+F 0 "J1" V 3362 4144 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 3453 4144 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 3300 4000 50  0001 C CNN
+F 3 "~" H 3300 4000 50  0001 C CNN
+	1    3300 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 4200 3400 4950
+Wire Wire Line
+	2600 4750 2600 4550
+Wire Wire Line
+	3300 4200 3300 4400
+Wire Wire Line
+	3300 4400 2950 4400
+Wire Wire Line
+	2950 4400 2950 4800
+Wire Wire Line
+	2950 4800 2500 4800
+Wire Wire Line
+	2500 4800 2500 4750
+Connection ~ 2500 4750
+Wire Wire Line
+	2500 4750 2600 4750
+Wire Wire Line
+	3200 4200 3200 3850
+Wire Wire Line
+	3200 3850 3950 3850
+Wire Wire Line
+	3100 4200 3100 3750
+Wire Wire Line
+	3100 3750 3950 3750
 $EndSCHEMATC
