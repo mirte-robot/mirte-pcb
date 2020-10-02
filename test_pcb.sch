@@ -256,8 +256,6 @@ Wire Wire Line
 Connection ~ 2050 5750
 Wire Wire Line
 	5850 3350 5350 3350
-Wire Wire Line
-	6400 4350 5650 4350
 Connection ~ 5650 4350
 Wire Wire Line
 	5650 3250 5450 3250
@@ -417,10 +415,6 @@ Wire Wire Line
 	3600 4950 5850 4950
 Wire Wire Line
 	5650 4350 5650 5200
-Wire Wire Line
-	5350 1800 5350 3150
-Wire Wire Line
-	5450 1700 5450 3250
 Wire Wire Line
 	5100 3250 5450 3250
 Connection ~ 5450 3250
@@ -684,8 +678,6 @@ Wire Wire Line
 	6400 3250 5650 3250
 Connection ~ 5650 3250
 Wire Wire Line
-	5550 1650 5550 3450
-Wire Wire Line
 	6400 3150 6050 3150
 Wire Wire Line
 	6050 3150 6050 4100
@@ -808,4 +800,35 @@ Wire Wire Line
 	3100 4200 3100 3750
 Wire Wire Line
 	3100 3750 3950 3750
+$Comp
+L Connector:Conn_01x02_Female Power1
+U 1 1 5F779D7D
+P 6000 1700
+F 0 "Power1" H 6028 1676 50  0001 L CNN
+F 1 "Power" H 6028 1585 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6000 1700 50  0001 C CNN
+F 3 "~" H 6000 1700 50  0001 C CNN
+	1    6000 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 1800 5350 1900
+Wire Wire Line
+	5450 1700 5450 2050
+Wire Wire Line
+	6100 1900 6100 2050
+Wire Wire Line
+	6100 2050 5450 2050
+Connection ~ 5450 2050
+Wire Wire Line
+	5450 2050 5450 3250
+Wire Wire Line
+	6000 1900 5350 1900
+Connection ~ 5350 1900
+Wire Wire Line
+	5550 1650 5550 3450
+Wire Wire Line
+	5650 4350 6400 4350
+Wire Wire Line
+	5350 1900 5350 3150
 $EndSCHEMATC
