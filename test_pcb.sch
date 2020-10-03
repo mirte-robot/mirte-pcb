@@ -159,7 +159,7 @@ $EndComp
 Wire Wire Line
 	5100 6100 5100 5650
 Wire Wire Line
-	5100 5650 5550 5650
+	5100 5650 5200 5650
 Wire Wire Line
 	6150 5650 6150 5250
 Wire Wire Line
@@ -814,7 +814,7 @@ $EndComp
 Wire Wire Line
 	5350 1800 5350 1900
 Wire Wire Line
-	5450 1700 5450 2050
+	5450 1700 5450 1800
 Wire Wire Line
 	6100 1900 6100 2050
 Wire Wire Line
@@ -831,4 +831,24 @@ Wire Wire Line
 	5650 4350 6400 4350
 Wire Wire Line
 	5350 1900 5350 3150
+Wire Wire Line
+	5700 6500 5700 6400
+Connection ~ 5700 6400
+Wire Wire Line
+	6500 4350 6400 4350
+Connection ~ 6400 4350
+Wire Wire Line
+	5700 1800 5450 1800
+Connection ~ 5450 1800
+Wire Wire Line
+	5450 1800 5450 2050
+Text Label 5200 5500 0    50   ~ 0
+vcc-in
+Wire Wire Line
+	5200 5500 5200 5650
+Connection ~ 5200 5650
+Wire Wire Line
+	5200 5650 5550 5650
+Wire Wire Line
+	5700 1350 5700 1800
 $EndSCHEMATC
