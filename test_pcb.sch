@@ -714,7 +714,7 @@ U 1 1 5F88DFB7
 P 5700 1300
 F 0 "H3" H 5800 1346 50  0000 L CNN
 F 1 "MountingHole" H 5800 1255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 5700 1300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5700 1300 50  0001 C CNN
 F 3 "~" H 5700 1300 50  0001 C CNN
 	1    5700 1300
 	1    0    0    -1  
