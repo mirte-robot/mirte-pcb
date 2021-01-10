@@ -165,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 5250 6100 5250
 $Comp
-L Connector:USB_B_Micro Power_in1
+L test_pcb-rescue:USB_B_Micro-Connector Power_in1
 U 1 1 5F70AB2E
 P 5300 6400
 F 0 "Power_in1" V 5403 6730 50  0001 L CNN
@@ -176,7 +176,7 @@ F 3 "~" H 5450 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:USB_A Power_out1
+L test_pcb-rescue:USB_A-Connector Power_out1
 U 1 1 5F70B71C
 P 6400 4750
 F 0 "Power_out1" H 6170 4647 50  0001 R CNN
