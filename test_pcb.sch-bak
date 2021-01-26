@@ -702,4 +702,23 @@ Wire Wire Line
 Wire Wire Line
 	4700 4100 3900 4100
 Connection ~ 3900 4100
+$Comp
+L Connector:Conn_01x02_Female Power2
+U 1 1 601D6728
+P 6500 2050
+F 0 "Power2" H 6528 2026 50  0001 L CNN
+F 1 "LED" H 6300 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 2050 50  0001 C CNN
+F 3 "~" H 6500 2050 50  0001 C CNN
+	1    6500 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 2150 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2550 3400 3150 3400
+Wire Wire Line
+	3150 3400 3150 2050
+Wire Wire Line
+	3150 2050 6300 2050
 $EndSCHEMATC
