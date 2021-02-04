@@ -292,15 +292,9 @@ GND
 Wire Wire Line
 	1150 6500 1800 6500
 Wire Wire Line
-	3500 3800 3500 7050
-Wire Wire Line
 	3500 7050 1150 7050
 Wire Wire Line
-	3900 3900 3600 3900
-Wire Wire Line
 	3600 7150 1150 7150
-Wire Wire Line
-	3600 3900 3600 7150
 Wire Wire Line
 	8750 4100 8900 4100
 Connection ~ 8750 4100
@@ -345,8 +339,6 @@ Text GLabel 1150 2850 2    50   Input ~ 0
 3V3
 Text GLabel 5450 3050 0    50   Input ~ 0
 5V
-Text GLabel 5450 2400 0    50   Input ~ 0
-5V
 Text GLabel 5450 3150 0    50   Input ~ 0
 GND
 Text GLabel 5450 2500 0    50   Input ~ 0
@@ -366,8 +358,6 @@ F 3 "~" H 2850 6400 50  0001 C CNN
 	1    2850 6400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3900 3800 3500 3800
 Text Label 3800 3800 0    50   ~ 0
 b7
 Text Label 3800 3700 0    50   ~ 0
@@ -443,13 +433,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 3350 4450 5000
 Wire Wire Line
-	5450 3850 4950 3850
-Wire Wire Line
 	3900 4800 4550 4800
 Wire Wire Line
 	4550 2950 4550 4800
-Wire Wire Line
-	3800 3600 3900 3600
 Wire Wire Line
 	3750 4300 3900 4300
 Wire Wire Line
@@ -476,8 +462,6 @@ Text GLabel 2750 6200 1    50   Input ~ 0
 5V
 Text GLabel 2850 6200 1    50   Input ~ 0
 GND
-Wire Wire Line
-	3800 3700 3900 3700
 Text GLabel 2550 5200 2    50   Input ~ 0
 GND
 Text GLabel 2550 5100 2    50   Input ~ 0
@@ -495,11 +479,6 @@ Wire Wire Line
 Wire Wire Line
 	8600 3500 8600 3300
 Connection ~ 8600 3300
-Wire Wire Line
-	3900 3600 4950 3600
-Wire Wire Line
-	4950 3600 4950 3850
-Connection ~ 3900 3600
 $Comp
 L Connector:Conn_01x06_Female mc2
 U 1 1 600F4BA8
@@ -681,13 +660,6 @@ GND
 Text GLabel 5450 1750 0    50   Input ~ 0
 5V
 Wire Wire Line
-	5100 3750 5450 3750
-Wire Wire Line
-	5100 3700 5100 3750
-Connection ~ 3900 3700
-Wire Wire Line
-	3900 3700 5100 3700
-Wire Wire Line
 	5150 1850 5450 1850
 Wire Wire Line
 	5150 1850 5150 6000
@@ -708,7 +680,7 @@ U 1 1 601D6728
 P 6500 2050
 F 0 "Power2" H 6528 2026 50  0001 L CNN
 F 1 "LED" H 6300 2200 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 2050 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6500 2050 50  0001 C CNN
 F 3 "~" H 6500 2050 50  0001 C CNN
 	1    6500 2050
 	1    0    0    -1  
@@ -722,10 +694,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 2050 6300 2050
 $Comp
-L Connector:Conn_01x02_Female Power?
+L Connector:Conn_01x02_Female Power3
 U 1 1 6021D8FD
 P 6250 2400
-F 0 "Power?" H 6278 2376 50  0001 L CNN
+F 0 "Power3" H 6278 2376 50  0001 L CNN
 F 1 "Power" H 6050 2550 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6250 2400 50  0001 C CNN
 F 3 "~" H 6250 2400 50  0001 C CNN
@@ -736,4 +708,28 @@ Text GLabel 6050 2400 0    50   Input ~ 0
 5V
 Text GLabel 6050 2500 0    50   Input ~ 0
 GND
+Text GLabel 5450 2400 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	3500 3600 3900 3600
+Wire Wire Line
+	3600 3700 3900 3700
+Wire Wire Line
+	3500 3600 3500 7050
+Wire Wire Line
+	3600 3700 3600 7150
+Wire Wire Line
+	5450 3800 5450 3750
+Wire Wire Line
+	5450 3900 5450 3850
+Wire Wire Line
+	3800 3900 3900 3900
+Connection ~ 3900 3900
+Wire Wire Line
+	3900 3900 5450 3900
+Wire Wire Line
+	3800 3800 3900 3800
+Connection ~ 3900 3800
+Wire Wire Line
+	3900 3800 5450 3800
 $EndSCHEMATC
