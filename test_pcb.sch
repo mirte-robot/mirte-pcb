@@ -40,7 +40,7 @@ L Connector:Conn_01x20_Female J11
 U 1 1 5F70E226
 P 4100 4300
 F 0 "J11" H 3992 3075 50  0001 C CNN
-F 1 "Conn_01x20_Female" H 3992 3166 50  0001 C CNN
+F 1 "Conn_01x20_Female" H 3992 3166 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 4100 4300 50  0001 C CNN
 F 3 "~" H 4100 4300 50  0001 C CNN
 	1    4100 4300
@@ -80,32 +80,10 @@ F 3 "~" H 950 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female A3
-U 1 1 5F73020F
-P 950 5150
-F 0 "A3" H 842 4825 50  0000 C CNN
-F 1 "(A3 GND 3V3)" H 842 4916 50  0001 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 5150 50  0001 C CNN
-F 3 "~" H 950 5150 50  0001 C CNN
-	1    950  5150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x03_Female A2
-U 1 1 5F730755
-P 950 4450
-F 0 "A2" H 842 4125 50  0000 C CNN
-F 1 "(A2 GND 3V3)" H 842 4216 50  0001 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 4450 50  0001 C CNN
-F 3 "~" H 950 4450 50  0001 C CNN
-	1    950  4450
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x04_Female IR2
 U 1 1 5F730AC4
 P 950 3600
-F 0 "IR2" H 842 3175 50  0000 C CNN
+F 0 "IR2" H 842 3175 50  0001 C CNN
 F 1 "(A1 C14 GND 3V3)" H 842 3266 50  0001 C CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 950 3600 50  0001 C CNN
 F 3 "~" H 950 3600 50  0001 C CNN
@@ -270,7 +248,7 @@ L Connector:Conn_01x02_Female Power1
 U 1 1 5F779D7D
 P 5650 2400
 F 0 "Power1" H 5678 2376 50  0001 L CNN
-F 1 "Power" H 5450 2550 50  0000 L CNN
+F 1 "Power" H 5450 2550 50  0001 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5650 2400 50  0001 C CNN
 F 3 "~" H 5650 2400 50  0001 C CNN
 	1    5650 2400
@@ -291,8 +269,6 @@ Text GLabel 8900 4100 2    50   Input ~ 0
 GND
 Wire Wire Line
 	1150 6500 1800 6500
-Wire Wire Line
-	3500 7050 1150 7050
 Wire Wire Line
 	3600 7150 1150 7150
 Wire Wire Line
@@ -328,10 +304,6 @@ Connection ~ 8350 1900
 Wire Wire Line
 	8350 1900 8300 1900
 Text GLabel 1150 5900 2    50   Input ~ 0
-3V3
-Text GLabel 1150 5250 2    50   Input ~ 0
-3V3
-Text GLabel 1150 4550 2    50   Input ~ 0
 3V3
 Text GLabel 1150 3700 2    50   Input ~ 0
 3V3
@@ -444,10 +416,6 @@ Wire Wire Line
 	3050 6200 3050 4400
 Wire Wire Line
 	2950 6200 2950 4500
-Wire Wire Line
-	2950 4500 3900 4500
-Wire Wire Line
-	3050 4400 3900 4400
 Text GLabel 8000 2500 0    50   Input ~ 0
 5V
 Text GLabel 9000 3600 0    50   Input ~ 0
@@ -698,7 +666,7 @@ L Connector:Conn_01x02_Female Power3
 U 1 1 6021D8FD
 P 6250 2400
 F 0 "Power3" H 6278 2376 50  0001 L CNN
-F 1 "Power" H 6050 2550 50  0000 L CNN
+F 1 "Power" H 6050 2550 50  0001 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6250 2400 50  0001 C CNN
 F 3 "~" H 6250 2400 50  0001 C CNN
 	1    6250 2400
@@ -711,25 +679,64 @@ GND
 Text GLabel 5450 2400 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	3500 3600 3900 3600
+	2550 3500 3650 3500
 Wire Wire Line
-	3600 3700 3900 3700
+	3650 3500 3650 3150
 Wire Wire Line
-	3500 3600 3500 7050
+	3650 3150 4900 3150
 Wire Wire Line
-	3600 3700 3600 7150
+	4900 3150 4900 3850
 Wire Wire Line
-	5450 3800 5450 3750
+	4900 3850 5450 3850
 Wire Wire Line
-	5450 3900 5450 3850
+	2950 4500 3900 4500
 Wire Wire Line
-	3800 3900 3900 3900
-Connection ~ 3900 3900
+	3050 4400 3900 4400
 Wire Wire Line
-	3900 3900 5450 3900
+	3700 3800 3700 7050
 Wire Wire Line
-	3800 3800 3900 3800
-Connection ~ 3900 3800
+	3700 7050 1150 7050
 Wire Wire Line
-	3900 3800 5450 3800
+	3700 3800 3900 3800
+Wire Wire Line
+	3600 3900 3600 7150
+Wire Wire Line
+	3600 3900 3900 3900
+Wire Wire Line
+	5450 3750 4850 3750
+Wire Wire Line
+	4850 3750 4850 4300
+Wire Wire Line
+	4850 4300 3900 4300
+Connection ~ 3900 4300
+Wire Wire Line
+	3800 3600 3900 3600
+Wire Wire Line
+	3800 3700 3900 3700
+$Comp
+L Connector:Conn_01x03_Female A3
+U 1 1 5F73020F
+P 950 5150
+F 0 "A3" H 842 4825 50  0000 C CNN
+F 1 "A3" H 842 4916 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 5150 50  0001 C CNN
+F 3 "~" H 950 5150 50  0001 C CNN
+	1    950  5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female A2
+U 1 1 5F730755
+P 950 4450
+F 0 "A2" H 842 4125 50  0000 C CNN
+F 1 "A2" H 842 4216 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 950 4450 50  0001 C CNN
+F 3 "~" H 950 4450 50  0001 C CNN
+	1    950  4450
+	-1   0    0    1   
+$EndComp
+Text GLabel 1150 5250 2    50   Input ~ 0
+5V
+Text GLabel 1150 4550 2    50   Input ~ 0
+5V
 $EndSCHEMATC
