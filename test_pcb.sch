@@ -392,8 +392,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 6150 5850 6150
 Wire Wire Line
-	5850 6150 5850 2850
-Wire Wire Line
 	5850 2850 6300 2850
 Wire Wire Line
 	1150 2650 2050 2650
@@ -739,4 +737,64 @@ F 3 "~" H 950 6600 50  0001 C CNN
 	1    950  6600
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x04_Female J25
+U 1 1 604624D0
+P 6850 3700
+F 0 "J25" H 6850 3950 50  0001 R CNN
+F 1 "MC1-2A" V 6950 3800 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 6850 3700 50  0001 C CNN
+F 3 "~" H 6850 3700 50  0001 C CNN
+	1    6850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J26
+U 1 1 60462CE1
+P 6850 4150
+F 0 "J26" H 6850 4400 50  0001 R CNN
+F 1 "MC1-2B" V 6950 4250 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 6850 4150 50  0001 C CNN
+F 3 "~" H 6850 4150 50  0001 C CNN
+	1    6850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2850 5750 2850
+Wire Wire Line
+	5750 2850 5750 3600
+Wire Wire Line
+	5750 3600 6650 3600
+Connection ~ 5450 2850
+Wire Wire Line
+	5450 2950 5700 2950
+Wire Wire Line
+	5700 2950 5700 3700
+Wire Wire Line
+	5700 3700 6650 3700
+Connection ~ 5450 2950
+Wire Wire Line
+	5850 6150 5850 2850
+Wire Wire Line
+	5450 3250 5800 3250
+Wire Wire Line
+	5800 3250 5800 4050
+Wire Wire Line
+	5800 4050 6650 4050
+Connection ~ 5450 3250
+Wire Wire Line
+	5450 3350 5900 3350
+Wire Wire Line
+	5900 3350 5900 4150
+Wire Wire Line
+	5900 4150 6650 4150
+Connection ~ 5450 3350
+Text GLabel 6650 3800 0    50   Input ~ 0
+5V
+Text GLabel 6650 4250 0    50   Input ~ 0
+5V
+Text GLabel 6650 3900 0    50   Input ~ 0
+GND
+Text GLabel 6650 4350 0    50   Input ~ 0
+GND
 $EndSCHEMATC

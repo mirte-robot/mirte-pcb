@@ -1,4 +1,4 @@
-19100917945226654
+19102533090155654
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83035,6 +83035,13 @@ motorcontroller
 0
 Zoef_pcb
 zoef_component
+
+
+0
+0
+0
+Zoef_pcb
+zoef_component_even_smaller
 
 
 0
