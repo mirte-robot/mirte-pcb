@@ -211,17 +211,6 @@ Wire Wire Line
 	1900 4800 1900 6400
 Wire Wire Line
 	1900 6400 1150 6400
-$Comp
-L Connector:Conn_01x03_Female J6
-U 1 1 5F82D9B4
-P 5650 1250
-F 0 "J6" V 5542 925 50  0001 C CNN
-F 1 "Servo1" H 5550 1500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5650 1250 50  0001 C CNN
-F 3 "~" H 5650 1250 50  0001 C CNN
-	1    5650 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 2850 4500 2850
 Wire Wire Line
@@ -801,4 +790,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 4000 4500 4000
 Connection ~ 3900 4000
+$Comp
+L Connector:Conn_01x03_Female J27
+U 1 1 616D259F
+P 5650 1250
+F 0 "J27" V 5542 925 50  0001 C CNN
+F 1 "Servo1" H 5550 1500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5650 1250 50  0001 C CNN
+F 3 "~" H 5650 1250 50  0001 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
