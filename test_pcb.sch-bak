@@ -661,17 +661,6 @@ Wire Notes Line
 Text Notes 6050 2550 0    50   ~ 0
 Usb power
 $Comp
-L Connector:Conn_01x15_Female J28
-U 1 1 619213FE
-P 8350 1550
-F 0 "J28" H 8378 1576 50  0001 L CNN
-F 1 "Conn_01x15_Female" H 8378 1485 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 8350 1550 50  0001 C CNN
-F 3 "~" H 8350 1550 50  0001 C CNN
-	1    8350 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x15_Female J6
 U 1 1 6192392C
 P 7700 1550
@@ -728,7 +717,6 @@ NoConn ~ 7500 850
 NoConn ~ 7500 950 
 NoConn ~ 7500 1050
 NoConn ~ 8150 850 
-NoConn ~ 8150 950 
 NoConn ~ 8150 1050
 NoConn ~ 8150 1750
 NoConn ~ 8150 2050
@@ -848,4 +836,17 @@ Wire Wire Line
 	3000 3750 3250 3750
 Wire Wire Line
 	3000 3850 3250 3850
+Text GLabel 8150 950  0    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x15_Female J28
+U 1 1 619213FE
+P 8350 1550
+F 0 "J28" H 8378 1576 50  0001 L CNN
+F 1 "Conn_01x15_Female" H 8378 1485 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 8350 1550 50  0001 C CNN
+F 3 "~" H 8350 1550 50  0001 C CNN
+	1    8350 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
