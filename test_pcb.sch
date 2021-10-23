@@ -16,62 +16,58 @@ $EndDescr
 $Comp
 L Switch:SW_DIP_x01 SW1
 U 1 1 5F7085D4
-P 5850 3450
-F 0 "SW1" H 5850 3717 50  0001 C CNN
-F 1 "on/off" H 5850 3626 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 5850 3625 50  0001 C CNN
-F 3 "~" H 5850 3450 50  0001 C CNN
-	1    5850 3450
+P 6000 3450
+F 0 "SW1" H 6000 3717 50  0001 C CNN
+F 1 "on/off" H 6000 3626 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 6000 3625 50  0001 C CNN
+F 3 "~" H 6000 3450 50  0001 C CNN
+	1    6000 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 3900 5100 3450
+	5250 3900 5250 3450
 Wire Wire Line
-	5100 3450 5200 3450
+	5250 3450 5350 3450
 Wire Wire Line
-	5700 4300 5700 4250
+	5850 4300 5850 4250
 Wire Wire Line
-	5550 2150 5500 2150
-Text Label 5200 3300 0    50   ~ 0
+	5450 2150 5400 2150
+Text Label 5350 3300 0    50   ~ 0
 VCC-IN
 Wire Wire Line
-	5200 3300 5200 3450
-Connection ~ 5200 3450
+	5350 3300 5350 3450
+Connection ~ 5350 3450
 Wire Wire Line
-	5200 3450 5550 3450
-Text GLabel 5850 4250 2    50   Input ~ 0
+	5350 3450 5700 3450
+Text GLabel 6000 4250 2    50   Input ~ 0
 GND
 Wire Wire Line
-	5700 4250 5850 4250
-Connection ~ 5700 4250
+	5850 4250 6000 4250
+Connection ~ 5850 4250
 Wire Wire Line
-	5700 4250 5700 4200
-Text GLabel 5100 1400 2    50   Input ~ 0
+	5850 4250 5850 4200
+Text GLabel 5050 800  0    50   Input ~ 0
 GND
-Text GLabel 5100 1300 2    50   Input ~ 0
+Text GLabel 5050 900  0    50   Input ~ 0
 5V
 Text GLabel 1450 5700 2    50   Input ~ 0
 GND
-Text GLabel 2250 4650 2    50   Input ~ 0
+Text GLabel 2200 4500 0    50   Input ~ 0
 GND
-Text GLabel 1450 3750 2    50   Input ~ 0
+Text GLabel 1450 3450 0    50   Input ~ 0
 GND
-Text GLabel 2200 3750 2    50   Input ~ 0
-GND
-Text GLabel 5600 2050 2    50   Input ~ 0
+Text GLabel 5500 2050 2    50   Input ~ 0
 GND
 Wire Wire Line
-	5600 2050 5500 2050
+	5500 2050 5400 2050
 Wire Wire Line
-	5500 2050 5500 2150
-Connection ~ 5500 2150
+	5400 2050 5400 2150
+Connection ~ 5400 2150
 Wire Wire Line
-	5500 2150 5450 2150
+	5400 2150 5350 2150
 Text GLabel 1450 5800 2    50   Input ~ 0
 3V3
-Text GLabel 1450 3850 2    50   Input ~ 0
-3V3
-Text GLabel 2200 3850 2    50   Input ~ 0
+Text GLabel 1450 3350 0    50   Input ~ 0
 3V3
 Text GLabel 3300 5800 0    50   Input ~ 0
 GND
@@ -79,45 +75,45 @@ Text GLabel 3250 3650 0    50   Input ~ 0
 5V
 Text GLabel 3250 3950 0    50   Input ~ 0
 GND
-Text GLabel 5150 2750 0    50   Input ~ 0
+Text GLabel 5050 2750 0    50   Input ~ 0
 5V
-Text GLabel 5950 3750 0    50   Input ~ 0
+Text GLabel 6100 3750 0    50   Input ~ 0
 5V
-Text GLabel 6150 3450 2    50   Input ~ 0
+Text GLabel 6300 3450 2    50   Input ~ 0
 5V
 Text GLabel 2300 5700 2    50   Input ~ 0
 5V
 Text GLabel 2300 5800 2    50   Input ~ 0
 GND
 Wire Wire Line
-	5950 3650 5550 3650
+	6100 3650 5700 3650
 Wire Wire Line
-	5550 3650 5550 3450
-Connection ~ 5550 3450
+	5700 3650 5700 3450
+Connection ~ 5700 3450
 Text GLabel 3200 1900 0    50   Input ~ 0
 5V
 Text GLabel 3200 2000 0    50   Input ~ 0
 GND
 Text GLabel 3250 4800 0    50   Input ~ 0
 5V
-Text GLabel 3900 4800 0    50   Input ~ 0
+Text GLabel 4100 4800 0    50   Input ~ 0
 5V
-Text GLabel 3900 4700 0    50   Input ~ 0
+Text GLabel 4100 4700 0    50   Input ~ 0
 GND
 $Comp
 L Connector:Conn_01x03_Female J23
 U 1 1 5F7329DD
-P 4100 4700
-F 0 "J23" H 3992 4375 50  0001 C CNN
-F 1 "ENCB" H 4000 4950 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4100 4700 50  0001 C CNN
-F 3 "~" H 4100 4700 50  0001 C CNN
-	1    4100 4700
+P 4300 4700
+F 0 "J23" H 4192 4375 50  0001 C CNN
+F 1 "ENCB" H 4200 4950 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 4300 4700 50  0001 C CNN
+F 3 "~" H 4300 4700 50  0001 C CNN
+	1    4300 4700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3950 3950 0    50   Input ~ 0
+Text GLabel 4150 3950 0    50   Input ~ 0
 GND
-Text GLabel 3950 3650 0    50   Input ~ 0
+Text GLabel 4150 3650 0    50   Input ~ 0
 5V
 Text GLabel 3250 4700 0    50   Input ~ 0
 GND
@@ -135,21 +131,21 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Female J7
 U 1 1 6015AEF9
-P 4100 2950
-F 0 "J7" V 3992 2625 50  0001 C CNN
-F 1 "Servo2" H 4000 3200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4100 2950 50  0001 C CNN
-F 3 "~" H 4100 2950 50  0001 C CNN
-	1    4100 2950
+P 4400 2950
+F 0 "J7" V 4292 2625 50  0001 C CNN
+F 1 "Servo2" H 4300 3200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 2950 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
 	1    0    0    -1  
 $EndComp
 Text GLabel 3250 2850 0    50   Input ~ 0
 GND
 Text GLabel 3250 2950 0    50   Input ~ 0
 5V
-Text GLabel 3900 2850 0    50   Input ~ 0
+Text GLabel 4200 2850 0    50   Input ~ 0
 GND
-Text GLabel 3900 2950 0    50   Input ~ 0
+Text GLabel 4200 2950 0    50   Input ~ 0
 5V
 Text GLabel 3300 6350 0    50   Input ~ 0
 GND
@@ -162,12 +158,12 @@ Text GLabel 3300 5700 0    50   Input ~ 0
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 5F778377
-P 6150 3650
-F 0 "J2" H 6178 3626 50  0001 L CNN
-F 1 "on/off" H 6178 3535 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 3650 50  0001 C CNN
-F 3 "~" H 6150 3650 50  0001 C CNN
-	1    6150 3650
+P 6300 3650
+F 0 "J2" H 6328 3626 50  0001 L CNN
+F 1 "on/off" H 6328 3535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6300 3650 50  0001 C CNN
+F 3 "~" H 6300 3650 50  0001 C CNN
+	1    6300 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -217,35 +213,35 @@ $EndComp
 $Comp
 L test_pcb-rescue:USB_A-Connector J12
 U 1 1 5F70B71C
-P 5450 2550
-F 0 "J12" H 5220 2447 50  0001 R CNN
-F 1 "Power out" H 5220 2538 50  0000 R CNN
-F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 5600 2500 50  0001 C CNN
-F 3 " ~" H 5600 2500 50  0001 C CNN
-	1    5450 2550
+P 5350 2550
+F 0 "J12" H 5120 2447 50  0001 R CNN
+F 1 "Power out" H 5400 2950 50  0000 R CNN
+F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 5500 2500 50  0001 C CNN
+F 3 " ~" H 5500 2500 50  0001 C CNN
+	1    5350 2550
 	-1   0    0    1   
 $EndComp
 $Comp
 L test_pcb-rescue:USB_B_Micro-Connector J13
 U 1 1 5F70AB2E
-P 5300 4200
-F 0 "J13" V 5403 4530 50  0001 L CNN
-F 1 "Power in" V 5312 4530 50  0000 L CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical" H 5450 4150 50  0001 C CNN
-F 3 "~" H 5450 4150 50  0001 C CNN
-	1    5300 4200
+P 5450 4200
+F 0 "J13" V 5553 4530 50  0001 L CNN
+F 1 "Power in" V 5100 4050 50  0000 L CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical" H 5600 4150 50  0001 C CNN
+F 3 "~" H 5600 4150 50  0001 C CNN
+	1    5450 4200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J17
 U 1 1 5F730AC4
-P 1250 3750
-F 0 "J17" H 1142 3325 50  0001 C CNN
-F 1 "IR2" H 1142 3416 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1250 3750 50  0001 C CNN
-F 3 "~" H 1250 3750 50  0001 C CNN
-	1    1250 3750
-	-1   0    0    1   
+P 1650 3450
+F 0 "J17" H 1542 3025 50  0001 C CNN
+F 1 "IR2" H 1542 3116 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1650 3450 50  0001 C CNN
+F 3 "~" H 1650 3450 50  0001 C CNN
+	1    1650 3450
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J22
@@ -261,34 +257,34 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Female J21
 U 1 1 5F73020F
-P 2050 4650
-F 0 "J21" H 1942 4325 50  0001 C CNN
-F 1 "A3" H 1942 4416 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2050 4650 50  0001 C CNN
-F 3 "~" H 2050 4650 50  0001 C CNN
-	1    2050 4650
-	-1   0    0    1   
+P 2400 4500
+F 0 "J21" H 2292 4175 50  0001 C CNN
+F 1 "A3" H 2292 4266 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2400 4500 50  0001 C CNN
+F 3 "~" H 2400 4500 50  0001 C CNN
+	1    2400 4500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J20
 U 1 1 5F730755
-P 1250 4650
-F 0 "J20" H 1142 4325 50  0001 C CNN
-F 1 "A2" H 1142 4416 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1250 4650 50  0001 C CNN
-F 3 "~" H 1250 4650 50  0001 C CNN
-	1    1250 4650
-	-1   0    0    1   
+P 1650 4500
+F 0 "J20" H 1542 4175 50  0001 C CNN
+F 1 "A2" H 1542 4266 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1650 4500 50  0001 C CNN
+F 3 "~" H 1650 4500 50  0001 C CNN
+	1    1650 4500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J15
 U 1 1 5F7315B8
-P 4150 3750
-F 0 "J15" H 4150 4000 50  0001 R CNN
-F 1 "SRF1" H 4100 4000 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4150 3750 50  0001 C CNN
-F 3 "~" H 4150 3750 50  0001 C CNN
-	1    4150 3750
+P 4350 3750
+F 0 "J15" H 4350 4000 50  0001 R CNN
+F 1 "SRF1" H 4300 4000 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4350 3750 50  0001 C CNN
+F 3 "~" H 4350 3750 50  0001 C CNN
+	1    4350 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,11 +328,11 @@ Text GLabel 4050 1100 0    50   Input ~ 0
 GND
 Text GLabel 4050 1550 0    50   Input ~ 0
 GND
-Text GLabel 1450 4650 2    50   Input ~ 0
+Text GLabel 1450 4500 0    50   Input ~ 0
 GND
-Text GLabel 1450 4550 2    50   Input ~ 0
+Text GLabel 1450 4600 0    50   Input ~ 0
 5V
-Text GLabel 2250 4550 2    50   Input ~ 0
+Text GLabel 2200 4600 0    50   Input ~ 0
 5V
 $Comp
 L Connector:Conn_01x03_Female J27
@@ -369,47 +365,32 @@ Text GLabel 3250 3750 0    50   Input ~ 0
 a15
 Text GLabel 3250 3050 0    50   Input ~ 0
 b3
-Text GLabel 3900 4600 0    50   Input ~ 0
+Text GLabel 4100 4600 0    50   Input ~ 0
 b4
-Text GLabel 5100 1200 2    50   Input ~ 0
+Text GLabel 5050 1000 0    50   Input ~ 0
 b6
-Text GLabel 5100 1100 2    50   Input ~ 0
+Text GLabel 5050 1100 0    50   Input ~ 0
 b7
-Text GLabel 2250 4750 2    50   Input ~ 0
+Text GLabel 2200 4400 0    50   Input ~ 0
 b1
-Text GLabel 1450 4750 2    50   Input ~ 0
+Text GLabel 1450 4400 0    50   Input ~ 0
 b0
-Text GLabel 3900 3050 0    50   Input ~ 0
+Text GLabel 4200 3050 0    50   Input ~ 0
 a7
-Text GLabel 3950 3850 0    50   Input ~ 0
+Text GLabel 4150 3850 0    50   Input ~ 0
 a6
-Text GLabel 3950 3750 0    50   Input ~ 0
+Text GLabel 4150 3750 0    50   Input ~ 0
 a5
 Text GLabel 1450 5900 2    50   Input ~ 0
 a4
 Text GLabel 3200 1700 0    50   Input ~ 0
 a3
-Text GLabel 1450 3650 2    50   Input ~ 0
+Text GLabel 1450 3550 0    50   Input ~ 0
 a2
-Text GLabel 2200 3550 2    50   Input ~ 0
-a0
-Text GLabel 2200 3650 2    50   Input ~ 0
-c15
 Text GLabel 3250 3850 0    50   Input ~ 0
 c14
 Text GLabel 3300 6250 0    50   Input ~ 0
 c13
-$Comp
-L Connector:Conn_01x04_Female J16
-U 1 1 5F73104A
-P 2000 3750
-F 0 "J16" H 1892 3325 50  0001 C CNN
-F 1 "IR1" H 1892 3416 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2000 3750 50  0001 C CNN
-F 3 "~" H 2000 3750 50  0001 C CNN
-	1    2000 3750
-	-1   0    0    1   
-$EndComp
 Text GLabel 1500 900  2    50   Input ~ 0
 c13
 Text GLabel 1500 1000 2    50   Input ~ 0
@@ -518,7 +499,7 @@ Wire Notes Line
 	2600 3000 2600 650 
 Wire Notes Line
 	2600 650  1100 650 
-Text GLabel 1450 3550 2    50   Input ~ 0
+Text GLabel 1450 3650 0    50   Input ~ 0
 a1
 Wire Notes Line
 	1100 3200 1100 4100
@@ -526,8 +507,6 @@ Wire Notes Line
 	1100 4100 2600 4100
 Wire Notes Line
 	2600 4100 2600 3200
-Wire Notes Line
-	2600 3200 1100 3200
 Text Notes 1600 4050 0    50   ~ 0
 IR sensors
 Wire Notes Line
@@ -613,7 +592,7 @@ Wire Notes Line
 	4350 5000 4350 4300
 Wire Notes Line
 	4350 4300 2900 4300
-Text Notes 3400 4950 0    50   ~ 0
+Text Notes 3600 4950 0    50   ~ 0
 Encoders
 $Comp
 L Connector:Conn_01x02_Female J4
@@ -626,44 +605,248 @@ F 3 "~" H 3500 5700 50  0001 C CNN
 	1    3500 5700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 1200 2    50   Input ~ 0
+Text GLabel 5900 1000 0    50   Input ~ 0
 b10
-Text GLabel 5900 1100 2    50   Input ~ 0
+Text GLabel 5900 1100 0    50   Input ~ 0
 b11
 $Comp
 L Connector:Conn_01x04_Female J18
 U 1 1 5F720B13
-P 5700 1300
-F 0 "J18" H 5500 950 50  0001 L CNN
-F 1 "I2C2" H 5500 950 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 5700 1300 50  0001 C CNN
-F 3 "~" H 5700 1300 50  0001 C CNN
-	1    5700 1300
-	-1   0    0    1   
+P 6100 900
+F 0 "J18" H 5900 550 50  0001 L CNN
+F 1 "I2C2" H 5900 550 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 6100 900 50  0001 C CNN
+F 3 "~" H 6100 900 50  0001 C CNN
+	1    6100 900 
+	1    0    0    -1  
 $EndComp
-Text GLabel 5900 1300 2    50   Input ~ 0
+Text GLabel 5900 900  0    50   Input ~ 0
 5V
-Text GLabel 5900 1400 2    50   Input ~ 0
+Text GLabel 5900 800  0    50   Input ~ 0
 GND
 $Comp
 L Connector:Conn_01x04_Female J19
 U 1 1 5F71E892
-P 4900 1300
-F 0 "J19" H 4700 950 50  0001 L CNN
-F 1 "I2C1" H 4650 950 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 4900 1300 50  0001 C CNN
-F 3 "~" H 4900 1300 50  0001 C CNN
-	1    4900 1300
-	-1   0    0    1   
+P 5250 900
+F 0 "J19" H 5050 550 50  0001 L CNN
+F 1 "I2C1" H 5000 550 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 5250 900 50  0001 C CNN
+F 3 "~" H 5250 900 50  0001 C CNN
+	1    5250 900 
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4700 800  4700 1650
+	4700 650  4700 1500
 Wire Notes Line
-	4700 1650 6300 1650
+	4700 1500 6300 1500
 Wire Notes Line
-	6300 1650 6300 800 
+	6300 1500 6300 650 
 Wire Notes Line
-	6300 800  4700 800 
-Text Notes 5300 1600 0    50   ~ 0
+	6300 650  4700 650 
+Text Notes 5300 1450 0    50   ~ 0
 I2C (oled)
+NoConn ~ 5050 2450
+NoConn ~ 5050 2550
+NoConn ~ 5450 3900
+NoConn ~ 5650 3900
+NoConn ~ 5550 3900
+Wire Notes Line
+	4700 1850 4700 4900
+Wire Notes Line
+	4700 4900 6850 4900
+Wire Notes Line
+	6850 4900 6850 1850
+Wire Notes Line
+	6850 1850 4700 1850
+Text Notes 6050 2550 0    50   ~ 0
+Usb power
+$Comp
+L Connector:Conn_01x15_Female J6
+U 1 1 6192392C
+P 7700 1550
+F 0 "J6" H 7728 1576 50  0001 L CNN
+F 1 "Conn_01x15_Female" H 7728 1485 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 7700 1550 50  0001 C CNN
+F 3 "~" H 7700 1550 50  0001 C CNN
+	1    7700 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 1150 0    50   Input ~ 0
+GND
+Text GLabel 7500 1250 0    50   Input ~ 0
+nano-d2
+Text GLabel 7500 1550 0    50   Input ~ 0
+nano-d5
+Text GLabel 7500 1650 0    50   Input ~ 0
+nano-d6
+Text GLabel 7500 1750 0    50   Input ~ 0
+nano-d7
+Text GLabel 7500 1850 0    50   Input ~ 0
+nano-d8
+Text GLabel 7500 1950 0    50   Input ~ 0
+nano-d9
+Text GLabel 7500 2050 0    50   Input ~ 0
+nano-d10
+Text GLabel 7500 2150 0    50   Input ~ 0
+nano-d11
+Text GLabel 7500 2250 0    50   Input ~ 0
+nano-d12
+Text GLabel 7500 1350 0    50   Input ~ 0
+nano-d3
+Text GLabel 7500 1450 0    50   Input ~ 0
+nano-d4
+Text GLabel 8150 1150 0    50   Input ~ 0
+5V
+Text GLabel 8150 1250 0    50   Input ~ 0
+nano-a7
+Text GLabel 8150 1350 0    50   Input ~ 0
+nano-a6
+Text GLabel 8150 1450 0    50   Input ~ 0
+nano-a5
+Text GLabel 8150 1550 0    50   Input ~ 0
+nano-a4
+Text GLabel 8150 1650 0    50   Input ~ 0
+nano-a3
+Text GLabel 8150 1850 0    50   Input ~ 0
+nano-a1
+Text GLabel 8150 1950 0    50   Input ~ 0
+nano-a0
+Text GLabel 8150 2150 0    50   Input ~ 0
+3V3
+NoConn ~ 7500 850 
+NoConn ~ 7500 950 
+NoConn ~ 7500 1050
+NoConn ~ 8150 850 
+NoConn ~ 8150 1050
+NoConn ~ 8150 1750
+NoConn ~ 8150 2050
+NoConn ~ 8150 2250
+Wire Notes Line
+	7150 700  7150 2550
+Wire Notes Line
+	7150 2550 8550 2550
+Wire Notes Line
+	8550 2550 8550 700 
+Wire Notes Line
+	8550 700  7150 700 
+Text Notes 7750 2450 0    50   ~ 0
+Nano
+Text GLabel 5200 1350 0    50   Input ~ 0
+nano-a5
+Text GLabel 5200 1250 0    50   Input ~ 0
+nano-a4
+Wire Wire Line
+	5200 1250 5500 1250
+Wire Wire Line
+	5500 1250 5500 1000
+Wire Wire Line
+	5500 1000 5050 1000
+Wire Wire Line
+	5200 1350 5400 1350
+Wire Wire Line
+	5400 1350 5400 1100
+Wire Wire Line
+	5400 1100 5050 1100
+Text GLabel 1250 3550 0    50   Input ~ 0
+nano-a6
+Text GLabel 2100 3550 0    50   Input ~ 0
+nano-a7
+Wire Notes Line
+	2600 3200 1100 3200
+$Comp
+L Connector:Conn_01x04_Female J16
+U 1 1 5F73104A
+P 2550 3450
+F 0 "J16" H 2442 3025 50  0001 C CNN
+F 1 "IR1" H 2442 3116 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2550 3450 50  0001 C CNN
+F 3 "~" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 3550 0    50   Input ~ 0
+c15
+Text GLabel 2350 3650 0    50   Input ~ 0
+a0
+Text GLabel 2350 3350 0    50   Input ~ 0
+3V3
+Text GLabel 2350 3450 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2100 3550 2350 3550
+Wire Wire Line
+	1250 3550 1450 3550
+Text GLabel 1250 3650 0    50   Input ~ 0
+nano-a0
+Text GLabel 2100 3650 0    50   Input ~ 0
+nano-a1
+Wire Wire Line
+	2100 3650 2350 3650
+Wire Wire Line
+	1250 3650 1450 3650
+Text GLabel 3900 4600 0    50   Input ~ 0
+nano-d2
+Text GLabel 3000 4600 0    50   Input ~ 0
+nano-d3
+Wire Wire Line
+	3900 4600 4100 4600
+Wire Wire Line
+	3000 4600 3250 4600
+Text GLabel 3050 3050 0    50   Input ~ 0
+nano-a3
+Text GLabel 4000 3050 0    50   Input ~ 0
+nano-d12
+Wire Wire Line
+	4000 3050 4200 3050
+Wire Wire Line
+	3050 3050 3250 3050
+Text GLabel 3000 800  0    50   Input ~ 0
+nano-d7
+Text GLabel 3000 900  0    50   Input ~ 0
+nano-d6
+Text GLabel 3000 1200 0    50   Input ~ 0
+nano-d5
+Wire Wire Line
+	3000 800  3200 800 
+Connection ~ 3200 800 
+Wire Wire Line
+	3000 900  3200 900 
+Connection ~ 3200 900 
+Wire Wire Line
+	3000 1200 3200 1200
+Connection ~ 3200 1200
+Wire Wire Line
+	3000 1300 3200 1300
+Connection ~ 3200 1300
+Text GLabel 3000 1300 0    50   Input ~ 0
+nano-d4
+Text GLabel 3000 3750 0    50   Input ~ 0
+nano-d9
+Text GLabel 3000 3850 0    50   Input ~ 0
+nano-d8
+Text GLabel 3950 3850 0    50   Input ~ 0
+nano-d10
+Text GLabel 3950 3750 0    50   Input ~ 0
+nano-d11
+Wire Wire Line
+	3950 3750 4150 3750
+Wire Wire Line
+	3950 3850 4150 3850
+Wire Wire Line
+	3000 3750 3250 3750
+Wire Wire Line
+	3000 3850 3250 3850
+Text GLabel 8150 950  0    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x15_Female J28
+U 1 1 619213FE
+P 8350 1550
+F 0 "J28" H 8378 1576 50  0001 L CNN
+F 1 "Conn_01x15_Female" H 8378 1485 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 8350 1550 50  0001 C CNN
+F 3 "~" H 8350 1550 50  0001 C CNN
+	1    8350 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
