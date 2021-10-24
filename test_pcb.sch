@@ -50,7 +50,7 @@ Text GLabel 5400 800  0    50   Input ~ 0
 GND
 Text GLabel 5400 900  0    50   Input ~ 0
 5V
-Text GLabel 1250 5600 2    50   Input ~ 0
+Text GLabel 1200 5800 0    50   Input ~ 0
 GND
 Text GLabel 2200 4500 0    50   Input ~ 0
 GND
@@ -63,7 +63,7 @@ Wire Wire Line
 Connection ~ 7700 950 
 Wire Wire Line
 	7700 950  7650 950 
-Text GLabel 1250 5700 2    50   Input ~ 0
+Text GLabel 1200 5700 0    50   Input ~ 0
 3V3
 Text GLabel 2550 5700 0    50   Input ~ 0
 GND
@@ -73,9 +73,9 @@ Text GLabel 8400 2550 0    50   Input ~ 0
 5V
 Text GLabel 8600 2250 2    50   Input ~ 0
 5V
-Text GLabel 1950 5600 2    50   Input ~ 0
+Text GLabel 1900 5900 0    50   Input ~ 0
 5V
-Text GLabel 1950 5700 2    50   Input ~ 0
+Text GLabel 1900 5800 0    50   Input ~ 0
 GND
 Wire Wire Line
 	8400 2450 8000 2450
@@ -155,7 +155,7 @@ L Connector:Conn_01x02_Female J5
 U 1 1 6021D8FD
 P 3350 5600
 F 0 "J5" H 3378 5576 50  0001 L CNN
-F 1 "5V out" H 3150 5750 50  0000 L CNN
+F 1 "5V out" H 3050 5750 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3350 5600 50  0001 C CNN
 F 3 "~" H 3350 5600 50  0001 C CNN
 	1    3350 5600
@@ -208,13 +208,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x03_Female J22
 U 1 1 5F72E14B
-P 1050 5700
-F 0 "J22" H 942 5375 50  0001 C CNN
-F 1 "Keypad" H 942 5466 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1050 5700 50  0001 C CNN
-F 3 "~" H 1050 5700 50  0001 C CNN
-	1    1050 5700
-	-1   0    0    1   
+P 1400 5700
+F 0 "J22" H 1292 5375 50  0001 C CNN
+F 1 "Keypad" H 1250 5950 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1400 5700 50  0001 C CNN
+F 3 "~" H 1400 5700 50  0001 C CNN
+	1    1400 5700
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Female J21
@@ -286,9 +286,9 @@ Text GLabel 3500 4700 0    50   Input ~ 0
 a9
 Text GLabel 3500 4400 0    50   Input ~ 0
 a10
-Text GLabel 1950 5800 2    50   Input ~ 0
+Text GLabel 1900 5700 0    50   Input ~ 0
 a11
-Text GLabel 1950 5900 2    50   Input ~ 0
+Text GLabel 1900 5600 0    50   Input ~ 0
 a12
 Text GLabel 3550 1150 0    50   Input ~ 0
 b3
@@ -304,7 +304,7 @@ Text GLabel 1450 4400 0    50   Input ~ 0
 b0
 Text GLabel 4500 1150 0    50   Input ~ 0
 a7
-Text GLabel 1250 5800 2    50   Input ~ 0
+Text GLabel 1200 5600 0    50   Input ~ 0
 a4
 Text GLabel 3500 4300 0    50   Input ~ 0
 a3
@@ -459,13 +459,13 @@ Wire Notes Line
 $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 5F902E35
-P 1750 5700
-F 0 "J1" V 1812 5844 50  0001 L CNN
-F 1 "OrangePi connector" H 1600 5950 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 1750 5700 50  0001 C CNN
-F 3 "~" H 1750 5700 50  0001 C CNN
-	1    1750 5700
-	1    0    0    -1  
+P 2100 5800
+F 0 "J1" V 2162 5944 50  0001 L CNN
+F 1 "OrangePi connector" H 1900 5450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 2100 5800 50  0001 C CNN
+F 3 "~" H 2100 5800 50  0001 C CNN
+	1    2100 5800
+	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	2800 2450 2800 3150
@@ -836,7 +836,7 @@ $Comp
 L Connector:Conn_01x03_Female J7
 U 1 1 6015AEF9
 P 4700 1050
-F 0 "J7" V 4592 725 50  0001 C CNN
+F 0 "J7" V 4592 725 50  0000 C CNN
 F 1 "Servo2" H 4600 1300 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4700 1050 50  0001 C CNN
 F 3 "~" H 4700 1050 50  0001 C CNN
