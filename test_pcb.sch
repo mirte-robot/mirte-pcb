@@ -462,7 +462,7 @@ U 1 1 5F902E35
 P 2100 5800
 F 0 "J1" V 2162 5944 50  0001 L CNN
 F 1 "OrangePi connector" H 1900 5450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 2100 5800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 2100 5800 50  0001 C CNN
 F 3 "~" H 2100 5800 50  0001 C CNN
 	1    2100 5800
 	-1   0    0    1   
@@ -849,133 +849,37 @@ Wire Wire Line
 	5850 1400 5550 1400
 Wire Wire Line
 	5850 1000 5850 1400
-Text GLabel 6850 4650 0    50   Input ~ 0
+Text Notes 6550 6250 0    50   ~ 0
+Breakout
+Wire Notes Line
+	8400 3850 5200 3850
+Wire Notes Line
+	8400 6300 8400 3850
+Wire Notes Line
+	5200 6300 8400 6300
+Wire Notes Line
+	5200 3850 5200 6300
+Wire Wire Line
+	6450 4200 6450 4850
+Wire Wire Line
+	6050 4200 6450 4200
+Wire Wire Line
+	6350 4100 6350 4950
+Wire Wire Line
+	6350 4100 6050 4100
+Text GLabel 6050 4300 0    50   Input ~ 0
 opi-5V
-Text GLabel 6850 4750 0    50   Input ~ 0
-opi-GND
-Text GLabel 6850 5250 0    50   Input ~ 0
-opi-lineoutr
-Text GLabel 6850 5350 0    50   Input ~ 0
-opi-linoutl
-NoConn ~ 6850 5450
-NoConn ~ 6850 5550
-NoConn ~ 6850 5650
-NoConn ~ 6850 5750
-NoConn ~ 6850 5850
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 61832348
-P 6250 4800
-F 0 "J?" H 6278 4776 50  0000 L CNN
-F 1 "line out right" H 5800 4500 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6250 4800 50  0001 C CNN
-F 3 "~" H 6250 4800 50  0001 C CNN
-	1    6250 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Female J?
-U 1 1 6183AAA8
-P 6250 5600
-F 0 "J?" H 6278 5576 50  0001 L CNN
-F 1 "lin out left" H 5800 5300 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6250 5600 50  0001 C CNN
-F 3 "~" H 6250 5600 50  0001 C CNN
-	1    6250 5600
-	1    0    0    -1  
-$EndComp
-Text GLabel 6050 4700 0    50   Input ~ 0
-opi-5V
-Text GLabel 6050 5500 0    50   Input ~ 0
-opi-5V
-Text GLabel 5950 4950 0    50   Input ~ 0
-opi-GND
-Text GLabel 5950 5750 0    50   Input ~ 0
+Text GLabel 6050 4400 0    50   Input ~ 0
 opi-GND
 Wire Wire Line
-	6050 4900 6050 4950
+	6450 4850 6850 4850
 Wire Wire Line
-	5950 4950 6050 4950
-Connection ~ 6050 4950
-Wire Wire Line
-	6050 4950 6050 5000
-Wire Wire Line
-	5950 5750 6050 5750
-Wire Wire Line
-	6050 5750 6050 5700
-Wire Wire Line
-	6050 5800 6050 5750
-Connection ~ 6050 5750
-Text GLabel 7650 4650 0    50   Input ~ 0
-opi-GND
-Text GLabel 7450 5850 2    50   Input ~ 0
-opi-5V
-Wire Wire Line
-	5500 4800 6050 4800
+	6850 4950 6350 4950
 $Comp
-L Connector:Conn_01x13_Female J?
-U 1 1 618171B2
-P 7050 5250
-F 0 "J?" H 7078 5276 50  0001 L CNN
-F 1 "opi connector" H 6600 4500 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical" H 7050 5250 50  0001 C CNN
-F 3 "~" H 7050 5250 50  0001 C CNN
-	1    7050 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 5250 5500 5250
-Wire Wire Line
-	5500 4800 5500 5250
-Wire Wire Line
-	6800 5350 5500 5350
-Wire Wire Line
-	5500 5350 5500 5600
-Wire Wire Line
-	5500 5600 6050 5600
-Wire Wire Line
-	7650 4650 7700 4650
-Wire Wire Line
-	7700 4650 7700 4800
-Wire Wire Line
-	7700 4800 7800 4800
-Wire Wire Line
-	7800 4800 7800 4900
-Connection ~ 7700 4800
-Wire Wire Line
-	7700 4800 7700 4900
-Wire Wire Line
-	7450 5850 7250 5850
-Wire Wire Line
-	7250 5850 7250 5500
-Wire Wire Line
-	7250 5500 7400 5500
-$Comp
-L test_pcb-rescue:USB_A-Connector J?
-U 1 1 61852C4F
-P 7700 5300
-F 0 "J?" H 7470 5197 50  0001 R CNN
-F 1 "Power out" H 7750 5700 50  0000 R CNN
-F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 7850 5250 50  0001 C CNN
-F 3 " ~" H 7850 5250 50  0001 C CNN
-	1    7700 5300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7400 5200 7400 5050
-Wire Wire Line
-	7400 5050 6850 5050
-Wire Wire Line
-	7400 5300 7350 5300
-Wire Wire Line
-	7350 5300 7350 5150
-Wire Wire Line
-	7350 5150 6850 5150
-$Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J29
 U 1 1 618BF80A
 P 6250 4200
-F 0 "J?" H 6278 4176 50  0001 L CNN
+F 0 "J29" H 6278 4176 50  0001 L CNN
 F 1 "pcb connector" H 5750 3900 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 6250 4200 50  0001 C CNN
 F 3 "~" H 6250 4200 50  0001 C CNN
@@ -983,29 +887,125 @@ F 3 "~" H 6250 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6850 4950 6350 4950
+	7350 5150 6850 5150
 Wire Wire Line
-	6450 4850 6850 4850
-Text GLabel 6050 4400 0    50   Input ~ 0
-opi-GND
-Text GLabel 6050 4300 0    50   Input ~ 0
+	7350 5300 7350 5150
+Wire Wire Line
+	7400 5300 7350 5300
+Wire Wire Line
+	7400 5050 6850 5050
+Wire Wire Line
+	7400 5200 7400 5050
+$Comp
+L test_pcb-rescue:USB_A-Connector J33
+U 1 1 61852C4F
+P 7700 5300
+F 0 "J33" H 7470 5197 50  0001 R CNN
+F 1 "Power out" H 7750 5700 50  0000 R CNN
+F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 7850 5250 50  0001 C CNN
+F 3 " ~" H 7850 5250 50  0001 C CNN
+	1    7700 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7250 5500 7400 5500
+Wire Wire Line
+	7250 5850 7250 5500
+Wire Wire Line
+	7450 5850 7250 5850
+Wire Wire Line
+	7700 4800 7700 4900
+Wire Wire Line
+	7800 4800 7800 4900
+Wire Wire Line
+	7700 4800 7800 4800
+Connection ~ 7700 4800
+Wire Wire Line
+	7700 4650 7700 4800
+Wire Wire Line
+	7650 4650 7700 4650
+Wire Wire Line
+	5500 5600 6050 5600
+Wire Wire Line
+	5500 5350 5500 5600
+Wire Wire Line
+	6800 5350 5500 5350
+Wire Wire Line
+	5500 4800 5500 5250
+Wire Wire Line
+	6850 5250 5500 5250
+$Comp
+L Connector:Conn_01x13_Female J32
+U 1 1 618171B2
+P 7050 5250
+F 0 "J32" H 7078 5276 50  0001 L CNN
+F 1 "opi connector" H 6600 4500 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical" H 7050 5250 50  0001 C CNN
+F 3 "~" H 7050 5250 50  0001 C CNN
+	1    7050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4800 6050 4800
+Text GLabel 7450 5850 2    50   Input ~ 0
 opi-5V
+Text GLabel 7650 4650 0    50   Input ~ 0
+opi-GND
 Wire Wire Line
-	6350 4100 6050 4100
+	6050 5800 6050 5750
 Wire Wire Line
-	6350 4100 6350 4950
+	6050 5750 6050 5700
+Connection ~ 6050 5750
 Wire Wire Line
-	6050 4200 6450 4200
+	5950 5750 6050 5750
 Wire Wire Line
-	6450 4200 6450 4850
-Wire Notes Line
-	5200 3850 5200 6300
-Wire Notes Line
-	5200 6300 8400 6300
-Wire Notes Line
-	8400 6300 8400 3850
-Wire Notes Line
-	8400 3850 5200 3850
-Text Notes 6550 6250 0    50   ~ 0
-Breakout
+	6050 4950 6050 5000
+Wire Wire Line
+	5950 4950 6050 4950
+Connection ~ 6050 4950
+Wire Wire Line
+	6050 4900 6050 4950
+Text GLabel 5950 5750 0    50   Input ~ 0
+opi-GND
+Text GLabel 5950 4950 0    50   Input ~ 0
+opi-GND
+Text GLabel 6050 5500 0    50   Input ~ 0
+opi-5V
+Text GLabel 6050 4700 0    50   Input ~ 0
+opi-5V
+$Comp
+L Connector:Conn_01x04_Female J31
+U 1 1 6183AAA8
+P 6250 5600
+F 0 "J31" H 6278 5576 50  0001 L CNN
+F 1 "lin out left" H 5800 5300 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6250 5600 50  0001 C CNN
+F 3 "~" H 6250 5600 50  0001 C CNN
+	1    6250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J30
+U 1 1 61832348
+P 6250 4800
+F 0 "J30" H 6278 4776 50  0000 L CNN
+F 1 "line out right" H 5800 4500 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6250 4800 50  0001 C CNN
+F 3 "~" H 6250 4800 50  0001 C CNN
+	1    6250 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6850 5850
+NoConn ~ 6850 5750
+NoConn ~ 6850 5650
+NoConn ~ 6850 5550
+NoConn ~ 6850 5450
+Text GLabel 6850 5350 0    50   Input ~ 0
+opi-linoutl
+Text GLabel 6850 5250 0    50   Input ~ 0
+opi-lineoutr
+Text GLabel 6850 4750 0    50   Input ~ 0
+opi-GND
+Text GLabel 6850 4650 0    50   Input ~ 0
+opi-5V
 $EndSCHEMATC

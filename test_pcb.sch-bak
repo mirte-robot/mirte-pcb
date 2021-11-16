@@ -977,7 +977,7 @@ U 1 1 618BF80A
 P 6250 4200
 F 0 "J?" H 6278 4176 50  0001 L CNN
 F 1 "pcb connector" H 5750 3900 50  0000 L CNN
-F 2 "" H 6250 4200 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 6250 4200 50  0001 C CNN
 F 3 "~" H 6250 4200 50  0001 C CNN
 	1    6250 4200
 	1    0    0    -1  
@@ -998,4 +998,14 @@ Wire Wire Line
 	6050 4200 6450 4200
 Wire Wire Line
 	6450 4200 6450 4850
+Wire Notes Line
+	5200 3850 5200 6300
+Wire Notes Line
+	5200 6300 8400 6300
+Wire Notes Line
+	8400 6300 8400 3850
+Wire Notes Line
+	8400 3850 5200 3850
+Text Notes 6550 6250 0    50   ~ 0
+Breakout
 $EndSCHEMATC
