@@ -302,11 +302,11 @@ Text GLabel 2200 4400 0    50   Input ~ 0
 b1
 Text GLabel 1450 4400 0    50   Input ~ 0
 b0
-Text GLabel 4500 1150 0    50   Input ~ 0
+Text GLabel 3500 4300 0    50   Input ~ 0
 a7
 Text GLabel 1200 5600 0    50   Input ~ 0
 a4
-Text GLabel 3500 4300 0    50   Input ~ 0
+Text GLabel 4500 1150 0    50   Input ~ 0
 a3
 Text GLabel 3700 5600 0    50   Input ~ 0
 c13
@@ -591,7 +591,7 @@ NoConn ~ 6350 3050
 NoConn ~ 6350 3250
 Text Notes 5950 3450 0    50   ~ 0
 Nano
-Text GLabel 5550 1300 0    50   Input ~ 0
+Text GLabel 5550 1400 0    50   Input ~ 0
 nano-a5
 Wire Wire Line
 	5850 1000 5400 1000
@@ -828,7 +828,7 @@ Wire Notes Line
 	2800 2300 4800 2300
 Wire Wire Line
 	5750 1100 5400 1100
-Text GLabel 5550 1400 0    50   Input ~ 0
+Text GLabel 5550 1300 0    50   Input ~ 0
 nano-a4
 $Comp
 L Connector:Conn_01x04_Female J19
