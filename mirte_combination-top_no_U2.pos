@@ -1,0 +1,48 @@
+### Module positions - created on Tue 18 Apr 2023 04:35:52 PM CEST ###
+### Printed by Pcbnew version 6.0.11-2627ca5db0~126~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                     PosX       PosY       Rot  Side
+C1        0.1u                  C_0805_2012Metric                        20.3900    44.2100  -90.0000  top
+J1        Servo3                PinHeader_1x03_P2.54mm_Vertical          38.5750     4.9500  -90.0000  top
+J2        Conn_01x20_Female     PinSocket_1x20_P2.54mm_Vertical          26.7014    10.5000  180.0000  top
+J3        Servo4                PinHeader_1x03_P2.54mm_Vertical          38.5750     1.7750  -90.0000  top
+J4        Conn_01x20_Female     PinSocket_1x20_P2.54mm_Vertical           8.8710    10.5000  180.0000  top
+J7        Keypad                JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical    50.8000    45.6000   90.0000  top
+J8        Conn_01x06_Female     PinSocket_1x06_P2.54mm_Vertical          23.9250    62.2786  180.0000  top
+J9        IR_Object_Detector_2  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical    34.8000     9.4000   90.0000  top
+J10       IR1                   JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    42.8000    32.7000   90.0000  top
+J11       Conn_01x13_Female     PinSocket_1x13_P2.54mm_Horizontal         5.0000    56.0000    0.0000  top
+J12       IR_Object_Detector_1  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical    34.8000    45.6000   90.0000  top
+J14       IR2                   JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    42.8000    19.8000   90.0000  top
+J17       MC1                   PinSocket_1x06_P2.54mm_Vertical          33.8000    55.0000   90.0000  top
+J18       MC2                   PinSocket_1x06_P2.54mm_Vertical          53.1700    72.1800    0.0000  top
+J19       Servo1                PinHeader_1x03_P2.54mm_Vertical          52.9250    10.5500  180.0000  top
+J20       SRF1                  JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    34.8000    32.7000   90.0000  top
+J21       ENC2                  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical    42.8000     9.4000   90.0000  top
+J23       MC1-A                 JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    34.8000    60.6860   90.0000  top
+J24       MC1-B                 JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    42.8000    60.6960   90.0000  top
+J25       SRF2                  JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    34.8000    19.8000   90.0000  top
+J26       ENC1                  JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical    42.8000    45.6000   90.0000  top
+J27       Servo2                PinHeader_1x03_P2.54mm_Vertical          52.9250     1.9000  180.0000  top
+J28       I2C2                  JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    50.8000    19.8000   90.0000  top
+J30       I2C1                  JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical    50.8000    32.7000   90.0000  top
+J33       line_out_left         PinSocket_1x04_P2.54mm_Vertical           3.7000    62.5250   90.0000  top
+J34       Power_in              USB_Micro-B_Molex-105017-0001            18.7500    79.2125  180.0000  top
+J35       Power_out             USB_A_Molex_67643_Horizontal             14.3300     9.2500    0.0000  top
+J37       on/off                PinHeader_1x02_P2.54mm_Vertical          48.2500    10.7500    0.0000  top
+Q1        DMG2305UX             SOT-23                                   30.4500    59.6900   90.0000  top
+Q2        DMN2050L              SOT-23                                   18.0250    52.0250  -90.0000  top
+R2        330                   R_1206_3216Metric                        20.4500    55.9500    0.0000  top
+R3        10k                   R_1206_3216Metric                        15.6875    55.9500    0.0000  top
+R4        10k                   R_1206_3216Metric                        29.7500    39.4000  -90.0000  top
+R5        4.7k                  R_1206_3216Metric                        29.7500    33.4250   90.0000  top
+R6        10k                   R_1206_3216Metric                        29.7500    26.7250  -90.0000  top
+R7        4.7k                  R_1206_3216Metric                        29.7500    20.5250   90.0000  top
+R8        10k                   R_1206_3216Metric                        15.0358    15.3322    0.0000  top
+R9        4.7k                  R_1206_3216Metric                        19.6900    15.3300  180.0000  top
+R10       4.7k                  R_1206_3216Metric                        29.7500    45.3250   90.0000  top
+R11       10k                   R_1206_3216Metric                        29.7750    50.8875  -90.0000  top
+SW1       on/off                SW_Slide_1P2T_CK_OS102011MS2Q            43.8500     2.4750    0.0000  top
+U1        CH340C                SOIC-16_3.9x9.9mm_P1.27mm                17.9100    34.7100    0.0000  top
+## End

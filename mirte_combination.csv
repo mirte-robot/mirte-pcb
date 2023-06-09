@@ -1,0 +1,35 @@
+Id,Designator,Package,Quantity,Designation,Supplier,Supplier Number
+1,R2,R_1206_3216Metric,1,330,Farnell,9240918
+2,J9,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,IR Object Detector 2,Farnell,1516277
+3,"R7,R9,R10,R5",R_1206_3216Metric,4,4.7k,Farnell,9240985
+4,Q1,SOT-23,1,DMG2305UX,Farnell,2543533
+5,"R8,R4,R6,R11,R3",R_1206_3216Metric,5,10k,Farnell,2008395
+6,"J4,J2",PinSocket_1x20_P2.54mm_Vertical,2,Conn_01x20_Female,Farnell,1593469
+7,C1,C_0805_2012Metric,1,0.1u,Farnell,1759203
+8,J1,PinHeader_1x03_P2.54mm_Vertical,1,Servo3,Farnell,1022259
+9,J14,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,IR2,Farnell,1516278
+10,J10,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,IR1,Farnell,1516278
+11,J12,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,IR Object Detector 1,Farnell,1516277
+12,J24,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,MC1-B,Farnell,1516278
+13,J18,PinSocket_1x06_P2.54mm_Vertical,1,MC2,Farnell,1593462
+14,Q2,SOT-23,1,DMN2050L,Farnell,2061409
+15,J19,PinHeader_1x03_P2.54mm_Vertical,1,Servo1,Farnell,1022259
+16,J21,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,ENC2,Farnell,1516277
+17,J7,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,Keypad,Farnell,1516277
+18,J3,PinHeader_1x03_P2.54mm_Vertical,1,Servo4,Farnell,1022248
+19,J25,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,SRF2,Farnell,1516278
+20,J23,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,MC1-A,Farnell,1516278
+21,J28,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,I2C2,Farnell,1516278
+22,J37,PinHeader_1x02_P2.54mm_Vertical,1,on/off,Farnell,1022245
+23,J30,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,I2C1,Farnell,1516278
+3,U2,MSOP-10_3x3mm_P0.5mm,1,CH340E,Mouser,474-COM-16278
+25,J11,PinSocket_1x13_P2.54mm_Horizontal,1,Conn_01x13_Female,Farnell,3661285
+26,J26,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,1,ENC1,Farnell,1516277
+27,SW1,SW_Slide_1P2T_CK_OS102011MS2Q,1,on/off,Farnell,1201431
+28,J17,PinSocket_1x06_P2.54mm_Vertical,1,MC1,Farnell,1593462
+29,J34,USB_Micro-B_Molex-105017-0001,1,Power in,Farnell,3500663
+30,J35,USB_A_Molex_67643_Horizontal,1,Power out,Farnell,1450206
+31,J20,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1,SRF1,Farnell,1516278
+32,J8,PinSocket_1x06_P2.54mm_Vertical,1,Conn_01x06_Female,Farnel,1593462
+33,J33,PinSocket_1x04_P2.54mm_Vertical,1,line out left,Farnell,1593460
+34,J27,PinHeader_1x03_P2.54mm_Vertical,1,Servo2,Farnell,1022259
