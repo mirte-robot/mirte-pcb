@@ -6,7 +6,7 @@
 
   (title_block
     (date "2023-06-09")
-    (rev "0.7")
+    (rev "0.8")
   )
 
   (lib_symbols
@@ -2795,7 +2795,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9c7f7940-0ef1-4bd9-a5bd-db61ab1b7040)
   )
-  (text "Encoder 1" (at 114.3 95.25 0)
+  (text "Encoder 2" (at 114.3 95.25 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a18ea862-f661-4cc6-a702-5d0006565bdf)
   )
@@ -2903,7 +2903,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fcff3a59-be96-4b87-9d69-01745b7f7891)
   )
-  (text "Encoder 2" (at 114.3 92.71 0)
+  (text "Encoder 1" (at 114.3 92.71 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fedad619-fd3e-4331-a8e0-e98affc1f16f)
   )
