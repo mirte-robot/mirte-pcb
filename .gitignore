@@ -34,3 +34,5 @@ export-*
 3d/Render/*
 gerber/
 .kidiff/
+mirte_combination.kicad_pcb.zip
+bom/*
