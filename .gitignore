@@ -36,3 +36,5 @@ gerber/
 .kidiff/
 mirte_combination.kicad_pcb.zip
 bom/*
+
+*.kicad_prl
