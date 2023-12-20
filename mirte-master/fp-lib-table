@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "raspberry_pi_pico")(type "KiCad")(uri "${KIPRJMOD}/libraries/raspberry_pi_pico")(options "")(descr ""))
+  (lib (name "xt90")(type "KiCad")(uri "${KIPRJMOD}/libraries/xt90")(options "")(descr ""))
+)

@@ -1,0 +1,92 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a93012ed-5c61-4156-95d9-052cf91432ca)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 96.52 48.26) (xy 104.14 48.26))
+    (stroke (width 0) (type default))
+    (uuid ccaade86-1721-409b-ad2e-1f24675dbc98)
+  )
+
+  (hierarchical_label "POWER_RELAY" (shape input) (at 96.52 48.26 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f30be241-5b81-41ec-b004-03afb441bfed)
+  )
+
+  (sheet (at 151.13 49.53) (size 44.45 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1289cdbf-c89c-46a5-93db-3249bdca7927)
+    (property "Sheetname" "battery" (at 151.13 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "battery.kicad_sch" (at 151.13 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6/17ebe4c8-09bb-4699-976c-396d27e4a3f5" (page "19"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 64.77) (size 24.13 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1f6ba3bd-b93c-4e80-aba0-1409dab869f7)
+    (property "Sheetname" "5vReg" (at 104.14 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "5vreg.kicad_sch" (at 104.14 84.4046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6/17ebe4c8-09bb-4699-976c-396d27e4a3f5" (page "22"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 39.37) (size 25.4 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 544a16a8-9ef3-43b3-aa0f-4bd972816cae)
+    (property "Sheetname" "onOff" (at 104.14 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "onOff.kicad_sch" (at 104.14 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "POWER_RELAY" input (at 104.14 48.26 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid e1cbe438-9f9f-44d9-b8c8-9c955bce84ba)
+    )
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6/17ebe4c8-09bb-4699-976c-396d27e4a3f5" (page "20"))
+      )
+    )
+  )
+
+  (sheet (at 146.05 90.17) (size 25.4 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cd5c3f96-e789-467d-9a0a-1e1e5a42c039)
+    (property "Sheetname" "hbridge_power" (at 146.05 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "hbridge_power.kicad_sch" (at 146.05 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6/17ebe4c8-09bb-4699-976c-396d27e4a3f5" (page "23"))
+      )
+    )
+  )
+)
