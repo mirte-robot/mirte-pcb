@@ -237,11 +237,11 @@
     (uuid aa2512eb-3890-46be-a176-91736741affc)
   )
 
-  (label "SCL" (at 123.19 63.5 0)
+  (label "SCL" (at 123.19 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2abdf2b1-685a-4835-b18d-5fae533439c6)
   )
-  (label "SDA" (at 130.81 66.04 0)
+  (label "SDA" (at 130.81 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44cb847e-5b29-4fe7-b471-dba422036ae7)
   )

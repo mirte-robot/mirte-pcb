@@ -38,3 +38,5 @@ mirte_combination.kicad_pcb.zip
 bom/*
 
 *.kicad_prl
+mirte-master/#auto_saved_files#
+*.lck

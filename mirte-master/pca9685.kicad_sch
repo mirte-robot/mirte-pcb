@@ -304,11 +304,11 @@
     (uuid e23a182a-f8d3-4ff3-800d-032da7318bd4)
   )
 
-  (label "SDA" (at 130.81 86.36 0)
+  (label "SDA" (at 130.81 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4085e11b-e074-4571-8604-8956e4a382f9)
   )
-  (label "SCL" (at 130.81 83.82 0)
+  (label "SCL" (at 130.81 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4de77bef-7301-412c-a07d-c3fdbfc9aa46)
   )

@@ -351,11 +351,11 @@
     (uuid e94434dc-38a5-4680-b4cd-cbe484fa0261)
   )
 
-  (label "SDA" (at 118.11 69.85 0)
+  (label "SDA" (at 118.11 69.85 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b9a6df92-3f49-4534-9641-9447c3090757)
   )
-  (label "SCL" (at 118.11 67.31 0)
+  (label "SCL" (at 118.11 67.31 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5c640c8-0098-4321-a364-189c5b91e8c5)
   )
