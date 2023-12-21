@@ -288,6 +288,13 @@
   )
 
 
+  (no_connect (at 125.73 80.01) (uuid 0511259e-730f-4c19-bd10-d4ae9f3eaa4e))
+  (no_connect (at 125.73 74.93) (uuid 05e571cc-47ef-4ece-82ac-2b388a5aebeb))
+  (no_connect (at 125.73 77.47) (uuid 2c2f9462-2733-4cda-8fde-2fb8efa34524))
+  (no_connect (at 125.73 85.09) (uuid 31483869-52db-4569-89c7-b732802502b9))
+  (no_connect (at 125.73 82.55) (uuid 8edd2e1d-c4ee-4560-aa16-ae17b3f31eab))
+  (no_connect (at 125.73 72.39) (uuid e61bff91-d149-49e1-b8af-ac6cdb2c359c))
+
   (bus_entry (at 107.95 64.77) (size 2.54 2.54)
     (stroke (width 0) (type default))
     (uuid 2aefc6db-2edc-4aae-91bc-b42a37ac203e)
@@ -399,7 +406,7 @@
     (property "Value" "IMU MPU-9250" (at 132.08 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal" (at 130.81 72.39 0)
+    (property "Footprint" "Library:MPU9250" (at 130.81 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 130.81 72.39 0)

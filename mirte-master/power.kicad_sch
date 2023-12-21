@@ -419,6 +419,10 @@
     (stroke (width 0) (type default))
     (uuid e01bc2d9-abf2-46ec-92c8-b1e8e57311d8)
   )
+  (wire (pts (xy 96.52 50.8) (xy 104.14 50.8))
+    (stroke (width 0) (type default))
+    (uuid e6fbb534-3b05-495f-8f85-8a2f191b3b76)
+  )
 
   (text "TODO: why tho, copied from pioneer pcb" (at 187.96 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -440,6 +444,10 @@
     )
   )
 
+  (hierarchical_label "PWR_IN_SIG" (shape input) (at 96.52 50.8 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 8d3bd625-22e8-4d0a-aa1f-0d1ee3537516)
+  )
   (hierarchical_label "POWER_RELAY" (shape input) (at 96.52 48.26 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f30be241-5b81-41ec-b004-03afb441bfed)
@@ -623,6 +631,10 @@
     (pin "POWER_RELAY" input (at 104.14 48.26 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e1cbe438-9f9f-44d9-b8c8-9c955bce84ba)
+    )
+    (pin "PWR_IN_SIG" input (at 104.14 50.8 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 5434419c-7607-4a2b-8e73-91fda159c3f1)
     )
     (instances
       (project "mirte-master"

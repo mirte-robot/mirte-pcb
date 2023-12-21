@@ -97,6 +97,58 @@
         )
       )
     )
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3V3" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3V3_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3V3_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -133,58 +185,6 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -232,40 +232,6 @@
     (uuid aad5aab3-6f67-49a5-a9b5-0f611442e146)
   )
 
-  (symbol (lib_id "power:VCC") (at 109.22 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2281bfce-7392-440b-84d4-2e35ef2f4b01)
-    (property "Reference" "#PWR026" (at 109.22 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 109.22 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8910ca73-0ec9-463e-bfed-9037b8383dfe))
-    (instances
-      (project "mirte-master"
-        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/1618e457-71da-404d-b24b-344883770d69"
-          (reference "#PWR026") (unit 1)
-        )
-        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/172e9393-c3bf-49f7-b8ed-9f9e42b81e17"
-          (reference "#PWR028") (unit 1)
-        )
-        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/2206942f-8827-462d-8b4e-ac2211508605"
-          (reference "#PWR030") (unit 1)
-        )
-        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/09f04b0c-9443-45a0-adc5-c663013664a2"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 109.22 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24b389ee-c9f8-4b7b-a6e2-d703034545e0)
@@ -295,6 +261,40 @@
         )
         (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/09f04b0c-9443-45a0-adc5-c663013664a2"
           (reference "#PWR031") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 109.22 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 34e718b0-e546-4237-8388-7ca3ca06ac1b)
+    (property "Reference" "#PWR026" (at 109.22 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 109.22 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d7040a40-5ccf-4073-8e41-5c66377f25cf))
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/1618e457-71da-404d-b24b-344883770d69"
+          (reference "#PWR026") (unit 1)
+        )
+        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/172e9393-c3bf-49f7-b8ed-9f9e42b81e17"
+          (reference "#PWR028") (unit 1)
+        )
+        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/2206942f-8827-462d-8b4e-ac2211508605"
+          (reference "#PWR030") (unit 1)
+        )
+        (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/09f04b0c-9443-45a0-adc5-c663013664a2"
+          (reference "#PWR032") (unit 1)
         )
       )
     )
