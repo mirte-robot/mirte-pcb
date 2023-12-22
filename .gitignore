@@ -41,3 +41,5 @@ bom/*
 mirte-master/#auto_saved_files#
 *.lck
 svg/
+.cache/
+Generated/
