@@ -40,3 +40,4 @@ bom/*
 *.kicad_prl
 mirte-master/#auto_saved_files#
 *.lck
+svg/
