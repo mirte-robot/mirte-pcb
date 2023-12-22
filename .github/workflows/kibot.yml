@@ -1,0 +1,21 @@
+on: [push]
+jobs:
+    shellcheck:
+        name: Shellcheck
+        runs-on: ubuntu-latest
+    
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions-for-kicad/setup-kicad@v1.0
+              with:
+                version: '7.0'
+            - uses: actions-for-kicad/generate-kicad-files@v1.0
+              with:
+                file: './mirte-master/mirte-master.kicad_sch'
+                type: 'schematic_pdf'
+            - name: Upload 
+              uses: actions/upload-artifact@v3
+              with:
+                name: 'file.pdf'
+                path: './file.pdf'
+    
