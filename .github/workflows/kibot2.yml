@@ -44,7 +44,7 @@ jobs:
       with:
         name: output
         path: output
-    - run: apt install zip unzip -y && zip -r output.zip output
+    - run: sudo apt install zip unzip -y && zip -r output.zip output
     # - name: list files
     #   id: step_one
     #   run: |
