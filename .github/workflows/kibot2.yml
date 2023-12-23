@@ -54,5 +54,5 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           artifacts-branch: artifacts
           artifacts: |
-            $(find . -path './mirte-master/*' -type f)
+            $(find . -path './output/*' -type f)
 
