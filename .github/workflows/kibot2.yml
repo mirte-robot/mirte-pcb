@@ -11,6 +11,14 @@ on: [push]
   #     - '**.kicad_pcb'
 jobs:
   example:
+    permissions:
+    # Required to upload/save artifact, otherwise you'll get
+    # "Error: Resource not accessible by integration"
+    contents: write
+    # Required to post comment, otherwise you'll get
+    # "Error: Resource not accessible by integration"
+    pull-requests: write
+
     runs-on: ubuntu-latest
     environment: kibot
     # defaults:
@@ -36,3 +44,15 @@ jobs:
       with:
         name: output
         path: output
+    - name: Pull request artifacts
+        uses: gavv/pull-request-artifacts@v2
+        with:
+          # Commit hash that triggered PR
+          commit: ${{ github.event.pull_request.head.sha }}
+
+          # Token for current repo (used to post PR comment)
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts-branch: artifacts
+          artifacts: |
+            output
+
