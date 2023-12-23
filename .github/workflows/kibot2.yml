@@ -44,6 +44,11 @@ jobs:
       with:
         name: output
         path: output
+    - name: list files
+      id: step_one
+      run: |
+          echo "FILES=$(find . -path './output/*' -type f)" >> $GITHUB_ENV
+
     - name: Pull request artifacts
       uses: gavv/pull-request-artifacts@v2
       with:
@@ -53,6 +58,5 @@ jobs:
           # Token for current repo (used to post PR comment)
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           artifacts-branch: artifacts
-          artifacts: |
-            $(find . -path './output/*' -type f)
+          artifacts: ${{ env.FILES }}
 
