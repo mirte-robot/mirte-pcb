@@ -18,19 +18,19 @@ jobs:
         # working-directory: mirte-master
 
     steps:
-    - run: ls
+    # - run: ls
     # - run: cd mirte-master
     - uses: actions/checkout@v2
     - uses: INTI-CMNB/KiBot@v2
       with:
         # Required - kibot config file
-        config: kibot_generated.kibot.yaml
+        config: mirte-master/kibot_generated.kibot.yaml
         # optional - prefix to output defined in config
         dir: output
         # optional - schematic file
-        schema: 'mirte-master.sch'
+        schema: 'mirte-master/mirte-master.sch'
         # optional - PCB design file
-        board: 'mirte-master.kicad_pcb'
+        board: 'mirte-master/mirte-master.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
