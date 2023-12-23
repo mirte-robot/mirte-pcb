@@ -47,7 +47,7 @@ jobs:
     - name: list files
       id: step_one
       run: |
-          echo "FILES=$(find . -path './output/*' -type f)" >> $GITHUB_ENV
+          echo "FILES=\"$(find . -path './output/*' -type f)\"" >> $GITHUB_ENV
 
     - name: Pull request artifacts
       uses: gavv/pull-request-artifacts@v2
