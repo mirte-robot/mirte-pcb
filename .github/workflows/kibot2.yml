@@ -45,8 +45,8 @@ jobs:
         name: output
         path: output
     - name: Pull request artifacts
-        uses: gavv/pull-request-artifacts@v2
-        with:
+      uses: gavv/pull-request-artifacts@v2
+      with:
           # Commit hash that triggered PR
           commit: ${{ github.event.pull_request.head.sha }}
 
