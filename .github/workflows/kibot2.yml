@@ -47,10 +47,11 @@ jobs:
     - name: list files
       id: step_one
       run: |
-           {
-        echo 'FILES<<EOF'
-        find . -path './output/*' -type f
-        echo EOF } >> "$GITHUB_ENV"
+        {
+          echo 'FILES<<EOF'
+          find . -path './output/*' -type f
+          echo EOF 
+        } >> "$GITHUB_ENV"
     - name: Pull request artifacts
       uses: gavv/pull-request-artifacts@v2
       with:
