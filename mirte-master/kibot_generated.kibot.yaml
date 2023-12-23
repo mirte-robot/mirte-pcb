@@ -20,7 +20,7 @@ import:
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
-    _KIBOT_BOM_ENABLED: 'false'
+    _KIBOT_BOM_ENABLED: 'true'
 - file: MacroFab_XYRS
 - file: PCBWay
   definitions:
