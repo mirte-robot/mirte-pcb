@@ -14,10 +14,10 @@ jobs:
     permissions:
     # Required to upload/save artifact, otherwise you'll get
     # "Error: Resource not accessible by integration"
-    contents: write
-    # Required to post comment, otherwise you'll get
-    # "Error: Resource not accessible by integration"
-    pull-requests: write
+      contents: write
+      # Required to post comment, otherwise you'll get
+      # "Error: Resource not accessible by integration"
+      pull-requests: write
 
     runs-on: ubuntu-latest
     environment: kibot
