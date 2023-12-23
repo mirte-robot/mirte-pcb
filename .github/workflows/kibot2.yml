@@ -13,8 +13,8 @@ on: [push]
 jobs:
   example:
     runs-on: ubuntu-latest
-    defaults:
-      run:
+    # defaults:
+    #   run:
         # working-directory: mirte-master
 
     steps:
