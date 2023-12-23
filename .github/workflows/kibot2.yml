@@ -1,4 +1,4 @@
-name: example
+name: kibot
 
 on:
   push:
@@ -13,18 +13,24 @@ on:
 jobs:
   example:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mirte-master
+
     steps:
+    - run: ls
+    # - run: cd mirte-master
     - uses: actions/checkout@v2
     - uses: INTI-CMNB/KiBot@v2
       with:
         # Required - kibot config file
-        config: mirte-master/kibot_generated.kibot.yaml
+        config: kibot_generated.kibot.yaml
         # optional - prefix to output defined in config
         dir: output
         # optional - schematic file
-        schema: 'schematic.sch'
+        schema: 'mirte-master.sch'
         # optional - PCB design file
-        board: 'pcb.kicad_pcb'
+        board: 'mirte-master.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
