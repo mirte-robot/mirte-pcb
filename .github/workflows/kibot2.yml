@@ -44,22 +44,24 @@ jobs:
       with:
         name: output
         path: output
-    - name: list files
-      id: step_one
-      run: |
-        {
-          echo 'FILES<<EOF'
-          find . -path './output/*' -type f
-          echo EOF 
-        } >> "$GITHUB_ENV"
+    - run: apt install zip unzip -y && zip -r output.zip output
+    # - name: list files
+    #   id: step_one
+    #   run: |
+    #     {
+    #       echo 'FILES<<EOF'
+    #       find . -path './output/*' -type f
+    #       echo EOF 
+    #     } >> "$GITHUB_ENV"
     - name: Pull request artifacts
       uses: gavv/pull-request-artifacts@v2
       with:
           # Commit hash that triggered PR
           commit: ${{ github.sha }}
+          artifacts-prefix: "my_prs/${{ github.event.number }}/"
 
           # Token for current repo (used to post PR comment)
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           artifacts-branch: artifacts
-          artifacts: ${{ env.FILES }}
+          artifacts: output.zip
 
