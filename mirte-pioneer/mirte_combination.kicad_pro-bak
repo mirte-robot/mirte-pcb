@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.7,
+          "height": 3.7,
+          "width": 3.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,8 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "45_degree_only": false,
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -72,7 +73,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -88,7 +89,7 @@
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
-        "padstack": "warning",
+        "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
@@ -110,6 +111,8 @@
         "zones_intersect": "error"
       },
       "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
@@ -123,12 +126,12 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.19999999999999998,
+        "min_via_annular_width": 0.049999999999999996,
+        "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -173,7 +176,9 @@
       ],
       "track_widths": [
         0.0,
-        0.25
+        0.25,
+        0.4,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -181,7 +186,8 @@
           "drill": 0.0
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": false,
+      "zones_use_no_outline": true
     },
     "layer_presets": [],
     "viewports": []
@@ -391,7 +397,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -402,15 +408,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Library"
-    ],
-    "pinned_symbol_libs": [
-      "custom"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mirte-master.kicad_pro",
+    "filename": "mirte_combination.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -431,74 +433,6 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "12v",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "3v3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.75,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "5v",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "gnd",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -506,48 +440,15 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "gnd",
-        "pattern": "-BATT"
-      },
-      {
-        "netclass": "12v",
-        "pattern": "+12V"
-      },
-      {
-        "netclass": "12v",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "12v",
-        "pattern": "*/SW*"
-      },
-      {
-        "netclass": "5v",
-        "pattern": "*5V"
-      },
-      {
-        "netclass": "5v",
-        "pattern": "V*"
-      },
-      {
-        "netclass": "3v3",
-        "pattern": "*3V3"
-      },
-      {
-        "netclass": "12v",
-        "pattern": "*LED_PWR"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "../Generated/002-.,mirte-pioneer/Export/mirte_combination-gencad.cad",
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "mirte-master.step",
+      "step": "mirte_combination.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -576,8 +477,18 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "plotoutput/",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -588,100 +499,8 @@
   },
   "sheets": [
     [
-      "19794465-0368-488c-958e-83b02754ebd6",
+      "76b487fd-45a4-4e6a-8af9-b4f78fb0af77",
       ""
-    ],
-    [
-      "9ca351c8-1336-4fa7-9afd-b0278bc1b1ac",
-      "sonars"
-    ],
-    [
-      "ef5a4e53-a501-49e4-a555-e359f4321f46",
-      "Sonar"
-    ],
-    [
-      "500eeaf6-fec8-4c61-99ed-04fad254251c",
-      "Sonar1"
-    ],
-    [
-      "26396a10-b035-45c7-a977-06619a6bc3f0",
-      "Sonar2"
-    ],
-    [
-      "ebde9855-dda7-4bf4-9e51-e76f1f3da09b",
-      "Sonar3"
-    ],
-    [
-      "b5023e0f-ffca-45b5-ab7a-069ed13f2b7b",
-      "uart_servos"
-    ],
-    [
-      "07743a5b-b463-4676-9965-6884db572afa",
-      "i2c"
-    ],
-    [
-      "df31d7a1-1139-40d0-b59c-7a3a62eac46d",
-      "ina226"
-    ],
-    [
-      "7a7afddf-0422-4fca-959e-2449449d4f02",
-      "oled"
-    ],
-    [
-      "56011977-7898-4c20-86ba-85a2e7dc4ada",
-      "pca9685"
-    ],
-    [
-      "ce9ba67e-9fd3-4ba3-baa3-90404b6b81d7",
-      "imu"
-    ],
-    [
-      "51f438bb-e502-4544-ae45-b231cb2dc289",
-      "encoders"
-    ],
-    [
-      "1618e457-71da-404d-b24b-344883770d69",
-      "motor"
-    ],
-    [
-      "172e9393-c3bf-49f7-b8ed-9f9e42b81e17",
-      "motor1"
-    ],
-    [
-      "2206942f-8827-462d-8b4e-ac2211508605",
-      "motor2"
-    ],
-    [
-      "09f04b0c-9443-45a0-adc5-c663013664a2",
-      "motor3"
-    ],
-    [
-      "17ebe4c8-09bb-4699-976c-396d27e4a3f5",
-      "power"
-    ],
-    [
-      "1289cdbf-c89c-46a5-93db-3249bdca7927",
-      "battery"
-    ],
-    [
-      "544a16a8-9ef3-43b3-aa0f-4bd972816cae",
-      "onOff"
-    ],
-    [
-      "d3337f2d-26a9-4529-9bfc-380e6deefc08",
-      "relay"
-    ],
-    [
-      "1f6ba3bd-b93c-4e80-aba0-1409dab869f7",
-      "5vReg"
-    ],
-    [
-      "cd5c3f96-e789-467d-9a0a-1e1e5a42c039",
-      "hbridge_power"
-    ],
-    [
-      "b519899b-f03f-4ac7-8598-504888127b6d",
-      "led_strip"
     ]
   ],
   "text_variables": {}
