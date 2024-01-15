@@ -3,4 +3,6 @@
   (lib (name "raspberry_pi_pico")(type "KiCad")(uri "${KIPRJMOD}/libraries/raspberry_pi_pico")(options "")(descr ""))
   (lib (name "xt90")(type "KiCad")(uri "${KIPRJMOD}/libraries/xt90")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/libraries/custom/Library.pretty")(options "")(descr ""))
+  (lib (name "easyeda.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/libraries/easyeda/easyeda.3dshapes")(options "")(descr ""))
+  (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libraries/easyeda/easyeda.pretty")(options "")(descr ""))
 )
