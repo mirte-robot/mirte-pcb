@@ -682,6 +682,46 @@
     [
       "b519899b-f03f-4ac7-8598-504888127b6d",
       "led_strip"
+    ],
+    [
+      "45156ae0-b86d-4da3-96d2-4becce5b0cac",
+      "motor_conn"
+    ],
+    [
+      "b9602611-d294-41a3-a7d4-5d870159613d",
+      "motor_connector"
+    ],
+    [
+      "c9e28398-488a-47c9-85fd-446a05f82831",
+      "motor_connector1"
+    ],
+    [
+      "dae2003b-f49b-4b92-8a77-b6951156073a",
+      "motor_connector2"
+    ],
+    [
+      "66b45c4b-8e15-4752-bd0a-963e95885d51",
+      "motor_connector3"
+    ],
+    [
+      "491fff0c-0609-45f9-85bb-296b3f04d53f",
+      "sonar_conn"
+    ],
+    [
+      "29d63d65-7f0c-4683-8e84-f4a5cb682036",
+      "sonar_it"
+    ],
+    [
+      "a7df4ea4-6c71-4a33-9fd4-8b1e50246288",
+      "sonar_it1"
+    ],
+    [
+      "156de539-7b09-4ff4-a4a3-e697b45e59cd",
+      "sonar_it2"
+    ],
+    [
+      "4375ec19-f1a0-4967-b793-eafda69b9bf6",
+      "sonar_it3"
     ]
   ],
   "text_variables": {}

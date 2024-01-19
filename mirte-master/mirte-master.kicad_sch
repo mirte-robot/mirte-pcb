@@ -1314,6 +1314,43 @@
     )
   )
 
+  (sheet (at 243.84 93.98) (size 20.32 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 45156ae0-b86d-4da3-96d2-4becce5b0cac)
+    (property "Sheetname" "motor_conn" (at 243.84 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motor_conn.kicad_sch" (at 243.84 108.5346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 243.84 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6" (page "25"))
+      )
+    )
+  )
+
+  (sheet (at 243.84 123.19) (size 22.86 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 491fff0c-0609-45f9-85bb-296b3f04d53f)
+    (property "Sheetname" "sonar_conn" (at 243.84 122.4784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sonar_conn.kicad_sch" (at 243.84 139.0146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mirte-master"
+        (path "/19794465-0368-488c-958e-83b02754ebd6" (page "30"))
+      )
+    )
+  )
+
   (sheet (at 160.02 111.76) (size 27.94 8.89) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
