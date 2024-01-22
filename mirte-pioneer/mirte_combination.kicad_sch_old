@@ -5288,7 +5288,7 @@
     (property "farnell_alternative" "" (at 251.46 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C25374" (at 251.46 39.37 0)
+    (property "LCSC" "C2933675" (at 251.46 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fb396478-9272-45c8-9b31-3da464cda876))
