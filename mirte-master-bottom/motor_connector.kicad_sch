@@ -274,7 +274,7 @@
   (symbol (lib_id "power:+5V") (at 116.84 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c014b466-0436-42fc-92f3-3c2978d8e0e6)
-    (property "Reference" "#PWR033" (at 116.84 74.93 0)
+    (property "Reference" "#PWR065" (at 116.84 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 116.84 66.04 0)
@@ -302,13 +302,27 @@
           (reference "#PWR069") (unit 1)
         )
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+          (reference "#PWR014") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+          (reference "#PWR018") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+          (reference "#PWR020") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+          (reference "#PWR012") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Socket") (at 137.16 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccb6b75e-61fc-4f2b-9fc4-5afa8dc45995)
-    (property "Reference" "J16" (at 138.43 73.66 0)
+    (property "Reference" "J26" (at 138.43 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor_conn" (at 138.43 76.2 0)
@@ -341,13 +355,27 @@
           (reference "J34") (unit 1)
         )
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+          (reference "J8") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+          (reference "J15") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+          (reference "J16") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+          (reference "J7") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "power:GND") (at 114.3 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef61d4e6-ca1f-4a61-af42-0d8da95401e2)
-    (property "Reference" "#PWR035" (at 114.3 85.09 0)
+    (property "Reference" "#PWR064" (at 114.3 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 83.82 0)
@@ -373,6 +401,20 @@
         )
         (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/72daa4de-5ab9-4c91-b726-f74d862f9902/dae2003b-f49b-4b92-8a77-b6951156073a"
           (reference "#PWR068") (unit 1)
+        )
+      )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+          (reference "#PWR013") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+          (reference "#PWR017") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+          (reference "#PWR011") (unit 1)
         )
       )
     )

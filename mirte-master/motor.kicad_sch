@@ -303,7 +303,7 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 120.65 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b5f6372-15d5-48bd-b385-95735fad0bef)
-    (property "Reference" "J11" (at 121.92 85.09 0)
+    (property "Reference" "#J11" (at 121.92 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "encoder_motor" (at 121.92 87.63 0)
@@ -325,16 +325,16 @@
     (instances
       (project "mirte-master"
         (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/1618e457-71da-404d-b24b-344883770d69"
-          (reference "J11") (unit 1)
+          (reference "#J11") (unit 1)
         )
         (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/172e9393-c3bf-49f7-b8ed-9f9e42b81e17"
-          (reference "J12") (unit 1)
+          (reference "#J12") (unit 1)
         )
         (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/2206942f-8827-462d-8b4e-ac2211508605"
-          (reference "J13") (unit 1)
+          (reference "#J13") (unit 1)
         )
         (path "/19794465-0368-488c-958e-83b02754ebd6/51f438bb-e502-4544-ae45-b231cb2dc289/09f04b0c-9443-45a0-adc5-c663013664a2"
-          (reference "J14") (unit 1)
+          (reference "#J14") (unit 1)
         )
       )
     )

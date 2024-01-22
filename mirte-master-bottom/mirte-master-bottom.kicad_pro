@@ -48,13 +48,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -128,7 +122,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -171,16 +165,8 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -402,15 +388,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Library"
-    ],
-    "pinned_symbol_libs": [
-      "custom"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mirte-master.kicad_pro",
+    "filename": "mirte-master-bottom.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -441,7 +423,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "12v",
+        "name": "MOTOR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
@@ -458,44 +440,10 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "3v3",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.75,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "5v",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "gnd",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -508,36 +456,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "gnd",
-        "pattern": "-BATT"
+        "netclass": "MOTOR",
+        "pattern": "*/M*"
       },
       {
-        "netclass": "12v",
-        "pattern": "+12V"
+        "netclass": "PWR",
+        "pattern": "+5V"
       },
       {
-        "netclass": "12v",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "12v",
-        "pattern": "*/SW*"
-      },
-      {
-        "netclass": "5v",
-        "pattern": "*5V"
-      },
-      {
-        "netclass": "5v",
-        "pattern": "V*"
-      },
-      {
-        "netclass": "3v3",
-        "pattern": "*3V3"
-      },
-      {
-        "netclass": "12v",
-        "pattern": "*LED_PWR"
+        "netclass": "PWR",
+        "pattern": "GND"
       }
     ]
   },
@@ -547,7 +475,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "mirte-master.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -588,100 +516,48 @@
   },
   "sheets": [
     [
-      "19794465-0368-488c-958e-83b02754ebd6",
+      "c479422a-501d-4123-8665-56a1c70bd9ea",
       ""
     ],
     [
-      "9ca351c8-1336-4fa7-9afd-b0278bc1b1ac",
-      "sonars"
+      "a7df4ea4-6c71-4a33-9fd4-8b1e50246288",
+      "sonar_it1"
     ],
     [
-      "ef5a4e53-a501-49e4-a555-e359f4321f46",
-      "Sonar"
+      "4375ec19-f1a0-4967-b793-eafda69b9bf6",
+      "sonar_it3"
     ],
     [
-      "500eeaf6-fec8-4c61-99ed-04fad254251c",
-      "Sonar1"
+      "1696c862-45db-458e-bd58-44deee9a0593",
+      "sonar_conn"
     ],
     [
-      "26396a10-b035-45c7-a977-06619a6bc3f0",
-      "Sonar2"
+      "29d63d65-7f0c-4683-8e84-f4a5cb682036",
+      "sonar_it"
     ],
     [
-      "ebde9855-dda7-4bf4-9e51-e76f1f3da09b",
-      "Sonar3"
+      "156de539-7b09-4ff4-a4a3-e697b45e59cd",
+      "sonar_it2"
     ],
     [
-      "b5023e0f-ffca-45b5-ab7a-069ed13f2b7b",
-      "uart_servos"
+      "dae2003b-f49b-4b92-8a77-b6951156073a",
+      "motor_connector2"
     ],
     [
-      "07743a5b-b463-4676-9965-6884db572afa",
-      "i2c"
+      "b9602611-d294-41a3-a7d4-5d870159613d",
+      "motor_connector"
     ],
     [
-      "df31d7a1-1139-40d0-b59c-7a3a62eac46d",
-      "ina226"
+      "15e76074-7fdd-433c-b518-bfaad427cf18",
+      "motor_conn"
     ],
     [
-      "7a7afddf-0422-4fca-959e-2449449d4f02",
-      "oled"
+      "c9e28398-488a-47c9-85fd-446a05f82831",
+      "motor_connector1"
     ],
     [
-      "56011977-7898-4c20-86ba-85a2e7dc4ada",
-      "pca9685"
-    ],
-    [
-      "ce9ba67e-9fd3-4ba3-baa3-90404b6b81d7",
-      "imu"
-    ],
-    [
-      "51f438bb-e502-4544-ae45-b231cb2dc289",
-      "encoders"
-    ],
-    [
-      "1618e457-71da-404d-b24b-344883770d69",
-      "motor"
-    ],
-    [
-      "172e9393-c3bf-49f7-b8ed-9f9e42b81e17",
-      "motor1"
-    ],
-    [
-      "2206942f-8827-462d-8b4e-ac2211508605",
-      "motor2"
-    ],
-    [
-      "09f04b0c-9443-45a0-adc5-c663013664a2",
-      "motor3"
-    ],
-    [
-      "17ebe4c8-09bb-4699-976c-396d27e4a3f5",
-      "power"
-    ],
-    [
-      "1289cdbf-c89c-46a5-93db-3249bdca7927",
-      "battery"
-    ],
-    [
-      "544a16a8-9ef3-43b3-aa0f-4bd972816cae",
-      "onOff"
-    ],
-    [
-      "d3337f2d-26a9-4529-9bfc-380e6deefc08",
-      "relay"
-    ],
-    [
-      "1f6ba3bd-b93c-4e80-aba0-1409dab869f7",
-      "5vReg"
-    ],
-    [
-      "cd5c3f96-e789-467d-9a0a-1e1e5a42c039",
-      "hbridge_power"
-    ],
-    [
-      "b519899b-f03f-4ac7-8598-504888127b6d",
-      "led_strip"
+      "66b45c4b-8e15-4752-bd0a-963e95885d51",
+      "motor_connector3"
     ]
   ],
   "text_variables": {}

@@ -408,7 +408,7 @@
   (symbol (lib_id "power:+5V") (at 182.88 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fd68782-6892-4877-9cd7-9ce072ab9731)
-    (property "Reference" "#PWR079" (at 182.88 115.57 0)
+    (property "Reference" "#PWR070" (at 182.88 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 182.88 106.68 0)
@@ -427,13 +427,18 @@
           (reference "#PWR070") (unit 1)
         )
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593"
+          (reference "#PWR05") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Connector:Conn_01x08_Pin") (at 115.57 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5f65e48-b975-4fc8-aa5c-ecf36cfdd1d1)
-    (property "Reference" "J16" (at 114.3 97.79 0)
+    (property "Reference" "J11" (at 114.3 97.79 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x08_Pin" (at 114.3 100.33 0)
@@ -459,13 +464,18 @@
           (reference "J11") (unit 1)
         )
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593"
+          (reference "J3") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 173.99 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0367173-87c8-4a5a-9c84-b6a1f4cfd7c7)
-    (property "Reference" "J40" (at 174.625 109.22 0)
+    (property "Reference" "J12" (at 174.625 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 174.625 111.76 0)
@@ -485,13 +495,18 @@
           (reference "J12") (unit 1)
         )
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593"
+          (reference "J4") (unit 1)
+        )
+      )
     )
   )
 
   (symbol (lib_id "power:GND") (at 182.88 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e540f99b-a436-432c-b609-da9204e51eba)
-    (property "Reference" "#PWR078" (at 182.88 124.46 0)
+    (property "Reference" "#PWR071" (at 182.88 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 123.19 0)
@@ -508,6 +523,11 @@
       (project "mirte-master"
         (path "/19794465-0368-488c-958e-83b02754ebd6/9ca351c8-1336-4fa7-9afd-b0278bc1b1ac/dcabc698-5964-4b44-976f-4f23ca6e9031"
           (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -535,6 +555,9 @@
       (project "mirte-master"
         (path "/19794465-0368-488c-958e-83b02754ebd6/9ca351c8-1336-4fa7-9afd-b0278bc1b1ac/dcabc698-5964-4b44-976f-4f23ca6e9031" (page "31"))
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593" (page "6"))
+      )
     )
   )
 
@@ -559,6 +582,9 @@
     (instances
       (project "mirte-master"
         (path "/19794465-0368-488c-958e-83b02754ebd6/9ca351c8-1336-4fa7-9afd-b0278bc1b1ac/dcabc698-5964-4b44-976f-4f23ca6e9031" (page "32"))
+      )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593" (page "5"))
       )
     )
   )
@@ -585,6 +611,9 @@
       (project "mirte-master"
         (path "/19794465-0368-488c-958e-83b02754ebd6/9ca351c8-1336-4fa7-9afd-b0278bc1b1ac/dcabc698-5964-4b44-976f-4f23ca6e9031" (page "34"))
       )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593" (page "3"))
+      )
     )
   )
 
@@ -609,6 +638,9 @@
     (instances
       (project "mirte-master"
         (path "/19794465-0368-488c-958e-83b02754ebd6/9ca351c8-1336-4fa7-9afd-b0278bc1b1ac/dcabc698-5964-4b44-976f-4f23ca6e9031" (page "33"))
+      )
+      (project "mirte-master-bottom"
+        (path "/c479422a-501d-4123-8665-56a1c70bd9ea/1696c862-45db-458e-bd58-44deee9a0593" (page "2"))
       )
     )
   )
