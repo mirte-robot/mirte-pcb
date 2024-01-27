@@ -1,15 +1,9 @@
 name: kibot
 
 on: [push]
-  # push:
-  #   paths:
-  #   - '**.sch'
-  #   - '**.kicad_pcb'
-  # pull_request:
-  #   paths:
-  #     - '**.sch'
-  #     - '**.kicad_pcb'
+  
 jobs:
+  
   example:
     permissions:
     # Required to upload/save artifact, otherwise you'll get
@@ -20,6 +14,9 @@ jobs:
       pull-requests: write
 
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        project: [mirte-master, mirte-pioneer, mirte-master-bottom]
     environment: kibot
     # defaults:
     #   run:
@@ -28,6 +25,10 @@ jobs:
     steps:
     # - run: ls
     # - run: cd mirte-master
+    - if: matrix.project == 'mirte-pioneer'
+      run: echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
+    - if: matrix.project != 'mirte-pioneer'
+      run: echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
     - uses: actions/checkout@v2
     - uses: INTI-CMNB/KiBot@v2_k7 
       with:
@@ -36,11 +37,11 @@ jobs:
         # optional - prefix to output defined in config
         dir: output
         # optional - schematic file
-        schema: 'mirte-master/mirte-master.kicad_sch'
+        schema: '${{ matrix.project }}/${{ env.SCH_NAME }}.kicad_sch'
         # optional - PCB design file
         board: 'mirte-master/mirte-master.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
-        name: output
+        name: ${{ matrix.project }}
         path: output
