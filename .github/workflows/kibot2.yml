@@ -15,6 +15,7 @@ jobs:
 
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         project: [mirte-master, mirte-pioneer, mirte-master-bottom]
     environment: kibot
@@ -33,7 +34,7 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k7 
       with:
         # Required - kibot config file
-        config: mirte-master/kibot_generated.kibot.yaml
+        config: ${{ matrix.project }}/kibot_generated.kibot.yaml
         # optional - prefix to output defined in config
         dir: output
         # optional - schematic file
