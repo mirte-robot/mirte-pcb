@@ -16,7 +16,7 @@ import:
 - file: FusionPCB
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/FusionPCB
-- file: JLCPCB
+- file: JLCPCB_with_THT
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/JLCPCB
     _KIBOT_POS_PRE_TRANSFORM: '[''_kicost_rename'', ''_rot_footprint'']'
@@ -25,7 +25,7 @@ import:
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/PCBWay
 - file: PanelDemo_4x4
-- file: JLCPCB_with_THT
+
 
 outputs:
 - name: basic_boardview
