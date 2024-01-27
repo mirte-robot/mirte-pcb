@@ -39,7 +39,7 @@ jobs:
         # optional - schematic file
         schema: '${{ matrix.project }}/${{ env.SCH_NAME }}.kicad_sch'
         # optional - PCB design file
-        board: 'mirte-master/mirte-master.kicad_pcb'
+        board: '${{ matrix.project }}/${{ env.SCH_NAME }}.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
