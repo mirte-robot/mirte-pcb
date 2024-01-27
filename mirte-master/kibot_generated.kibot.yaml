@@ -26,6 +26,7 @@ import:
   definitions:
     _KIBOT_MANF_DIR: Manufacturers/PCBWay
 - file: PanelDemo_4x4
+- file: JLCPCB_with_THT
 
 outputs:
 - name: basic_boardview
