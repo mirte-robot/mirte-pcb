@@ -475,7 +475,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mirte-master-bottom.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
