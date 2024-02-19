@@ -2644,7 +2644,7 @@
     (tstamp a58196c9-f609-4924-925a-000e0e5ff9aa)
     (at 42.192 138.232)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G***" (at 0.425 0.75) (layer "F.Fab")
+    (fp_text reference "G1" (at 0.425 0.75) (layer "F.Fab")
         (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 6c7d3b7c-0816-4bac-b0dd-44cb5381cdd1)
     )
