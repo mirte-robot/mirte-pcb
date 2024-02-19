@@ -30,7 +30,7 @@ jobs:
       run: echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
     - if: matrix.project != 'mirte-pioneer'
       run: echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - uses: INTI-CMNB/KiBot@v2_k7 
       with:
         # Required - kibot config file
@@ -42,7 +42,7 @@ jobs:
         # optional - PCB design file
         board: '${{ matrix.project }}/${{ env.SCH_NAME }}.kicad_pcb'
     - name: upload results
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.project }}
         path: output
