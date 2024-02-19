@@ -446,6 +446,9 @@
     (property "Datasheet" "~" (at 102.87 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C15850" (at 102.87 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 34061e71-7283-468a-b140-890bb382394f))
     (pin "1" (uuid dd958776-0849-41d6-87dc-c09eaaf7e576))
     (instances
@@ -525,7 +528,7 @@
     (property "Datasheet" "~" (at 123.19 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C144395" (at 124.46 69.85 0)
+    (property "LCSC" "C144394" (at 124.46 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b0b3148-0f46-4f97-a954-4bb6ed77c6ea))
