@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 727.74 719.19">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Laag_1-2" data-name="Laag 1">
+    <path class="cls-1" d="m173.38,242.85S124.74,82.66,230.44,5.19c0,0,238.94,27.17,165.15,287.77"/>
+    <path class="cls-1" d="m206.38,523.14S39.44,510.7,5.34,384.16c0,0,111.57-213.03,327.98-50.17"/>
+    <path class="cls-1" d="m429.56,117.34s138.5-94.03,243.88-16.12c0,0,45.04,236.22-225.71,243.19"/>
+    <path class="cls-1" d="m628.09,318.55s129.81,105.71,85.4,229.01c0,0-213.37,110.91-297.71-146.47"/>
+    <path class="cls-1" d="m485.83,567.04s-64.52,154.47-195.36,146.87c0,0-166.9-173.13,55.96-327.04"/>
+    <polyline class="cls-3" points="345.28 316.69 309.76 232.13 257.3 203.91 232.46 144.53"/>
+    <polyline class="cls-3" points="353.28 309.69 317.57 224.4 265.1 196.18 230.26 109.8"/>
+    <polyline class="cls-3" points="362.28 302.69 326.57 217.4 274.1 189.18 261.28 156.69 276.28 95.89"/>
+    <polyline class="cls-3" points="372.28 296.69 336.57 211.4 284.1 183.18 273.28 156.69 284.28 116.69"/>
+    <polyline class="cls-3" points="382.28 291.69 346.57 206.4 294.1 178.18 285.28 156.69 291.97 135.69"/>
+    <circle class="cls-2" cx="227.78" cy="102.69" r="6.5"/>
+    <circle class="cls-2" cx="277.28" cy="88.69" r="6.5"/>
+    <circle class="cls-2" cx="286.28" cy="109.69" r="6.5"/>
+    <circle class="cls-2" cx="295.28" cy="128.69" r="6.5"/>
+    <circle class="cls-2" cx="229.28" cy="137.69" r="6.5"/>
+    <circle class="cls-4" cx="392.03" cy="350.44" r="54.75"/>
+  </g>
+</svg>
