@@ -480,7 +480,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mirte-usb-switcher.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
