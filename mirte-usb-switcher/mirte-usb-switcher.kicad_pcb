@@ -86,7 +86,7 @@
   (net 7 "+3V3")
   (net 8 "/GPIO4_B4")
   (net 9 "/GPIO4_B5")
-  (net 10 "/GPIO4_A4")
+  (net 10 "/GPIO4_C3")
   (net 11 "+5V")
   (net 12 "/GPIO0_D1")
   (net 13 "Net-(D4-A)")
@@ -498,7 +498,7 @@
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8d13f708-9fe0-4696-92dd-16a36040918e))
     (pad "1" smd roundrect locked (at -0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
-      (net 10 "/GPIO4_A4") (pintype "passive") (tstamp 30a8c62f-aa7d-43c1-8762-53d3662ea442))
+      (net 10 "/GPIO4_C3") (pintype "passive") (tstamp 30a8c62f-aa7d-43c1-8762-53d3662ea442))
     (pad "2" smd roundrect locked (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 3 "GND") (pintype "passive") (tstamp 68da42ed-4892-4f61-a0d2-7eef92917add))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
@@ -601,7 +601,7 @@
     (pad "2" smd rect locked (at 0 1.2) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "/VOUT") (pinfunction "OUT") (pintype "unspecified") (tstamp c528c005-a136-4436-90ff-b687aa3643dd))
     (pad "3" smd rect locked (at 0.95 1.2) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 10 "/GPIO4_A4") (pinfunction "EN") (pintype "unspecified") (tstamp 214e82dd-cf8f-4cd8-a6aa-9ceb6568e065))
+      (net 10 "/GPIO4_C3") (pinfunction "EN") (pintype "unspecified") (tstamp 214e82dd-cf8f-4cd8-a6aa-9ceb6568e065))
     (pad "4" smd rect locked (at 0.95 -1.2) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "GND") (pinfunction "GND") (pintype "unspecified") (tstamp 3f732955-f40e-48e6-a77e-272638e2187c))
     (pad "5" smd rect locked (at 0 -1.2) (size 0.55 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
@@ -856,7 +856,7 @@
     (pad "7" thru_hole oval locked (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 12 "/GPIO0_D1") (pinfunction "Pin_7") (pintype "passive") (tstamp 1b2be87b-58a9-4078-ab5d-5508674a87a6))
     (pad "8" thru_hole oval locked (at -2.54 7.62 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 10 "/GPIO4_A4") (pinfunction "Pin_8") (pintype "passive") (tstamp 99a98a64-9140-44d6-a540-7a4fda4bfecd))
+      (net 10 "/GPIO4_C3") (pinfunction "Pin_8") (pintype "passive") (tstamp 99a98a64-9140-44d6-a540-7a4fda4bfecd))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x04_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1213,7 +1213,7 @@
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d471a473-3a31-441d-9ec3-2a6ae210b8da))
     (pad "1" smd roundrect locked (at -0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
-      (net 10 "/GPIO4_A4") (pintype "passive") (tstamp a0ef9a4b-59cc-4c10-b706-a641dc72e67a))
+      (net 10 "/GPIO4_C3") (pintype "passive") (tstamp a0ef9a4b-59cc-4c10-b706-a641dc72e67a))
     (pad "2" smd roundrect locked (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902439)
       (net 6 "Net-(D3-A)") (pintype "passive") (tstamp 5afda939-04b6-4835-93ec-ec6bd97d0b07))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
@@ -1456,7 +1456,7 @@
     (pad "4" thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 12 "/GPIO0_D1") (pinfunction "Pin_4") (pintype "passive") (tstamp 8d49f0d7-5f3b-4fbd-82ec-761ac0b3d078))
     (pad "5" thru_hole oval (at 0 10.16 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 10 "/GPIO4_A4") (pinfunction "Pin_5") (pintype "passive") (tstamp c9729715-4658-428e-9834-eeb3c0202192))
+      (net 10 "/GPIO4_C3") (pinfunction "Pin_5") (pintype "passive") (tstamp c9729715-4658-428e-9834-eeb3c0202192))
     (pad "6" thru_hole oval (at 0 12.7 90) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 3 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 0e25275f-e56b-4433-bca0-9abe008d9e80))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
@@ -3607,7 +3607,7 @@
   (gr_text "MIRTE USB Switch" (at 68.266 79.7468) (layer "B.SilkS") (tstamp 10aa3da5-f3b9-463d-8424-61a7e37b0d77)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "3V3\nGPIO4_B4\nGPIO4_B5\nGPIO0_D1\nGPIO4_A4*\nGND" (at 67.504 69.4344 90) (layer "B.SilkS") (tstamp d2ae131a-0917-442a-8308-b879ff4cf1c0)
+  (gr_text "3V3\nGPIO4_B4\nGPIO4_B5\nGPIO0_D1\nGPIO4_C3*\nGND" (at 67.504 69.4344 90) (layer "B.SilkS") (tstamp d2ae131a-0917-442a-8308-b879ff4cf1c0)
     (effects (font (size 1.55 1) (thickness 0.15)) (justify left bottom mirror))
   )
 
