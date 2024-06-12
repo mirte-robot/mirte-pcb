@@ -52,4 +52,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.project }}-step
-        path: ${{ matrix.project }}/**.step
+        path: ${{ matrix.project }}/**/*.step
