@@ -63,5 +63,5 @@ jobs:
       with:
           files: |
             output/3D/${{ env.SCH_NAME }}-3D.step
-            output/PCB/PDF/${{ env.SCH_NAME }}.pdf
-            output/Schematic/${{ env.SCH_NAME }}.pdf
+            output/PCB/PDF/${{ env.SCH_NAME }}-assembly.pdf
+            output/Schematic/${{ env.SCH_NAME }}-schematic.pdf
