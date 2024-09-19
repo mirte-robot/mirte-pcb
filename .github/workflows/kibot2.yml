@@ -34,7 +34,7 @@ jobs:
         echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
         echo "PROJECT_DIR='./'" >> $GITHUB_ENV
     - uses: actions/checkout@v4
-    - uses: INTI-CMNB/KiBot@v2_k7 
+    - uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
         config: ${{ env.PROJECT_DIR }}/kibot_generated.kibot.yaml
@@ -45,7 +45,7 @@ jobs:
         # optional - PCB design file
         board: '${{ env.PROJECT_DIR }}/${{ env.SCH_NAME }}.kicad_pcb'
         install3D: true
-    - run: tree output
+    # - run: tree output
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
