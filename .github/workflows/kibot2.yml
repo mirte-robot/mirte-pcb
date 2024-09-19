@@ -56,3 +56,12 @@ jobs:
       with:
         name: mirte-pcb-step
         path: output/3D/${{ env.SCH_NAME }}-3D.step
+
+    - name: Push to release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+          files: |
+            output/3D/${{ env.SCH_NAME }}-3D.step
+            output/PCB/PDF/${{ env.SCH_NAME }}.pdf
+            output/Schematic/${{ env.SCH_NAME }}.pdf
