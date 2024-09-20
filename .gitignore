@@ -28,6 +28,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!rotations.csv
 export-*
 
 # Rendered output
