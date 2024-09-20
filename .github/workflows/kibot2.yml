@@ -29,10 +29,10 @@ jobs:
     - if: matrix.project == 'mirte-pioneer'
       run: |
         echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
-     - if: matrix.project != 'mirte-pioneer'
+    - if: matrix.project != 'mirte-pioneer'
       run: |
         echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
-     - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
