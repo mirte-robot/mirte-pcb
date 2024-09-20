@@ -48,7 +48,7 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
-        name: mirte-pioneer
+        name: ${{ matrix.project }}-output
         path: output
     - name: upload step
       uses: actions/upload-artifact@v4
