@@ -4,7 +4,7 @@ on: [push]
   
 jobs:
   
-  example:
+  kicad_generate_and_upload:
     permissions:
     # Required to upload/save artifact, otherwise you'll get
     # "Error: Resource not accessible by integration"
@@ -27,11 +27,13 @@ jobs:
     # - run: ls
     # - run: cd mirte-master
     - if: matrix.project == 'mirte-pioneer'
-      run: echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
-    - if: matrix.project != 'mirte-pioneer'
-      run: echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
-    - uses: actions/checkout@v4
-    - uses: INTI-CMNB/KiBot@v2_k7 
+      run: |
+        echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
+     - if: matrix.project != 'mirte-pioneer'
+      run: |
+        echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
+     - uses: actions/checkout@v4
+    - uses: INTI-CMNB/KiBot@v2_k8
       with:
         # Required - kibot config file
         config: ${{ matrix.project }}/kibot_generated.kibot.yaml
@@ -46,10 +48,19 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ matrix.project }}
+        name: mirte-pioneer
         path: output
     - name: upload step
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.project }}-step
         path: output/3D/${{ env.SCH_NAME }}-3D.step
+
+    - name: Push to release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+          files: |
+            output/3D/${{ env.SCH_NAME }}-3D.step
+            output/PCB/PDF/${{ env.SCH_NAME }}-assembly.pdf
+            output/Schematic/${{ env.SCH_NAME }}-schematic.pdf
