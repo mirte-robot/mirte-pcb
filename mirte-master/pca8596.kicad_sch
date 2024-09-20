@@ -1,0 +1,20 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ba912ada-a063-42ea-8d55-f3a04a8a3dbc)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (bus (pts (xy 123.19 69.85) (xy 123.19 85.09))
+    (stroke (width 0) (type default))
+    (uuid aef55090-9a01-4331-bab8-55f39f5c86e1)
+  )
+
+  (hierarchical_label "{I2C}" (shape input) (at 123.19 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid cd105941-098e-45eb-9718-0d7aee7410a7)
+  )
+)

@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lcsc.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/libs/lcsc/lcsc.3dshapes")(options "")(descr ""))
+  (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/libs/lcsc/lcsc.pretty")(options "")(descr ""))
+  (lib (name "sip.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/libs/SiP32509/.3dshapes")(options "")(descr ""))
+  (lib (name "sip.pretty")(type "KiCad")(uri "${KIPRJMOD}/libs/SiP32509/.pretty")(options "")(descr ""))
+  (lib (name "usb.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/libs/usb/.3dshapes")(options "")(descr ""))
+  (lib (name "usb.pretty")(type "KiCad")(uri "${KIPRJMOD}/libs/usb/.pretty")(options "")(descr ""))
+)

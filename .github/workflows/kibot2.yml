@@ -1,0 +1,66 @@
+name: kibot
+
+on: [push]
+  
+jobs:
+  
+  kicad_generate_and_upload:
+    permissions:
+    # Required to upload/save artifact, otherwise you'll get
+    # "Error: Resource not accessible by integration"
+      contents: write
+      # Required to post comment, otherwise you'll get
+      # "Error: Resource not accessible by integration"
+      pull-requests: write
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [mirte-master, mirte-pioneer, mirte-master-bottom]
+    environment: kibot
+    # defaults:
+    #   run:
+        # working-directory: mirte-master
+
+    steps:
+    # - run: ls
+    # - run: cd mirte-master
+    - if: matrix.project == 'mirte-pioneer'
+      run: |
+        echo "SCH_NAME=mirte_combination" >> $GITHUB_ENV
+    - if: matrix.project != 'mirte-pioneer'
+      run: |
+        echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
+    - uses: actions/checkout@v4
+    - uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        # Required - kibot config file
+        config: ${{ matrix.project }}/kibot_generated.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: output
+        # optional - schematic file
+        schema: '${{ matrix.project }}/${{ env.SCH_NAME }}.kicad_sch'
+        # optional - PCB design file
+        board: '${{ matrix.project }}/${{ env.SCH_NAME }}.kicad_pcb'
+        install3D: true
+    - run: tree output
+    - name: upload results
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.project }}-output
+        path: output
+    - name: upload step
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.project }}-step
+        path: output/3D/${{ env.SCH_NAME }}-3D.step
+
+    - name: Push to release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+          files: |
+            output/3D/${{ env.SCH_NAME }}-3D.step
+            output/PCB/PDF/${{ env.SCH_NAME }}-assembly.pdf
+            output/Schematic/${{ env.SCH_NAME }}-schematic.pdf
