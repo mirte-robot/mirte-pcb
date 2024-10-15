@@ -797,7 +797,7 @@
 		)
 		(uuid "e57a8a89-736b-406e-8f30-91490b3ad5b6")
 	)
-	(text "TX and RX are connected here which doesn't make sense"
+	(text "TX and RX are connected here as the servos have a single pin for both."
 		(exclude_from_sim no)
 		(at 135.89 66.04 0)
 		(effects
