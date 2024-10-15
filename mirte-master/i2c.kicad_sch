@@ -1,142 +1,243 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6d8e67db-49a5-4353-9087-6516af9baca7)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-  (bus_alias "I2C" (members "SCL" "SDA"))
-  (junction (at 81.28 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid 430552a0-5df3-4582-a150-e4cd6d59674f)
-  )
-  (junction (at 81.28 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid d3691952-c010-4ac0-b6db-06f816aa3f27)
-  )
-  (junction (at 81.28 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid d3a95af7-6ab7-4985-8c88-5b9c2438e9df)
-  )
-
-  (bus (pts (xy 81.28 67.31) (xy 81.28 73.66))
-    (stroke (width 0) (type default))
-    (uuid 23e40f90-a35d-42b1-a7f5-b2d771e24b73)
-  )
-  (bus (pts (xy 81.28 99.06) (xy 81.28 111.76))
-    (stroke (width 0) (type default))
-    (uuid 7dad55d9-9531-4582-aa8d-9860e792b72c)
-  )
-  (bus (pts (xy 81.28 73.66) (xy 114.3 73.66))
-    (stroke (width 0) (type default))
-    (uuid 80273515-83b1-47df-8b2c-af1e12fba07d)
-  )
-  (bus (pts (xy 81.28 86.36) (xy 114.3 86.36))
-    (stroke (width 0) (type default))
-    (uuid 8bb3e4d8-4cb4-4531-bcb6-7429ad2c8629)
-  )
-  (bus (pts (xy 114.3 111.76) (xy 81.28 111.76))
-    (stroke (width 0) (type default))
-    (uuid 96f571d6-3a6f-4170-ae4b-f5c590538fad)
-  )
-  (bus (pts (xy 81.28 86.36) (xy 81.28 99.06))
-    (stroke (width 0) (type default))
-    (uuid cbe0e3b5-75c5-4e7e-9fa2-5412e48ca3d7)
-  )
-  (bus (pts (xy 81.28 99.06) (xy 114.3 99.06))
-    (stroke (width 0) (type default))
-    (uuid f1f9abd4-1d94-481e-8c68-2d4affb26dfa)
-  )
-  (bus (pts (xy 81.28 73.66) (xy 81.28 86.36))
-    (stroke (width 0) (type default))
-    (uuid fed8a440-28be-47eb-9c8a-7098a270d1c1)
-  )
-
-  (hierarchical_label "{I2C}" (shape input) (at 81.28 67.31 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 520efa40-fa52-45f4-82c0-fbb25e3cc7d3)
-  )
-
-  (sheet (at 114.3 96.52) (size 24.13 5.08) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 56011977-7898-4c20-86ba-85a2e7dc4ada)
-    (property "Sheetname" "pca9685" (at 114.3 95.8084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "pca9685.kicad_sch" (at 114.3 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{I2C}" input (at 114.3 99.06 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 23aa8df0-f184-4fa6-b21b-d290ca4c69b0)
-    )
-    (instances
-      (project "mirte-master"
-        (path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 83.82) (size 24.13 5.08) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7a7afddf-0422-4fca-959e-2449449d4f02)
-    (property "Sheetname" "oled" (at 114.3 83.1084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oled.kicad_sch" (at 114.3 89.4846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{I2C}" input (at 114.3 86.36 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 42c3adfb-d910-4c8b-9895-fcec0ccafbf8)
-    )
-    (instances
-      (project "mirte-master"
-        (path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 109.22) (size 24.13 5.08) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ce9ba67e-9fd3-4ba3-baa3-90404b6b81d7)
-    (property "Sheetname" "imu" (at 114.3 108.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "imu.kicad_sch" (at 114.3 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{I2C}" input (at 114.3 111.76 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 5cbce38f-9379-426e-908c-7a7b2a27da6e)
-    )
-    (instances
-      (project "mirte-master"
-        (path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 71.12) (size 24.13 5.08) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid df31d7a1-1139-40d0-b59c-7a3a62eac46d)
-    (property "Sheetname" "ina226" (at 114.3 70.4084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "ina226.kicad_sch" (at 114.3 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{I2C}" input (at 114.3 73.66 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a4762b7a-8514-4678-8505-7b66a0a0b084)
-    )
-    (instances
-      (project "mirte-master"
-        (path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa" (page "9"))
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6d8e67db-49a5-4353-9087-6516af9baca7")
+	(paper "A4")
+	(title_block
+		(title "${PROJECTNAME}")
+		(rev "${VERSION}")
+	)
+	(lib_symbols)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
+	(junction
+		(at 81.28 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "430552a0-5df3-4582-a150-e4cd6d59674f")
+	)
+	(junction
+		(at 81.28 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3691952-c010-4ac0-b6db-06f816aa3f27")
+	)
+	(bus
+		(pts
+			(xy 81.28 67.31) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e40f90-a35d-42b1-a7f5-b2d771e24b73")
+	)
+	(bus
+		(pts
+			(xy 81.28 99.06) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dad55d9-9531-4582-aa8d-9860e792b72c")
+	)
+	(bus
+		(pts
+			(xy 81.28 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb3e4d8-4cb4-4531-bcb6-7429ad2c8629")
+	)
+	(bus
+		(pts
+			(xy 114.3 111.76) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f571d6-3a6f-4170-ae4b-f5c590538fad")
+	)
+	(bus
+		(pts
+			(xy 81.28 86.36) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe0e3b5-75c5-4e7e-9fa2-5412e48ca3d7")
+	)
+	(bus
+		(pts
+			(xy 81.28 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f9abd4-1d94-481e-8c68-2d4affb26dfa")
+	)
+	(hierarchical_label "{I2C}"
+		(shape input)
+		(at 81.28 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "520efa40-fa52-45f4-82c0-fbb25e3cc7d3")
+	)
+	(sheet
+		(at 114.3 96.52)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56011977-7898-4c20-86ba-85a2e7dc4ada")
+		(property "Sheetname" "pca9685"
+			(at 114.3 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pca9685.kicad_sch"
+			(at 114.3 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2C}" input
+			(at 114.3 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "23aa8df0-f184-4fa6-b21b-d290ca4c69b0")
+		)
+		(instances
+			(project "mirte-master"
+				(path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 83.82)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a7afddf-0422-4fca-959e-2449449d4f02")
+		(property "Sheetname" "oled"
+			(at 114.3 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oled.kicad_sch"
+			(at 114.3 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2C}" input
+			(at 114.3 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42c3adfb-d910-4c8b-9895-fcec0ccafbf8")
+		)
+		(instances
+			(project "mirte-master"
+				(path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 109.22)
+		(size 24.13 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce9ba67e-9fd3-4ba3-baa3-90404b6b81d7")
+		(property "Sheetname" "imu"
+			(at 114.3 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 114.3 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{I2C}" input
+			(at 114.3 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5cbce38f-9379-426e-908c-7a7b2a27da6e")
+		)
+		(instances
+			(project "mirte-master"
+				(path "/19794465-0368-488c-958e-83b02754ebd6/07743a5b-b463-4676-9965-6884db572afa"
+					(page "12")
+				)
+			)
+		)
+	)
 )
