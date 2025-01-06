@@ -21901,7 +21901,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "5V"
+	(gr_text "3V3"
 		(at 133.45 122.625 0)
 		(layer "B.SilkS")
 		(uuid "33beabc0-a1ad-4500-bc8c-ebc0ae4bfca5")
@@ -23113,7 +23113,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "5V"
+	(gr_text "3V3"
 		(at 133.4 86.475 0)
 		(layer "B.SilkS")
 		(uuid "cea96c9f-3a15-4c77-9c84-bcf9d69bcfbd")
