@@ -685,6 +685,10 @@
     [
       "66b45c4b-8e15-4752-bd0a-963e95885d51",
       "motor_connector3"
+    ],
+    [
+      "2572bf06-cf54-4115-a4c7-ccf0e044675d",
+      "power"
     ]
   ],
   "text_variables": {}
