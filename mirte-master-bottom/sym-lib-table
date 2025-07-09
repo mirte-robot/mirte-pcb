@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "easyeda")(type "KiCad")(uri "/home/arendjan/temp/mirte-pcb/mirte-master/libraries/easyeda.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2")(type "KiCad")(uri "/home/arendjan/temp/mirte-pcb/mirte-master/libraries/easyeda/easyeda.kicad_sym")(options "")(descr ""))
+)

@@ -181,6 +181,10 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
+        0.6,
+        0.7,
+        0.8,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -536,7 +540,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "mirte-master-bottom.step",
+      "step": "mirte-master-bottomv3.step",
       "svg": "",
       "vrml": ""
     },
@@ -630,6 +634,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -651,20 +663,12 @@
       "sonar_it1"
     ],
     [
-      "4375ec19-f1a0-4967-b793-eafda69b9bf6",
-      "sonar_it3"
-    ],
-    [
       "1696c862-45db-458e-bd58-44deee9a0593",
       "sonar_conn"
     ],
     [
       "29d63d65-7f0c-4683-8e84-f4a5cb682036",
       "sonar_it"
-    ],
-    [
-      "156de539-7b09-4ff4-a4a3-e697b45e59cd",
-      "sonar_it2"
     ],
     [
       "dae2003b-f49b-4b92-8a77-b6951156073a",
@@ -689,6 +693,10 @@
     [
       "2572bf06-cf54-4115-a4c7-ccf0e044675d",
       "power"
+    ],
+    [
+      "2cdda85b-f21e-4225-a618-9cefba4ad079",
+      "uart_servos"
     ]
   ],
   "text_variables": {}
