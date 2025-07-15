@@ -1126,6 +1126,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
@@ -1782,6 +1927,231 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Power_Management:TPS2419D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS2419D"
+				(at 5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 53.34 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps2419.pdf"
+				(at 53.34 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N+1 and ORing Power Rail Controller with Enable, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ideal-diode or-ing"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x3mm*P0.65mm* SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS2419D_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS2419D_1_1"
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "RSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "BYP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3434,6 +3804,12 @@
 		(uuid "19b79012-d8b3-4b9c-89d3-9aad2a593a7c")
 	)
 	(junction
+		(at 350.52 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c34e61-e562-4321-a607-5ab1c138e2e7")
+	)
+	(junction
 		(at 217.17 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3468,6 +3844,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e3f6b13-8578-4b6a-b1c1-1f207a4aeb9e")
+	)
+	(junction
+		(at 346.71 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73a32ea3-5066-4bd7-a828-05a08f98cc62")
 	)
 	(junction
 		(at 123.19 60.96)
@@ -3506,6 +3888,12 @@
 		(uuid "8f9f28a2-b231-46ab-8678-ead27b16c186")
 	)
 	(junction
+		(at 328.93 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9411e751-f289-4efe-b525-01315963875e")
+	)
+	(junction
 		(at 80.01 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3518,6 +3906,12 @@
 		(uuid "9eb994a3-4ad3-4592-b793-6c5b996bc488")
 	)
 	(junction
+		(at 363.22 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d309ad-e3af-41a6-8106-0edc3978bd43")
+	)
+	(junction
 		(at 227.33 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3528,6 +3922,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bafc57a6-9f27-4125-826c-99ac6bbf9167")
+	)
+	(junction
+		(at 340.36 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc80e450-c86d-4014-84b1-feee9151a038")
 	)
 	(junction
 		(at 200.66 134.62)
@@ -3547,6 +3947,12 @@
 		(color 0 0 0 0)
 		(uuid "e5f21f1b-3ca7-450a-ac7c-59bf34936ae1")
 	)
+	(junction
+		(at 356.87 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eadcb9c6-5223-414a-bfee-b7b246a2ca59")
+	)
 	(no_connect
 		(at 209.55 124.46)
 		(uuid "114450ae-bb6b-47c8-9368-4292800aad8c")
@@ -3554,6 +3960,10 @@
 	(no_connect
 		(at 147.32 76.2)
 		(uuid "43e15da3-68ee-4307-9963-6fb664f46969")
+	)
+	(no_connect
+		(at 342.9 190.5)
+		(uuid "8e6bfccd-5261-4c51-8066-7a34f29fda58")
 	)
 	(no_connect
 		(at 209.55 127)
@@ -3621,6 +4031,26 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 113.03) (xy 356.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2bd4ff-7359-4228-bef8-4e092313fc88")
+	)
+	(wire
+		(pts
+			(xy 363.22 182.88) (xy 363.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed833cc-f2e8-4ed8-bb09-e2e56aa67af1")
+	)
+	(wire
+		(pts
 			(xy 50.8 121.92) (xy 81.28 121.92)
 		)
 		(stroke
@@ -3631,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 110.49) (xy 346.71 115.57)
+			(xy 346.71 110.49) (xy 346.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3648,6 +4078,16 @@
 			(type default)
 		)
 		(uuid "14dacde7-661a-4049-995f-e371c18a5f95")
+	)
+	(wire
+		(pts
+			(xy 328.93 171.45) (xy 328.93 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c240c7-a844-44e3-a2b0-f3a7e1cf0a0a")
 	)
 	(wire
 		(pts
@@ -3701,6 +4141,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 198.12) (xy 350.52 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cfab407-036f-43df-9ec4-721740819f6e")
+	)
+	(wire
+		(pts
 			(xy 137.16 81.28) (xy 137.16 86.36)
 		)
 		(stroke
@@ -3711,13 +4161,23 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 96.52) (xy 361.95 96.52)
+			(xy 346.71 96.52) (xy 356.87 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "30b00db3-591b-46fe-b53b-3532088cbcc4")
+	)
+	(wire
+		(pts
+			(xy 355.6 166.37) (xy 363.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d0252b-15c4-4e16-8a6a-66ee0909eb28")
 	)
 	(wire
 		(pts
@@ -3738,6 +4198,16 @@
 			(type default)
 		)
 		(uuid "346527b7-b197-498c-bf02-5e914adc592d")
+	)
+	(wire
+		(pts
+			(xy 340.36 166.37) (xy 345.44 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c8b076-3d60-4391-b0fc-6e13ecf21864")
 	)
 	(wire
 		(pts
@@ -3871,6 +4341,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 185.42) (xy 342.9 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4932de48-97c0-4ad4-997c-335b59a7c98d")
+	)
+	(wire
+		(pts
 			(xy 325.12 62.23) (xy 326.39 62.23)
 		)
 		(stroke
@@ -3998,6 +4478,16 @@
 			(type default)
 		)
 		(uuid "5f690354-fee9-47f0-a9c6-688204c65cff")
+	)
+	(wire
+		(pts
+			(xy 346.71 113.03) (xy 346.71 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff71760-b7d8-4b73-ac3f-2b2bde736ef7")
 	)
 	(wire
 		(pts
@@ -4181,6 +4671,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 182.88) (xy 363.22 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82554529-211a-46df-9cf5-f24aea202cf6")
+	)
+	(wire
+		(pts
 			(xy 80.01 114.3) (xy 81.28 114.3)
 		)
 		(stroke
@@ -4251,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 199.39) (xy 350.52 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984e47ff-5f42-4233-b2f3-a49d912db0cc")
+	)
+	(wire
+		(pts
 			(xy 238.76 128.27) (xy 227.33 128.27)
 		)
 		(stroke
@@ -4291,6 +4801,26 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 173.99) (xy 350.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e83894-3f83-47f1-bc78-8dab31d6f30a")
+	)
+	(wire
+		(pts
+			(xy 350.52 199.39) (xy 350.52 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5217e0b-354a-4f4b-8040-e0c861181a52")
+	)
+	(wire
+		(pts
 			(xy 120.65 120.65) (xy 120.65 125.73)
 		)
 		(stroke
@@ -4321,6 +4851,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 110.49) (xy 356.87 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae92483d-b4d2-46ec-8ae1-54ca4f49927e")
+	)
+	(wire
+		(pts
 			(xy 101.6 85.09) (xy 101.6 87.63)
 		)
 		(stroke
@@ -4341,6 +4881,26 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 166.37) (xy 340.36 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b526406d-6e41-410c-84d5-b72ba8d1cb05")
+	)
+	(wire
+		(pts
+			(xy 356.87 96.52) (xy 356.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e9b454-9ffc-4b44-84e6-7e8e5a933cd3")
+	)
+	(wire
+		(pts
 			(xy 346.71 102.87) (xy 346.71 96.52)
 		)
 		(stroke
@@ -4358,6 +4918,16 @@
 			(type default)
 		)
 		(uuid "b9c11310-28b6-4fcb-8f12-a45c1da93cd4")
+	)
+	(wire
+		(pts
+			(xy 356.87 96.52) (xy 361.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbda9860-82cd-4bf7-93d8-38b7660a7520")
 	)
 	(wire
 		(pts
@@ -4398,6 +4968,36 @@
 			(type default)
 		)
 		(uuid "bf395cf4-695e-4d9f-9d18-40579000cf20")
+	)
+	(wire
+		(pts
+			(xy 363.22 166.37) (xy 373.38 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7ae3ed-4015-4cfa-ab45-3c80771803de")
+	)
+	(wire
+		(pts
+			(xy 342.9 182.88) (xy 340.36 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c032a467-53a3-4f34-99af-4878e320a88b")
+	)
+	(wire
+		(pts
+			(xy 358.14 190.5) (xy 358.14 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c076b042-7a0d-47e4-9a35-2e967057e8ae")
 	)
 	(wire
 		(pts
@@ -4521,6 +5121,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 182.88) (xy 340.36 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cecb10-2aaa-4318-a8b1-1aeb1faeeed4")
+	)
+	(wire
+		(pts
 			(xy 148.59 140.97) (xy 151.13 140.97)
 		)
 		(stroke
@@ -4558,6 +5168,16 @@
 			(type default)
 		)
 		(uuid "d923ba09-5807-450a-b836-ba1426c5dd93")
+	)
+	(wire
+		(pts
+			(xy 308.61 166.37) (xy 328.93 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9af371-83d9-4fa4-ba4c-a6b9d70af6fc")
 	)
 	(wire
 		(pts
@@ -4661,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 179.07) (xy 328.93 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd753653-0990-4599-9dc7-984d68125cdc")
+	)
+	(wire
+		(pts
 			(xy 346.71 91.44) (xy 346.71 96.52)
 		)
 		(stroke
@@ -4691,6 +5321,26 @@
 		)
 		(uuid "1b589f16-3830-41e3-905d-c45b81e4b970")
 	)
+	(text "10k: VIN>7v\n32k if no D4"
+		(exclude_from_sim no)
+		(at 360.426 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c44da0e-06e1-4b54-9ebd-00cdcef97fa1")
+	)
+	(text "P MOSFET"
+		(exclude_from_sim no)
+		(at 347.472 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f05bb5c-4b92-4151-a993-7387f0437193")
+	)
 	(text "TODO: check pwr req"
 		(exclude_from_sim no)
 		(at 238.506 143.256 0)
@@ -4701,9 +5351,19 @@
 		)
 		(uuid "812bff53-8ae8-47a2-af8a-f7545652b4b7")
 	)
+	(text "Idea:\nOn power-on, no energy flowing anywhere\nSW1 starts the system\nQ3 switches the main power when Q5 is on\nQ5 Gate should be around 3v3 if VIN_SWITCHED is high\nD4 (zener diode) keeps it at max 3v3\n\nWhen the microcontroller wants to turn off the power, \nit switches PWR_IN_SIG to low, turnin off Q5, turning off Q3\n\n\nR33 is to deplete Q5 when VIN_SWITCHED is off\nR32 is to deplete Q3 when Q3 is off"
+		(exclude_from_sim no)
+		(at 403.352 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "837da2e6-9a75-423f-88f2-4aaa1c9ec6b6")
+	)
 	(text "of de 469 miss?"
 		(exclude_from_sim no)
-		(at 354.838 71.12 0)
+		(at 348.234 23.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4720,6 +5380,16 @@
 			)
 		)
 		(uuid "b00bd4f5-e8ff-47fa-ad9e-d6813dcabd16")
+	)
+	(text "N MOSFET"
+		(exclude_from_sim no)
+		(at 326.39 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bad43d3f-fb54-4c6f-b020-65e78eecf518")
 	)
 	(text "switch"
 		(exclude_from_sim no)
@@ -5082,6 +5752,94 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "#PWR81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Management:TPS2419D")
+		(at 350.52 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d06e1f8-79ed-4db1-a59f-0e74de619106")
+		(property "Reference" "U12"
+			(at 352.7141 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS2419D"
+			(at 352.7141 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps2419.pdf"
+			(at 403.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N+1 and ORing Power Rail Controller with Enable, SOIC-8"
+			(at 350.52 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "799ef57e-7799-4900-ac4b-a9c7254c2052")
+		)
+		(pin "8"
+			(uuid "680f34cb-0417-4678-a30e-e8961cd33643")
+		)
+		(pin "3"
+			(uuid "d3879d37-d120-4299-a453-da7ffbfdb4d1")
+		)
+		(pin "2"
+			(uuid "628b304d-ad25-4026-800c-ea5a8e6206d6")
+		)
+		(pin "1"
+			(uuid "4be1328c-b942-4a9d-ac29-e696194ab875")
+		)
+		(pin "5"
+			(uuid "0a8d3eb9-aa5a-4db6-b0fe-dd42c4c946ae")
+		)
+		(pin "7"
+			(uuid "e9a19df8-16c7-4299-ab4f-d5ea2bd1ff97")
+		)
+		(pin "6"
+			(uuid "1f4dcdc7-4007-4615-b64e-e83029bcd5d2")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -6432,7 +7190,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "32k"
+		(property "Value" "10k"
 			(at 349.25 88.8999 0)
 			(effects
 				(font
@@ -7182,6 +7940,72 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "#PWR82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 350.52 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f8e6b1-4873-477e-a457-9afca8f756db")
+		(property "Reference" "#PWR67"
+			(at 350.52 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28e28dd7-8172-419d-a38b-c7d6ce479f70")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -8257,6 +9081,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 356.87 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0328247-9d9d-45e1-8d8c-43db9e1388c9")
+		(property "Reference" "D4"
+			(at 359.41 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3v3"
+			(at 359.41 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 356.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 356.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e873370-00d5-41ff-923e-6fc3040e47f3")
+		)
+		(pin "1"
+			(uuid "57793d83-cc49-4fac-b8b1-523a120711f2")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 262.89 82.55 0)
 		(unit 1)
@@ -8389,6 +9283,88 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:Si2302CDS-T1-GE3")
+		(at 350.52 168.91 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfe4bb9e-b6c3-45d5-b46b-70bedb47242f")
+		(property "Reference" "Q2"
+			(at 351.7901 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Si2302CDS-T1-GE3"
+			(at 349.2501 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 337.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_VISHAY_Si2302CDS-T1-GE3_Si2302CDS-T1-GE3_C10488.html"
+			(at 335.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C10488"
+			(at 332.74 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7997982-204d-4727-9a02-e8b545b512e2")
+		)
+		(pin "2"
+			(uuid "e634a347-b628-451d-a997-1598bd5dd37d")
+		)
+		(pin "3"
+			(uuid "fb393ddd-a147-47d0-8dd9-97d157bafe6b")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 137.16 49.53 0)
@@ -8450,6 +9426,85 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "#PWR30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 328.93 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4422519-b896-47d3-bfdd-bbef7c993d47")
+		(property "Reference" "C11"
+			(at 332.74 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 332.74 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 329.8952 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 328.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c257085-9ffc-450a-9bc6-b8f358bcb093")
+		)
+		(pin "1"
+			(uuid "98e4b67f-d25c-414e-b313-0a8f468b7e9a")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "C11")
 					(unit 1)
 				)
 			)
