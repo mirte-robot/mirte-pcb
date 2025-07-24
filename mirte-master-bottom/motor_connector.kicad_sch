@@ -1833,6 +1833,16 @@
 		)
 		(uuid "fba4a778-4da8-4ba8-80cf-b5bc01f8e551")
 	)
+	(text "TODO:\nvervang DRV8871 voor nieuwere zoals DRV8876\nBulk cap er bij\nAndere cap er bij\nmode input er bij "
+		(exclude_from_sim no)
+		(at 110.236 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b269290-8140-4a80-8632-23f7c7b84a00")
+	)
 	(hierarchical_label "M+"
 		(shape input)
 		(at 66.04 69.85 180)
@@ -2964,16 +2974,16 @@
 	)
 	(symbol
 		(lib_id "easyeda:XL-1615SURUGC")
-		(at 163.83 74.93 180)
+		(at 163.83 76.2 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4f1e1cf-1116-41ef-956e-0942ddd706d0")
 		(property "Reference" "LED5"
-			(at 164.72 63.5 0)
+			(at 164.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +2991,7 @@
 			)
 		)
 		(property "Value" "XL-1615SURUGC"
-			(at 164.72 66.04 0)
+			(at 164.72 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +2999,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2:LED-SMD_4P-L1.6-W1.5-TL-1"
-			(at 163.83 64.77 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 74.93 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 74.93 0)
+			(at 163.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3026,7 @@
 			)
 		)
 		(property "LCSC Part" "C965839"
-			(at 163.83 62.23 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

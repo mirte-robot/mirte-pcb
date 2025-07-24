@@ -1949,7 +1949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_POWER_SELECT"
+		(property "Value" "SERVO_POWER_SELECT"
 			(at 76.2 91.44 90)
 			(effects
 				(font
