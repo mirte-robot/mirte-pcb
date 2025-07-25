@@ -592,7 +592,7 @@
 				)
 			)
 		)
-		(symbol "Driver_Motor:DRV8871DDA"
+		(symbol "Driver_Motor:DRV8870DDA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -604,7 +604,7 @@
 					)
 				)
 			)
-			(property "Value" "DRV8871DDA"
+			(property "Value" "DRV8870DDA"
 				(at 8.89 6.35 0)
 				(effects
 					(font
@@ -613,7 +613,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-				(at 6.35 -1.27 0)
+				(at 2.54 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -621,8 +621,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8871.pdf"
-				(at 6.35 -1.27 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
+				(at -6.35 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -630,7 +630,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"
+			(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -657,7 +657,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV8871DDA_0_1"
+			(symbol "DRV8870DDA_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -7.62)
@@ -670,7 +670,7 @@
 					)
 				)
 			)
-			(symbol "DRV8871DDA_1_1"
+			(symbol "DRV8870DDA_1_1"
 				(pin power_in line
 					(at 0 -10.16 90)
 					(length 2.54)
@@ -725,10 +725,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -5.08 180)
+				(pin input line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "ILIM"
+					(name "VREF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -780,9 +780,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "ISEN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1398,6 +1398,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1515,6 +1635,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 82.55) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079950e6-0a3f-4455-8d09-7973b500dbbe")
+	)
+	(wire
+		(pts
 			(xy 175.26 72.39) (xy 168.91 72.39)
 		)
 		(stroke
@@ -1525,13 +1655,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 78.74) (xy 88.9 78.74)
+			(xy 39.37 85.09) (xy 49.53 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "138979fc-37ab-42d5-bd12-0b3d07eb8373")
+		(uuid "1261cadd-377d-4de0-a432-52a0c5a25d16")
 	)
 	(wire
 		(pts
@@ -1545,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 72.39) (xy 68.58 72.39)
+			(xy 46.99 80.01) (xy 49.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1565,6 +1695,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3410dc69-36bb-45fb-b9ee-9f2f623daf09")
+	)
+	(wire
+		(pts
 			(xy 124.46 76.2) (xy 132.08 76.2)
 		)
 		(stroke
@@ -1575,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 72.39) (xy 104.14 91.44)
+			(xy 104.14 80.01) (xy 104.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1592,16 +1732,6 @@
 			(type default)
 		)
 		(uuid "44ae32ab-889c-4fd2-b580-b6dbd6f41251")
-	)
-	(wire
-		(pts
-			(xy 88.9 69.85) (xy 88.9 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "484a84d5-7fa1-446b-8cee-9feeab05cc49")
 	)
 	(wire
 		(pts
@@ -1625,17 +1755,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 88.9 77.47)
+			(xy 69.85 77.47) (xy 88.9 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61eae3a0-7dd8-4143-9c6d-4ac759abe3fa")
+		(uuid "69d1a1e7-d36c-42ad-96ce-b07601c2403e")
 	)
 	(wire
 		(pts
-			(xy 55.88 59.69) (xy 55.88 62.23)
+			(xy 24.13 83.82) (xy 24.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1695,16 +1825,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 82.55) (xy 78.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984a25f6-fb1a-4e9f-a2fd-5ac806ffbbb3")
-	)
-	(wire
-		(pts
 			(xy 132.08 81.28) (xy 158.75 81.28)
 		)
 		(stroke
@@ -1712,16 +1832,6 @@
 			(type default)
 		)
 		(uuid "99117c03-1cdf-445e-bf0c-c8ff801c473d")
-	)
-	(wire
-		(pts
-			(xy 78.74 59.69) (xy 78.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de27d8e-9155-43f1-a6aa-acf346f15d5f")
 	)
 	(wire
 		(pts
@@ -1735,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 69.85) (xy 68.58 69.85)
+			(xy 46.99 77.47) (xy 49.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1745,13 +1855,33 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 55.88 52.07)
+			(xy 24.13 73.66) (xy 24.13 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a640d50a-bed3-404d-b3f5-04cf0655ee0a")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ba749d-48d7-4987-ba78-b6caed0e2209")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 59.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2e9089-5cb8-4f63-bbce-cabf386358b2")
 	)
 	(wire
 		(pts
@@ -1765,16 +1895,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 104.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c27da346-0fc8-46d3-b305-e0746190a63a")
-	)
-	(wire
-		(pts
 			(xy 116.84 71.12) (xy 132.08 71.12)
 		)
 		(stroke
@@ -1782,6 +1902,16 @@
 			(type default)
 		)
 		(uuid "cc697768-4e81-4073-9ad4-b73361d078a1")
+	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bfe501-a252-470e-a3a4-7b1cf554f5d7")
 	)
 	(wire
 		(pts
@@ -1815,6 +1945,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 59.69) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77336aa-aacb-4ceb-8a18-b4486140ac37")
+	)
+	(wire
+		(pts
 			(xy 124.46 73.66) (xy 132.08 73.66)
 		)
 		(stroke
@@ -1825,13 +1965,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 86.36) (xy 92.71 88.9)
+			(xy 59.69 69.85) (xy 59.69 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fba4a778-4da8-4ba8-80cf-b5bc01f8e551")
+		(uuid "ef9fdc2f-624c-4212-9fb7-ada9f645271e")
 	)
 	(text "TODO:\nvervang DRV8871 voor nieuwere zoals DRV8876\nBulk cap er bij\nAndere cap er bij\nmode input er bij "
 		(exclude_from_sim no)
@@ -1843,9 +1983,19 @@
 		)
 		(uuid "1b269290-8140-4a80-8632-23f7c7b84a00")
 	)
+	(text "imode = fixed off time @ overcurrent\npmode = pwm 2x"
+		(exclude_from_sim no)
+		(at 70.104 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37e135d7-488e-4528-8fc6-56c5c34fbbdf")
+	)
 	(hierarchical_label "M+"
 		(shape input)
-		(at 66.04 69.85 180)
+		(at 46.99 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1878,7 +2028,7 @@
 	)
 	(hierarchical_label "M-"
 		(shape input)
-		(at 66.04 72.39 180)
+		(at 46.99 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1889,7 +2039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 86.36 0)
+		(at 59.69 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +2048,7 @@
 		(fields_autoplaced yes)
 		(uuid "1366b69b-b7cb-4f20-87b3-887effa1cfb0")
 		(property "Reference" "#PWR51"
-			(at 78.74 92.71 0)
+			(at 59.69 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +2057,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 91.44 0)
+			(at 59.69 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +2065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 86.36 0)
+			(at 59.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +2074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 86.36 0)
+			(at 59.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +2083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 86.36 0)
+			(at 59.69 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,109 +2110,6 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "#PWR48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8871DDA")
-		(at 78.74 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38bc84a4-8af3-43f1-95d3-2f22ec8c8d6c")
-		(property "Reference" "U9"
-			(at 80.9341 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8871DDA"
-			(at 80.9341 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 85.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8871.pdf"
-			(at 85.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Current limiting, HTSOP-8"
-			(at 78.74 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "f9a6dca9-6d17-4dc3-9f18-c3c534d3cfb9")
-		)
-		(pin "3"
-			(uuid "e1ccd0b1-9eb5-4260-8bf2-0ccae29bc362")
-		)
-		(pin "5"
-			(uuid "23c0b15f-1dcb-4a75-9abf-71069ec09a08")
-		)
-		(pin "4"
-			(uuid "7012c0b9-389a-4d7b-bc80-a89ed179799f")
-		)
-		(pin "7"
-			(uuid "868b51dd-4422-4ab6-a682-c4f171c3af13")
-		)
-		(pin "1"
-			(uuid "b029d750-2d86-4cfc-9946-c0f427722b03")
-		)
-		(pin "2"
-			(uuid "5afa6fd1-9482-4853-ba33-db9d12fd3a33")
-		)
-		(pin "8"
-			(uuid "3112b543-c984-42b1-8e14-89d3658a16b6")
-		)
-		(pin "6"
-			(uuid "6ad9bf26-0a64-46c1-88b3-de5e13ba155f")
-		)
-		(instances
-			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "U7")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "U8")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2147,17 +2194,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 62.23 0)
+		(lib_id "power:+5V")
+		(at 39.37 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75a34b42-c4c8-43ed-914a-246f4714a7e1")
-		(property "Reference" "#PWR59"
-			(at 55.88 68.58 0)
+		(uuid "741b6dfe-60ad-4960-ae1d-c0c1ea9f34ff")
+		(property "Reference" "#PWR110"
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,8 +2212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 55.88 67.31 0)
+		(property "Value" "+5V"
+			(at 39.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 62.23 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2230,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 62.23 0)
+			(at 39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 39.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df1f5ee7-e977-41cb-a6c1-25332abf896b")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "#PWR113")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "#PWR111")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "#PWR112")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "#PWR110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a34b42-c4c8-43ed-914a-246f4714a7e1")
+		(property "Reference" "#PWR59"
+			(at 24.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 62.23 0)
+			(at 24.13 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2304,16 +2429,16 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 78.74 59.69 0)
+		(at 59.69 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6bdb1da-e6a0-49d2-8ae1-460f1c0d4078")
-		(property "Reference" "#PWR47"
-			(at 78.74 63.5 0)
+		(uuid "af932b67-7ffb-4694-9454-c4a09f10045a")
+		(property "Reference" "#PWR118"
+			(at 59.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2447,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 78.74 54.61 0)
+			(at 59.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 59.69 0)
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 59.69 0)
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 78.74 59.69 0)
+			(at 59.69 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,24 +2482,127 @@
 			)
 		)
 		(pin "1"
-			(uuid "95397fce-02f6-445c-ac60-a86984965c8a")
+			(uuid "623ab775-695e-4564-bacd-2dfdfd4a36a0")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "#PWR121")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "#PWR119")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "#PWR120")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "#PWR118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:DRV8870DDA")
+		(at 59.69 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5001db7-7c65-463c-a927-72a4dc032f1b")
+		(property "Reference" "U13"
+			(at 61.8841 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8870DDA"
+			(at 61.8841 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
+			(at 62.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "79ec88c8-4d14-441e-bcf5-3c7e019aa059")
+		)
+		(pin "7"
+			(uuid "a8386cf8-9ca6-491b-a97e-697f2ee51a5b")
+		)
+		(pin "2"
+			(uuid "e7c488ea-fe29-4f69-a9f4-be66845a7f56")
+		)
+		(pin "3"
+			(uuid "b2a59eb5-7bbf-486c-b869-ac2901a0403e")
+		)
+		(pin "4"
+			(uuid "34a4d180-8a5c-4925-b34e-c06518d8dc6e")
+		)
+		(pin "8"
+			(uuid "bc17c136-c8fa-42fb-9fb0-752327a492dc")
+		)
+		(pin "5"
+			(uuid "370427ba-79bb-4556-b7bd-66a6f4a567b8")
+		)
+		(pin "1"
+			(uuid "ffdb12e8-18cc-4fc1-84a7-9f829c9ed1aa")
+		)
+		(pin "6"
+			(uuid "b7fea5e0-8130-42f0-bd34-cea9e34fc84b")
 		)
 		(instances
 			(project ""
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR47")
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "#PWR45")
+					(reference "U14")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "#PWR46")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR44")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2462,7 +2690,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 55.88 49.53 0)
+		(at 24.13 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2471,7 +2699,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba33c095-1005-4527-8b40-fbf890d18a9f")
 		(property "Reference" "#PWR55"
-			(at 55.88 53.34 0)
+			(at 24.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2708,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 55.88 44.45 0)
+			(at 24.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 49.53 0)
+			(at 24.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2497,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 49.53 0)
+			(at 24.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +2734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 55.88 49.53 0)
+			(at 24.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,88 +2841,6 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc9a28f1-2db0-4617-8ded-0d3562ddec91")
-		(property "Reference" "R22"
-			(at 95.25 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18k"
-			(at 95.25 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 90.932 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6497883c-5528-4eed-a31a-362ccdc2d928")
-		)
-		(pin "2"
-			(uuid "621f8eee-dc1f-42a5-8052-e1ce0f12f34b")
-		)
-		(instances
-			(project ""
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2814,7 +2960,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 55.88 0)
+		(at 24.13 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2823,7 +2969,7 @@
 		(fields_autoplaced yes)
 		(uuid "d472c683-b95b-4eb6-8b54-5443d430c0ca")
 		(property "Reference" "C7"
-			(at 59.69 54.6099 0)
+			(at 27.94 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2978,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 59.69 57.1499 0)
+			(at 27.94 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2987,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 56.8452 59.69 0)
+			(at 25.0952 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 55.88 0)
+			(at 24.13 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +3005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 55.88 0)
+			(at 24.13 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,84 +3035,6 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3db7a0a-3d30-4ffc-b33d-929c0ecb4cb8")
-		(property "Reference" "#PWR63"
-			(at 92.71 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3435c947-d500-4bd3-b89f-7154ac8e948d")
-		)
-		(instances
-			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR63")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "#PWR61")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "#PWR62")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -3158,6 +3226,84 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3904d8f-e66f-4af3-8174-380d92c79019")
+		(property "Reference" "#PWR44"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1475f73e-2ca6-4273-8b53-d4100eaee539")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "#PWR47")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "#PWR45")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "#PWR46")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)

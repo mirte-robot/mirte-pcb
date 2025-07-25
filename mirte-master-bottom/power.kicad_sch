@@ -1431,139 +1431,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -3520,6 +3387,134 @@
 				)
 			)
 		)
+		(symbol "easyeda:XF-508P-A-B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FUSE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XF-508P-A-B"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:FUSE-TH_XF-508P-A-B"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C19727304"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XF-508P-A-B_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -6.35 1.27)
+					(end -2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 1.27)
+					(end 6.35 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3984,6 +3979,12 @@
 		(uuid "03d335a8-741a-47f9-baa8-eefd4d7c4fba")
 	)
 	(junction
+		(at 326.39 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5fb06d-6281-464f-914a-7b98d3bc6bc5")
+	)
+	(junction
 		(at 80.01 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4120,6 +4121,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc80e450-c86d-4014-84b1-feee9151a038")
+	)
+	(junction
+		(at 341.63 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d251371d-ed79-4651-a6ec-08ec51a33913")
 	)
 	(junction
 		(at 200.66 134.62)
@@ -4473,6 +4480,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 50.8) (xy 332.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cba5c8c-5e45-42bc-84d8-a60a7798842a")
+	)
+	(wire
+		(pts
 			(xy 153.67 143.51) (xy 153.67 144.78)
 		)
 		(stroke
@@ -4520,6 +4537,16 @@
 			(type default)
 		)
 		(uuid "41524e1e-23da-4914-ab86-de9b29a91371")
+	)
+	(wire
+		(pts
+			(xy 341.63 50.8) (xy 341.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416addf2-f834-42ab-ac37-7ac3ae7adb49")
 	)
 	(wire
 		(pts
@@ -4600,6 +4627,16 @@
 			(type default)
 		)
 		(uuid "4ae69ac2-4c97-4308-a313-a6ba4f60ca5c")
+	)
+	(wire
+		(pts
+			(xy 179.07 39.37) (xy 179.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b081303-ea7c-4d25-847e-3a47bdcccfdf")
 	)
 	(wire
 		(pts
@@ -4693,7 +4730,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 109.22) (xy 166.37 109.22)
+			(xy 180.34 109.22) (xy 176.53 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4893,7 +4930,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 153.67 109.22)
+			(xy 153.67 109.22) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5213,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 62.23) (xy 326.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56baacb-a447-456d-ad11-70e0bbf19309")
+	)
+	(wire
+		(pts
 			(xy 356.87 96.52) (xy 356.87 102.87)
 		)
 		(stroke
@@ -5240,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "b9c11310-28b6-4fcb-8f12-a45c1da93cd4")
+	)
+	(wire
+		(pts
+			(xy 335.28 50.8) (xy 341.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba554663-7245-4397-b554-f196c969a271")
 	)
 	(wire
 		(pts
@@ -5540,6 +5597,16 @@
 			(type default)
 		)
 		(uuid "e0cba4df-10aa-4e74-a54b-041e07883cd5")
+	)
+	(wire
+		(pts
+			(xy 179.07 52.07) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18c822c-570d-4cf4-96eb-38951cd34284")
 	)
 	(wire
 		(pts
@@ -5919,7 +5986,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 168.91 109.22 0)
+		(at 180.34 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5929,7 +5996,7 @@
 		)
 		(uuid "8101de0d-07d6-4280-af7c-6acf568375e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.9191 109.22 0)
+			(at 186.3491 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,6 +6313,72 @@
 			(project ""
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b68d8f-c1f6-43ab-b715-6991c5c7c7c8")
+		(property "Reference" "#PWR101"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e7ef923-8c45-41bb-8ca2-a46f2a6ada37")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -7081,6 +7214,72 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
+		(at 179.07 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "317db0a0-4e04-43e4-b303-b64e96f52bad")
+		(property "Reference" "#PWR100"
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05f02403-0927-4366-8a47-aeaba39f3284")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "#PWR100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
 		(at 102.87 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7207,6 +7406,154 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 332.74 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36ddc45d-82b2-4a00-baab-3cb59da72ab3")
+		(property "Reference" "J22"
+			(at 330.2 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "switch"
+			(at 330.2 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+			(at 332.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 332.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3fcb434-b67d-46f9-91da-72828ac77df8")
+		)
+		(pin "2"
+			(uuid "21fb258a-f5ad-4e5c-b75c-b30c59211c36")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 179.07 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b0aaa2-1131-440b-ac0a-8ab0e5f7d0ff")
+		(property "Reference" "C13"
+			(at 182.88 46.101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 182.88 48.641 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P3.50mm"
+			(at 180.0352 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C110138"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e7c0371-b33f-401d-8ece-c8ba2e34f46f")
+		)
+		(pin "2"
+			(uuid "5cabc73a-1e62-47ec-96bb-44ce56ca4f86")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7767,7 +8114,6 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b79a0a7-c8f8-48c6-811b-35c17305677f")
 		(property "Reference" "SW1"
 			(at 334.01 54.61 0)
@@ -9013,6 +9359,83 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda:XF-508P-A-B")
+		(at 166.37 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "900ff944-3700-4e06-91f1-8981ecd1ab6d")
+		(property "Reference" "FUSE1"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XF-508P-A-B"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2:FUSE-TH_XF-508P-A-B"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19727304"
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f30116a2-2204-42cf-ba66-b8ec0a4d42c9")
+		)
+		(pin "1"
+			(uuid "6c8d0baa-b131-4b2b-8e4d-53c823c1969a")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
+					(reference "FUSE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 71.12 138.43 0)
@@ -9851,72 +10274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 207.01 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b92ffd0c-0c95-47d0-b48d-0679cb22ad0f")
-		(property "Reference" "#PWR87"
-			(at 207.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 207.01 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 207.01 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bc0d559-819a-46bc-8f54-9a6caf0435e5")
-		)
-		(instances
-			(project ""
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
-					(reference "#PWR87")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:SiA449DJ")
 		(at 334.01 78.74 270)
 		(mirror x)
@@ -9934,7 +10291,7 @@
 				)
 			)
 		)
-		(property "Value" "SiA449DJ"
+		(property "Value" "SiA483DJ"
 			(at 334.01 72.39 90)
 			(effects
 				(font
@@ -9953,7 +10310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/62644/sia449dj.pdf"
+		(property "Datasheet" "http://www.vishay.com/docs/62644/sia483dj.pdf"
 			(at 330.2 73.66 0)
 			(effects
 				(font
@@ -10764,74 +11121,6 @@
 			(project "mirte-master-bottom"
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
 					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 162.56 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6705a02-429b-4c4e-8701-97b57087820a")
-		(property "Reference" "F1"
-			(at 162.56 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 162.56 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin"
-			(at 162.56 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8129d59-d32a-4224-9a9f-859e3c4eec03")
-		)
-		(pin "2"
-			(uuid "49c1e75a-a884-45e8-b186-1f4f1e7f19f9")
-		)
-		(instances
-			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/2572bf06-cf54-4115-a4c7-ccf0e044675d"
-					(reference "F1")
 					(unit 1)
 				)
 			)
