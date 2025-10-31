@@ -592,37 +592,28 @@
 				)
 			)
 		)
-		(symbol "Driver_Motor:DRV8870DDA"
+		(symbol "easyeda:DRV8231DDAR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U3"
+				(at -1.524 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "DRV8870DDA"
-				(at 8.89 6.35 0)
+			(property "Value" "DRV8231DDAR"
+				(at -0.762 -0.254 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
-				(at -6.35 8.89 0)
+			(property "Footprint" "easyeda:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-3"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -630,7 +621,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -639,7 +630,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "H-bridge driver motor current limit"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -648,8 +639,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Texas*HTSOP*1EP*3.9x4.9mm*P1.27mm*EP2.95x4.9mm*Mask2.4x3.1mm*"
-				(at 0 0 0)
+			(property "LCSC Part" "C5218850"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -657,22 +648,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV8870DDA_0_1"
+			(symbol "DRV8231DDAR_0_1"
 				(rectangle
-					(start -7.62 5.08)
+					(start -10.16 7.62)
 					(end 7.62 -7.62)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "DRV8870DDA_1_1"
-				(pin power_in line
-					(at 0 -10.16 90)
+				(circle
+					(center -8.89 6.35)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -7.62 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -689,8 +689,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "IN2"
 						(effects
@@ -707,8 +707,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 2.54 0)
+				(pin unspecified line
+					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "IN1"
 						(effects
@@ -725,8 +725,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -5.08 0)
+				(pin unspecified line
+					(at -10.16 5.08 0)
 					(length 2.54)
 					(name "VREF"
 						(effects
@@ -743,8 +743,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
+				(pin unspecified line
+					(at 2.54 10.16 270)
 					(length 2.54)
 					(name "VM"
 						(effects
@@ -761,8 +761,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin unspecified line
+					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "OUT1"
 						(effects
@@ -779,8 +779,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -5.08 180)
+				(pin unspecified line
+					(at 10.16 -6.35 180)
 					(length 2.54)
 					(name "ISEN"
 						(effects
@@ -797,8 +797,8 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 0 180)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "OUT2"
 						(effects
@@ -815,10 +815,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
+				(pin unspecified line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -826,6 +826,125 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "easyeda:DSK310_C28646289"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DSK310_C28646289"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:SOD-123FL_L2.8-W1.9-LS3.7-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C28646289"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DSK310_C28646289_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.52) (xy -1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.52) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1616,6 +1735,12 @@
 		)
 	)
 	(junction
+		(at 59.69 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d510ddfc-d9aa-4cbf-873e-a53fee9429f1")
+	)
+	(junction
 		(at 186.69 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1635,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 82.55) (xy 39.37 85.09)
+			(xy 39.37 71.12) (xy 39.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 49.53 85.09)
+			(xy 39.37 73.66) (xy 49.53 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1800,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 80.01) (xy 49.53 80.01)
+			(xy 59.69 87.63) (xy 57.15 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b54058f-eee3-414c-9526-574fac1e5e44")
+	)
+	(wire
+		(pts
+			(xy 46.99 81.28) (xy 49.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1735,6 +1870,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 88.9) (xy 59.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47df74d2-8b5b-4c82-835b-8c274a9b7566")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 57.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8e689e-48dd-48e4-8706-39a1fc6ef41d")
+	)
+	(wire
+		(pts
 			(xy 175.26 78.74) (xy 168.91 78.74)
 		)
 		(stroke
@@ -1752,6 +1907,16 @@
 			(type default)
 		)
 		(uuid "5babe645-8b4e-48c6-9975-5df7279e2a9b")
+	)
+	(wire
+		(pts
+			(xy 62.23 87.63) (xy 62.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcc492a-1dd9-4122-a704-b22109e97e96")
 	)
 	(wire
 		(pts
@@ -1825,6 +1990,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 87.63) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902714de-a501-42d0-be2e-efa2fcad495e")
+	)
+	(wire
+		(pts
 			(xy 132.08 81.28) (xy 158.75 81.28)
 		)
 		(stroke
@@ -1875,13 +2050,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 59.69 91.44)
+			(xy 62.23 54.61) (xy 62.23 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa2e9089-5cb8-4f63-bbce-cabf386358b2")
+		(uuid "b314dfb7-c86b-479e-90e3-70b5ed12f952")
 	)
 	(wire
 		(pts
@@ -1965,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 69.85) (xy 59.69 72.39)
+			(xy 62.23 66.04) (xy 62.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1992,6 +2167,16 @@
 			)
 		)
 		(uuid "37e135d7-488e-4528-8fc6-56c5c34fbbdf")
+	)
+	(text "3A diode for reverse protection when pushing robot"
+		(exclude_from_sim no)
+		(at 53.086 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6acd8324-0b03-451d-9571-0dea017122e1")
 	)
 	(hierarchical_label "M+"
 		(shape input)
@@ -2028,7 +2213,7 @@
 	)
 	(hierarchical_label "M-"
 		(shape input)
-		(at 46.99 80.01 180)
+		(at 46.99 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2039,7 +2224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 91.44 0)
+		(at 59.69 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2048,7 +2233,7 @@
 		(fields_autoplaced yes)
 		(uuid "1366b69b-b7cb-4f20-87b3-887effa1cfb0")
 		(property "Reference" "#PWR51"
-			(at 59.69 97.79 0)
+			(at 59.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 96.52 0)
+			(at 59.69 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 91.44 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 91.44 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 91.44 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,6 +2295,116 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "#PWR48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:DRV8231DDAR")
+		(at 59.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f8c73fb-270c-4fe0-9fa7-eb328c12b337")
+		(property "Reference" "U3"
+			(at 58.166 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8231DDAR"
+			(at 58.928 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-3"
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5218850"
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f48fb77-c4ac-462d-b192-c9853b27f52c")
+		)
+		(pin "5"
+			(uuid "b57235b7-2adf-40aa-857f-deaec6200eee")
+		)
+		(pin "8"
+			(uuid "9b074557-e0af-489a-aa41-3e3ca9da6684")
+		)
+		(pin "1"
+			(uuid "ba9ebcab-a51d-4aa1-bb36-a80dcecd827b")
+		)
+		(pin "2"
+			(uuid "5ea28277-0b2c-4b88-aff5-bcff1e4c51a5")
+		)
+		(pin "6"
+			(uuid "0edd78c4-334e-4013-92ff-118d9498ca2a")
+		)
+		(pin "9"
+			(uuid "a22a5066-418d-4096-9411-0827696d6465")
+		)
+		(pin "4"
+			(uuid "5febadcb-e3f3-4e5a-bd86-5748664c22e0")
+		)
+		(pin "7"
+			(uuid "9bc2345b-f20f-45bf-b155-0ba4dddc4451")
+		)
+		(instances
+			(project ""
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2195,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 39.37 82.55 0)
+		(at 39.37 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2203,8 +2498,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741b6dfe-60ad-4960-ae1d-c0c1ea9f34ff")
-		(property "Reference" "#PWR110"
-			(at 39.37 86.36 0)
+		(property "Reference" "#PWR113"
+			(at 39.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2508,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 39.37 77.47 0)
+			(at 39.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 82.55 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 82.55 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 39.37 82.55 0)
+			(at 39.37 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,34 +2723,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 59.69 69.85 0)
+		(lib_id "easyeda:DSK310_C28646289")
+		(at 62.23 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af932b67-7ffb-4694-9454-c4a09f10045a")
-		(property "Reference" "#PWR118"
-			(at 59.69 73.66 0)
+		(uuid "a6e69399-ab39-4453-988c-3e1ece7e5edc")
+		(property "Reference" "D5"
+			(at 64.77 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "+12V"
-			(at 59.69 64.77 0)
+		(property "Value" "DSK310_C28646289"
+			(at 64.77 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 59.69 69.85 0)
+		(property "Footprint" "easyeda:SOD-123FL_L2.8-W1.9-LS3.7-RD"
+			(at 69.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2760,97 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 69.85 0)
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28646289"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1648181a-b750-47c2-908f-01f91bcd77d3")
+		)
+		(pin "2"
+			(uuid "79e3661b-5843-46a7-9c49-8998e5353d67")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 62.23 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af932b67-7ffb-4694-9454-c4a09f10045a")
+		(property "Reference" "#PWR121"
+			(at 62.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 59.69 69.85 0)
+			(at 62.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,109 +2886,6 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "#PWR118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Motor:DRV8870DDA")
-		(at 59.69 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5001db7-7c65-463c-a927-72a4dc032f1b")
-		(property "Reference" "U13"
-			(at 61.8841 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV8870DDA"
-			(at 61.8841 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Texas_HTSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
-			(at 62.23 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8870.pdf"
-			(at 53.34 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Brushed DC Motor Driver, PWM Control, 45V, 3.6A, Dynamic current limiting, HTSOP-8"
-			(at 59.69 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "79ec88c8-4d14-441e-bcf5-3c7e019aa059")
-		)
-		(pin "7"
-			(uuid "a8386cf8-9ca6-491b-a97e-697f2ee51a5b")
-		)
-		(pin "2"
-			(uuid "e7c488ea-fe29-4f69-a9f4-be66845a7f56")
-		)
-		(pin "3"
-			(uuid "b2a59eb5-7bbf-486c-b869-ac2901a0403e")
-		)
-		(pin "4"
-			(uuid "34a4d180-8a5c-4925-b34e-c06518d8dc6e")
-		)
-		(pin "8"
-			(uuid "bc17c136-c8fa-42fb-9fb0-752327a492dc")
-		)
-		(pin "5"
-			(uuid "370427ba-79bb-4556-b7bd-66a6f4a567b8")
-		)
-		(pin "1"
-			(uuid "ffdb12e8-18cc-4fc1-84a7-9f829c9ed1aa")
-		)
-		(pin "6"
-			(uuid "b7fea5e0-8130-42f0-bd34-cea9e34fc84b")
-		)
-		(instances
-			(project ""
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "U16")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "U14")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "U15")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2:LED-SMD_4P-L1.6-W1.5-TL-1"
+		(property "Footprint" "easyeda:LED-SMD_4P-L1.6-W1.5-TL-1"
 			(at 163.83 86.36 0)
 			(effects
 				(font
@@ -3241,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3904d8f-e66f-4af3-8174-380d92c79019")
-		(property "Reference" "#PWR44"
+		(property "Reference" "#PWR47"
 			(at 72.39 93.98 0)
 			(effects
 				(font
