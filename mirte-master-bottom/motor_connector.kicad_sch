@@ -1735,6 +1735,12 @@
 		)
 	)
 	(junction
+		(at 62.23 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a2da208-0a4a-4e28-b3f1-29ca119854a9")
+	)
+	(junction
 		(at 59.69 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,13 +1936,23 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 83.82) (xy 24.13 86.36)
+			(xy 78.74 64.77) (xy 78.74 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e91c4ea-7368-4428-9755-ca0b7e1f6002")
+	)
+	(wire
+		(pts
+			(xy 69.85 54.61) (xy 69.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f853ff-f1ac-4d2f-a791-06edbcb205ad")
 	)
 	(wire
 		(pts
@@ -2030,7 +2046,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 73.66) (xy 24.13 76.2)
+			(xy 78.74 54.61) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2120,6 +2136,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 54.61) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4310925-6e7c-42a8-abe7-c415a8a16159")
+	)
+	(wire
+		(pts
 			(xy 88.9 59.69) (xy 88.9 77.47)
 		)
 		(stroke
@@ -2147,6 +2173,16 @@
 			(type default)
 		)
 		(uuid "ef9fdc2f-624c-4212-9fb7-ada9f645271e")
+	)
+	(wire
+		(pts
+			(xy 69.85 66.04) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd6d525-e7b2-472a-aacc-e85d7dbfbb61")
 	)
 	(text "TODO:\nvervang DRV8871 voor nieuwere zoals DRV8876\nBulk cap er bij\nAndere cap er bij\nmode input er bij "
 		(exclude_from_sim no)
@@ -2568,7 +2604,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 86.36 0)
+		(at 78.74 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2577,7 +2613,7 @@
 		(fields_autoplaced yes)
 		(uuid "75a34b42-c4c8-43ed-914a-246f4714a7e1")
 		(property "Reference" "#PWR59"
-			(at 24.13 92.71 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 91.44 0)
+			(at 78.74 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 86.36 0)
+			(at 78.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 86.36 0)
+			(at 78.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,7 +2648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 86.36 0)
+			(at 78.74 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,84 +3008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 24.13 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba33c095-1005-4527-8b40-fbf890d18a9f")
-		(property "Reference" "#PWR55"
-			(at 24.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 24.13 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 24.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f82e48d-5f0b-48eb-90a8-00cd4b48d4a8")
-		)
-		(instances
-			(project "mirte-master-bottom"
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
-					(reference "#PWR55")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
-					(reference "#PWR53")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
-					(reference "#PWR54")
-					(unit 1)
-				)
-				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
-					(reference "#PWR52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 179.07 78.74 90)
 		(unit 1)
@@ -3243,7 +3201,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 80.01 0)
+		(at 78.74 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3252,7 +3210,7 @@
 		(fields_autoplaced yes)
 		(uuid "d472c683-b95b-4eb6-8b54-5443d430c0ca")
 		(property "Reference" "C7"
-			(at 27.94 78.7399 0)
+			(at 82.55 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3219,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 27.94 81.2799 0)
+			(at 82.55 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3228,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 25.0952 83.82 0)
+			(at 79.7052 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3237,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 80.01 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3246,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 80.01 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
