@@ -528,9 +528,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -628,8 +628,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -648,9 +648,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -724,8 +724,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -742,18 +742,6 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 105.41 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bde5bfd-6a83-4e5f-8509-4e07034395d0")
-	)
-	(junction
-		(at 113.03 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ee2c032-81cc-4a1d-b584-06fa4117b4b6")
 	)
 	(bus_entry
 		(at 118.11 95.25)
@@ -863,16 +851,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 124.46) (xy 105.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cac23b1-ef8a-4953-a453-f6e48048e075")
-	)
-	(wire
-		(pts
 			(xy 120.65 95.25) (xy 128.27 95.25)
 		)
 		(stroke
@@ -890,16 +868,6 @@
 			(type default)
 		)
 		(uuid "670e8f8b-13e0-428c-922d-d0ca8d5da43d")
-	)
-	(wire
-		(pts
-			(xy 109.22 130.81) (xy 113.03 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6785f9e3-bbaa-4027-8e60-656393151a71")
 	)
 	(wire
 		(pts
@@ -963,23 +931,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 130.81) (xy 116.84 130.81)
+			(xy 109.22 130.81) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b2297cb-9e90-4812-b968-63554087d27d")
-	)
-	(wire
-		(pts
-			(xy 113.03 130.81) (xy 113.03 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d3cf8f-e560-4788-85df-e728d9adebed")
 	)
 	(wire
 		(pts
@@ -1041,6 +999,16 @@
 		)
 		(uuid "cc4c42f5-158e-4cc9-accf-be028ddb8e92")
 	)
+	(wire
+		(pts
+			(xy 146.05 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc50d55-66db-4f9e-8067-c7347dd8c057")
+	)
 	(bus
 		(pts
 			(xy 118.11 100.33) (xy 118.11 110.49)
@@ -1050,6 +1018,26 @@
 			(type default)
 		)
 		(uuid "d2cdb819-112e-4aec-9b9d-2c8ee03c0752")
+	)
+	(wire
+		(pts
+			(xy 128.27 110.49) (xy 139.7 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d343a210-0d7a-4596-88db-a0a406561197")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a3fdca-dd2e-4ddf-a81a-7acd6552be0b")
 	)
 	(wire
 		(pts
@@ -1073,13 +1061,23 @@
 	)
 	(text "Default T0 for both sonars, to check how that's working, \notherwise change it to T1, that's also possibly used for the LED strip"
 		(exclude_from_sim no)
-		(at 166.878 130.302 0)
+		(at 108.966 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "134dbdcb-18dc-44ca-b0da-770c696bcdb2")
+	)
+	(label "Tr1"
+		(at 146.05 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29926464-afe9-462f-8362-da08a4770fa5")
 	)
 	(label "Tr1"
 		(at 116.84 130.81 0)
@@ -1120,6 +1118,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c564fa1-91b9-4858-9b4e-1b28ee1d64ce")
+	)
+	(label "T0"
+		(at 128.27 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89c93838-4995-4095-8729-76ee614a873c")
 	)
 	(label "T0"
 		(at 124.46 90.17 0)
