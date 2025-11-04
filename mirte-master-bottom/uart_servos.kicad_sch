@@ -2560,7 +2560,7 @@
 		(lib_id "Graphic:SYM_EasterEgg_42x60mm")
 		(at 237.49 140.97 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2604,15 +2604,6 @@
 		)
 		(property "Description" "EasterEgg, ClassA, Medium Size"
 			(at 237.49 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)

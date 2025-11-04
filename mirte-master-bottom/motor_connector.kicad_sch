@@ -2346,7 +2346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8c73fb-270c-4fe0-9fa7-eb328c12b337")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 58.166 69.85 0)
 			(effects
 				(font
@@ -2768,7 +2768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e69399-ab39-4453-988c-3e1ece7e5edc")
-		(property "Reference" "D5"
+		(property "Reference" "D8"
 			(at 64.77 59.6899 90)
 			(effects
 				(font
