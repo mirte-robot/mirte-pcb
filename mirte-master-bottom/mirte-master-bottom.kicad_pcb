@@ -812,7 +812,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R34"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "b7a22128-897c-44d2-9e4e-dba6756bc72c")
 			(effects
@@ -823,7 +823,7 @@
 			)
 		)
 		(property "Value" "~600R"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "97b19d5d-b556-4dee-b782-81289c911bab")
 			(effects
@@ -978,7 +978,7 @@
 			(uuid "555b7416-84de-487e-8442-4637b9978bde")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e1a2848e-4e60-41f8-8858-4bf5dc162e1c")
 			(effects
@@ -14549,7 +14549,7 @@
 			)
 		)
 		(property "LCSC" "C17414"
-			(at 34.5459 112.0629 360)
+			(at 34.5459 112.0629 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf73315a-07a1-41da-9cdd-711f74b77e71")
@@ -17368,7 +17368,7 @@
 			(uuid "93e95257-4391-4795-bf2b-b5e74beb7c8d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "c37d71cd-b84a-4d5c-9a02-859b59ca21ed")
 			(effects
@@ -18146,7 +18146,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -2.365 0.127 360)
+			(at -2.365 0.127 0)
 			(layer "F.SilkS")
 			(uuid "2262c429-c42d-4f16-bbc4-2752ea7d3e0f")
 			(effects
@@ -18204,7 +18204,7 @@
 			)
 		)
 		(property "LCSC" "C17673"
-			(at 36.6287 114.1457 360)
+			(at 36.6287 114.1457 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "212cf9a8-c64a-44a6-b56d-06183c9a687b")
@@ -19516,7 +19516,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D10"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "b0c99815-8ec6-4501-a3b9-79b1eab51278")
 			(effects
@@ -19527,7 +19527,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "10b082f7-52ab-4755-81f0-77075c5eb517")
 			(effects
@@ -19702,7 +19702,7 @@
 			(uuid "95aaf2e4-1451-49ee-9a2c-57cc92102192")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5085dc42-2070-4dc1-8694-34d51b0b1a25")
 			(effects
