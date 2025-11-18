@@ -595,6 +595,12 @@
 		(color 0 0 0 0)
 		(uuid "788e198a-e2cf-4e3b-92e5-d703ce7e20fc")
 	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f77e91f2-d68e-49b0-ab08-b0418fdf7a90")
+	)
 	(wire
 		(pts
 			(xy 153.67 85.09) (xy 162.56 85.09)
@@ -607,7 +613,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 92.71) (xy 142.24 92.71)
+			(xy 133.35 80.01) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -657,6 +663,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 80.01) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff69ae6-94fe-4984-a2d4-4670215b28b6")
+	)
+	(wire
+		(pts
 			(xy 142.24 90.17) (xy 142.24 92.71)
 		)
 		(stroke
@@ -677,6 +693,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dab194b-a135-4bc4-8aa8-49a9b95ccb3b")
+	)
+	(wire
+		(pts
 			(xy 153.67 77.47) (xy 162.56 77.47)
 		)
 		(stroke
@@ -687,17 +713,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 162.56 80.01)
+			(xy 138.43 92.71) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de426845-f65e-46c5-b24c-d2d2a6fc6d23")
+		(uuid "c6ffd891-0dff-430a-8a1e-a8eec6dee7fe")
 	)
 	(hierarchical_label "ECHO"
 		(shape input)
-		(at 137.16 92.71 180)
+		(at 125.73 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -708,7 +734,7 @@
 	)
 	(hierarchical_label "TRIG"
 		(shape input)
-		(at 148.59 80.01 180)
+		(at 133.35 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
