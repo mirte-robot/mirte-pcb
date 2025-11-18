@@ -5,6 +5,14 @@
 	(uuid "e7cb7d6d-bfd1-40bf-bae9-be9c2957c202")
 	(paper "A4")
 	(lib_symbols)
+	(no_connect
+		(at 130.81 92.71)
+		(uuid "6fe0fb06-452d-4bec-961a-ffffd6c70dad")
+	)
+	(no_connect
+		(at 156.21 104.14)
+		(uuid "e4a5410f-ada8-4e8e-b1dc-2c87e564b664")
+	)
 	(bus_entry
 		(at 118.11 97.79)
 		(size 2.54 -2.54)
