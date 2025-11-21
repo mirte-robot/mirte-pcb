@@ -5689,7 +5689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -5973,7 +5973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 71.12 143.51 0)
 			(effects
 				(font
@@ -6237,7 +6237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 90.17 134.62 0)
 			(effects
 				(font
@@ -6755,34 +6755,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 130.81 0)
+		(at 162.56 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5079026-7767-4d9d-9a5c-1db0572d81b3")
+		(uuid "e33c4ced-3870-4e95-995a-482b002b940a")
 		(property "Reference" "R34"
 			(at 165.1 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "~600R"
+		(property "Value" "390"
 			(at 165.1 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 160.782 130.81 90)
+			(at 164.338 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +6798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 162.56 130.81 0)
 			(effects
 				(font
@@ -6809,10 +6808,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1cdbfc25-eb31-4407-9359-272daea35a22")
+			(uuid "e53f1133-5143-4aad-b02f-b679f8becf7f")
 		)
 		(pin "2"
-			(uuid "28bf4b50-17c3-4d67-9ce1-d3ffe1b7fac4")
+			(uuid "e0948f0c-9b00-4617-af30-da64c904fe08")
 		)
 		(instances
 			(project "mirte-master-bottom"
@@ -6851,7 +6850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
 			(at 90.17 143.51 0)
 			(effects
 				(font

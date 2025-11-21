@@ -1741,6 +1741,12 @@
 		(uuid "6a2da208-0a4a-4e28-b3f1-29ca119854a9")
 	)
 	(junction
+		(at 72.39 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac038fb7-23d7-4aa8-a0cc-aa4ff42eccf6")
+	)
+	(junction
 		(at 59.69 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1751,6 +1757,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a7922c-b504-4e5c-8c48-8da024a0bb00")
+	)
+	(junction
+		(at 78.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7890834-a6e4-4ecc-8b37-fbe59fecc655")
 	)
 	(junction
 		(at 132.08 68.58)
@@ -1793,6 +1805,16 @@
 			(type default)
 		)
 		(uuid "1261cadd-377d-4de0-a432-52a0c5a25d16")
+	)
+	(wire
+		(pts
+			(xy 72.39 66.04) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c849f7-0c51-4f97-946e-05148cb6a070")
 	)
 	(wire
 		(pts
@@ -1936,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 64.77) (xy 78.74 67.31)
+			(xy 78.74 64.77) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1963,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "7484c21e-ec71-46ef-ae28-d9f172fda707")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0b2dd6-a492-4f97-9b8f-8cd3db324e6f")
 	)
 	(wire
 		(pts
@@ -2106,6 +2138,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 66.04) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfffde3a-b61a-4733-9ddf-da39abd79e9e")
+	)
+	(wire
+		(pts
+			(xy 72.39 62.23) (xy 72.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b3a385-0691-47cd-b997-cf4d343b11ea")
+	)
+	(wire
+		(pts
 			(xy 186.69 72.39) (xy 194.31 72.39)
 		)
 		(stroke
@@ -2136,7 +2188,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 54.61) (xy 69.85 54.61)
+			(xy 78.74 54.61) (xy 72.39 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2331,6 +2383,88 @@
 				)
 				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
 					(reference "#PWR48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34548e59-b2ca-4a9a-badc-5e51d99969e4")
+		(property "Reference" "R36"
+			(at 74.93 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3k"
+			(at 74.93 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 74.168 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f670c2d-dad7-4ab2-bbe1-6f076dd7bde4")
+		)
+		(pin "2"
+			(uuid "24ab15fb-93c8-4234-ad15-34aae998fb11")
+		)
+		(instances
+			(project "mirte-master-bottom"
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/66b45c4b-8e15-4752-bd0a-963e95885d51"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/b9602611-d294-41a3-a7d4-5d870159613d"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/c9e28398-488a-47c9-85fd-446a05f82831"
+					(reference "R38")
+					(unit 1)
+				)
+				(path "/c479422a-501d-4123-8665-56a1c70bd9ea/15e76074-7fdd-433c-b518-bfaad427cf18/dae2003b-f49b-4b92-8a77-b6951156073a"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2766,7 +2900,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6e69399-ab39-4453-988c-3e1ece7e5edc")
 		(property "Reference" "D8"
 			(at 64.77 59.6899 90)
@@ -2778,7 +2911,7 @@
 			)
 		)
 		(property "Value" "DSK310_C28646289"
-			(at 64.77 62.2299 90)
+			(at 42.418 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
