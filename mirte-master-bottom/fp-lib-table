@@ -3,4 +3,5 @@
   (lib (name "raspberry_pi_pico")(type "KiCad")(uri "/home/arendjan/temp/mirte-pcb/mirte-master/libraries/raspberry_pi_pico")(options "")(descr ""))
   (lib (name "easyedap")(type "KiCad")(uri "/home/arendjan/temp/mirte-pcb/mirte-master/libraries/easyeda/easyeda.pretty")(options "")(descr ""))
   (lib (name "easyeda")(type "KiCad")(uri "/home/arendjan/temp/mirte-pcb/mirte-master/libraries/easyeda.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "/home/arendjan/temp/mirte-pcb/mirte-master/libraries/custom/Library.pretty")(options "")(descr ""))
 )
