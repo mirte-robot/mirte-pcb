@@ -1,0 +1,16 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\users\arendjan\My Documents\LTspiceXVII\lib\sym\ti431\TL431\TL431_test.net
+Start Time: Thu Oct 30 21:27:01 2025
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+.step 
+Total elapsed time: 0.019 seconds.
+
+Files loaded:
+C:\users\arendjan\My Documents\LTspiceXVII\lib\sym\ti431\TL431\TL431_test.net
+C:\users\arendjan\My Documents\LTspiceXVII\lib\sym\ti431\TL431\TL431.mod
+
