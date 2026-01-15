@@ -1,0 +1,7328 @@
+%!PS-Adobe-3.0
+%cupsJobTicket: media=Letter
+%cupsJobTicket: sides=one-sided
+%cupsJobTicket: AP_D_InputSlot=
+%%Creator: Wine PostScript Driver
+%%Title: pwrOnPCB.raw
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/tmpmtrx matrix def
+/hatch {
+  pathbbox
+  /b exch def /r exch def /t exch def /l exch def /gap 32 def
+  l cvi gap idiv gap mul
+  gap
+  r cvi gap idiv gap mul
+  {t moveto 0 b t sub rlineto}
+  for
+} bind def
+/B {pop pop pop pop} def
+/N {newpath} def
+/havetype42gdir {version cvi 2015 ge} bind def
+%%EndProlog
+%%BeginSetup
+mark {
+%%BeginFeature: *PageSize Letter
+<</PageSize[612 792]>>setpagedevice
+%%EndFeature
+} stopped cleartomark
+mark {
+%%BeginFeature: *Duplex None
+<</Duplex false>>setpagedevice
+%%EndFeature
+} stopped cleartomark
+%%EndSetup
+mark {
+%%BeginFeature: *PageSize Letter
+<</PageSize[612 792]>>setpagedevice
+%%EndFeature
+} stopped cleartomark
+%%Page: 1 1
+%%PageBoundingBox: 8 8 603 783
+%%PageOrientation: Portrait
+%%BeginPageSetup
+/pgsave save def
+72 600 div 72 600 div scale
+70 6529 translate
+1 -1 scale
+0 rotate
+%%EndPageSetup
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 6094 moveto
+195 6142 lineto
+stroke
+gsave
+149 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+25 dict begin
+ /FontName /Arial-BoldMT def
+ /Encoding 256 array 0 1 255{1 index exch /.notdef put} for def
+ /PaintType 0 def
+ /FontMatrix [1 2048 div 0 0 1 2048 div 0 0] def
+ /FontBBox [-1286 -771 4165 2146] def
+ /FontType 1 def
+ /Private 7 dict begin
+  /RD {string currentfile exch readhexstring pop} def
+  /ND {def} def
+  /NP {put} def
+  /MinFeature {16 16} def
+  /BlueValues [] def
+  /password 5839 def
+  /lenIV -1 def
+ currentdict end def
+ currentdict dup /Private get begin
+  /CharStrings 256 dict begin
+   /.notdef 4 RD 8b8b0d0e ND
+  currentdict end put
+ end
+currentdict end dup /FontName get exch definefont pop
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+149 6219 moveto
+%%glyph 0013
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/zero 191 RD
+e1ff000004730df870ff000005c015f7
+228bf70358db2608eafb0cbbfb5b8bfb
+aa088bfba95bfb5c2bfb0d083c27fb03
+5afb228a08fb238cfb07c134f7020834
+f7015ff7588bf7ad088bf7a8bbf75beb
+f70d08daeff703bdf7228b08098bfb7d
+15698b6d80707608707577647c530878
+4281fb0e8bfb40088bfb4094fb0a9c4b
+089c4aa160a67608a576a980ad8b08ad
+8ba996a6a108a6a09fb29ac3089ed395
+f70e8bf740088bf74082f70a7acc087a
+cb75b671a10870a06d96698b08090e
+ND
+end end
+/zero glyphshow
+195 6219 moveto
+%%glyph 0056
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/s 201 RD
+bbff000004730d8bf7c315f7aeb60597
+54a362b06f08b06ebe7dcd8b08d48bc1
+98b0a608a49e97a48baa088ba0849d7e
+99087d986c985a9608fb77bdfb23b94e
+b40837c461db8bf1088be7afd8d4ca08
+d4caf704aaf72d8b08f7258bf70073d2
+5c08d25cbb45a62e08fb9d5a0580b475
+ab6ca1086ba15e96508b08418b56816b
+7608767c80788b74088b77947a9e7d08
+a478e371f72a6908f72969f461c65a08
+c659a8458b32088b2a62373a45083a45
+fb0d69fb338a08fb258cfb06a737c608
+36c654da71f008090e
+ND
+end end
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+665 6094 moveto
+665 6142 lineto
+stroke
+gsave
+619 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+619 6219 moveto
+%%glyph 0014
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/one 53 RD
+f736ff000004730df9188b15fbad8b05
+8bfab705242bfb0d44fb1f5d088bf793
+05d4a3dbb9e1ce08e1cec6d9abe408f7
+788b05090e
+ND
+end end
+/one glyphshow
+665 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+1134 6094 moveto
+1134 6142 lineto
+stroke
+gsave
+1088 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+1088 6219 moveto
+%%glyph 0015
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/two 157 RD
+beff000004730dfa6df799158bfb9905
+fe6d8b0596eeabe8c0e408c0e3f5f709
+f731f72608f713f70ad8dba8b508b2c5
+9ec48bc4088bca7abb6aad0869ac5c9c
+508b08508b5d79686808686877508639
+08fbaca7059cf72fbff703e3ce08e3ce
+f702adf7188b08f7258bf70564de3d08
+de3db42a8bfb08088b497f4c74500873
+4f654c584a0869604e4c323a08323a53
+55747008737078717c7208090e
+ND
+end end
+/two glyphshow
+1134 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+1604 6094 moveto
+1604 6142 lineto
+stroke
+gsave
+1558 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+1558 6219 moveto
+%%glyph 0016
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/three 211 RD
+d8ff000004730d8bf81915f7a4ac0594
+46a256b16608b166b979c18b08c58bbc
+a1b3b708b2b79fc68bd6088bd278c365
+b40865b45da0548b08678b6084597d08
+aaf77905d789c59cb3ae08b3ae9fb98b
+c5088bbc7cb36ea8086ea8649a5a8b08
+5b8b627a696a08696a765a844b08fb97
+b7059de4a6d2b0c008afc0beb4ccaa08
+cca9d39adc8b08f71e8bf7035fde3308
+d043ad3a8b30088bfb154525fb213e08
+df79ce63be4c08bd4ca4408b32088bfb
+155cfb012d30082d30fb095ffb208a08
+fb198cfb02b034d80834d758ef7df70f
+08090e
+ND
+end end
+/three glyphshow
+1604 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+2073 6094 moveto
+2073 6142 lineto
+stroke
+gsave
+2027 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+2027 6219 moveto
+%%glyph 0017
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/four 69 RD
+b1ff000004730df8ec8b158bf7bb05fc
+ec8b058bf78a05f910fa3705f7808b05
+8bfe3605f74a8b058bfb8b05fb4a8b05
+8bfbbb0509fba4f8b2158bf88905fbe5
+fc8905090e
+ND
+end end
+/four glyphshow
+2073 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+2543 6094 moveto
+2543 6142 lineto
+stroke
+gsave
+2497 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+2497 6219 moveto
+%%glyph 0018
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/five 150 RD
+e6ff000004730d8bf80d15f7aca80593
+4ca359b26608b266b978be8b08c68bbc
+a3b4bb08b4ba9fd38beb088be577cf63
+b80862b857a14a8b083a8b43674b4408
+fb78ac05f724f98f05f97b8b058bfb9b
+05fca68b055ffb8d05caaacb9bcc8b08
+f7118bf45ee23008e230b6fb098bfb25
+088bfb0d6820452c082cfb15fb194bfb
+3d8a08fb1b8cfb03ae36d40836d458ec
+7af70f08090e
+ND
+end end
+/five glyphshow
+2543 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+3012 6094 moveto
+3012 6142 lineto
+stroke
+gsave
+2966 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+2966 6219 moveto
+%%glyph 0019
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/six 208 RD
+e2ff000004730dfa4cfae715fba46d05
+84c37ab46fa6086fa667985e8b08508b
+5970625608625671fb0380fb3d08d1de
+e2b4f38b08f7098bf05edf3208de32b5
+fb088bfb21088bfb2a5ffb0c33300833
+30fb055ffb1e8a08fb288cfb0ec42cf7
+07082cf7075bf7508bf79a088bf7a1bd
+f755eef70b08eef70bf715c6f7338b08
+f7038be86cd44d08d44cb9319ffb0b08
+09fd11fcf9158b30a044b55a08b559bb
+72c18b08bf8bb69faeb408aeb49ccd8b
+e8088bea78d166b80866b75ca1538b08
+558b5d766661086660784d8b3808090e
+ND
+end end
+/six glyphshow
+3012 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+3482 6094 moveto
+3482 6142 lineto
+stroke
+gsave
+3436 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+3436 6219 moveto
+%%glyph 001a
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/seven 82 RD
+e2ff000004730d8bff000004a1158bf7
+9905fa558b058bfb60053c3d3afb0439
+fb260839fb264dfb2f60fb380860fb39
+75fb278cfb1508fba38b0590f75fb5f7
+62daf76708daf767f4f750f718f73a08
+090e
+ND
+end end
+/seven glyphshow
+3482 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+3951 6094 moveto
+3951 6142 lineto
+stroke
+gsave
+3905 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+3905 6219 moveto
+%%glyph 001b
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/eight 262 RD
+deff000004730df789f9ab1542aa57b5
+6ac1086ac07ac68bcb088bf701b1e6d8
+d208d7d2f700aff7218b08f71f8bf701
+67d84408d844b1308bfb01088b47794f
+685608685659624b6f08dc6ac95cb64c
+08b54ca0438b39088bfb1b60fb023536
+083436fb0762fb238a08fb198cfb03ad
+32d10822de57f7058bf724088bda9fd4
+b2ce08b2cdc9bee0af0809c5f7af158b
+539b5fab6c08aa6cb57bc08b08c08bb6
+9babab08abaa9bb78bc3088bc07bb56c
+ab086baa619b578b08558b607b6b6b08
+6b6b7b618b56080971fd08158b3e9f4e
+b36008b260bd75c68b08c58bbba0b1b5
+08b1b49ec78bda088bd078c264b50864
+b45aa0508b08468b58736a5c08695c7a
+578b5408090e
+ND
+end end
+/eight glyphshow
+3951 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+4421 6094 moveto
+4421 6142 lineto
+stroke
+gsave
+4375 6142 moveto
+92 0 rlineto
+0 96 rlineto
+-92 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+4375 6219 moveto
+%%glyph 001c
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/nine 207 RD
+ccff000004730da7f7e715f7a4a90592
+549c62a77008a770b07eb98b08c58bbc
+a6b4c008b4c0a5f70396f73c08443933
+62218b08fb078b27b838e40837e461f7
+078bf723088bf729b7f70ce4e608e3e6
+f704b8f71d8b08f7298bf70e52eafb07
+08eafb07bbfb528bfb9b088bfba059fb
+5528fb0b0828fb0bfb1651fb338a08fb
+078c2fa944c80844c85ee677f70d0809
+f910f8fa158be676d162bd0861bd5ba4
+548b08578b607769620868627a478b2e
+088b2c9e46b05f08b05eba75c38b08c1
+8bb9a0b0b608b0b69dc98bde08090e
+ND
+end end
+/nine glyphshow
+4421 6219 moveto
+/s glyphshow
+0.00 0.00 0.00 setrgbcolor
+4890 6094 moveto
+4890 6142 lineto
+stroke
+gsave
+4821 6142 moveto
+138 0 rlineto
+0 96 rlineto
+-138 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+4821 6219 moveto
+/one glyphshow
+4867 6219 moveto
+/zero glyphshow
+4913 6219 moveto
+/s glyphshow
+gsave
+46 6046 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 6123 moveto
+/zero glyphshow
+92 6123 moveto
+%%glyph 0039
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/V 47 RD
+8aff000005560df8a08b15fca0ff0000
+05ba05f7d58b05f807fed105f7fbfad1
+05f7ce8b05fca1fffffffa4605090e
+ND
+end end
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 6094 moveto
+147 6094 lineto
+stroke
+gsave
+46 5551 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 5628 moveto
+/one glyphshow
+92 5628 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 5599 moveto
+147 5599 lineto
+stroke
+gsave
+46 5056 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 5133 moveto
+/two glyphshow
+92 5133 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 5104 moveto
+147 5104 lineto
+stroke
+gsave
+46 4561 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 4638 moveto
+/three glyphshow
+92 4638 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 4609 moveto
+147 4609 lineto
+stroke
+gsave
+46 4066 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 4143 moveto
+/four glyphshow
+92 4143 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 4114 moveto
+147 4114 lineto
+stroke
+gsave
+46 3571 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 3648 moveto
+/five glyphshow
+92 3648 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 3619 moveto
+147 3619 lineto
+stroke
+gsave
+46 3076 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 3153 moveto
+/six glyphshow
+92 3153 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 3124 moveto
+147 3124 lineto
+stroke
+gsave
+46 2580 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 2657 moveto
+/seven glyphshow
+92 2657 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 2628 moveto
+147 2628 lineto
+stroke
+gsave
+46 2085 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 2162 moveto
+/eight glyphshow
+92 2162 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 2133 moveto
+147 2133 lineto
+stroke
+gsave
+46 1590 moveto
+101 0 rlineto
+0 96 rlineto
+-101 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+46 1667 moveto
+/nine glyphshow
+92 1667 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 1638 moveto
+147 1638 lineto
+stroke
+gsave
+0 1095 moveto
+147 0 rlineto
+0 96 rlineto
+-147 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+0 1172 moveto
+/one glyphshow
+46 1172 moveto
+/zero glyphshow
+92 1172 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 1143 moveto
+147 1143 lineto
+stroke
+gsave
+0 600 moveto
+147 0 rlineto
+0 96 rlineto
+-147 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+0 677 moveto
+/one glyphshow
+46 677 moveto
+/one glyphshow
+92 677 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 648 moveto
+147 648 lineto
+stroke
+gsave
+0 105 moveto
+147 0 rlineto
+0 96 rlineto
+-147 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+0.00 0.00 0.00 setrgbcolor
+0 182 moveto
+/one glyphshow
+46 182 moveto
+/two glyphshow
+92 182 moveto
+/V glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 153 moveto
+147 153 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 153 moveto
+4890 153 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4890 153 moveto
+4890 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4890 6094 moveto
+195 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+195 6094 moveto
+195 153 lineto
+stroke
+gsave
+1248 14 moveto
+241 0 rlineto
+0 96 rlineto
+-241 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+1248 91 moveto
+/V glyphshow
+1303 91 moveto
+%%glyph 000b
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/parenleft 106 RD
+f6f93e0df88efc4315fb558b0525f72f
+3df73456f7390856f73a70f7358bf72f
+088bf755acf74acdf74008c4f729d4f7
+1ee3f71208f7548b0530fb5e4cfb4069
+fb210868fb227afb2a8bfb33088bfb01
+95fb04a0fb07089ffb07a7fb00ae2308
+a248b429c6fb1408090e
+ND
+end end
+/parenleft glyphshow
+1331 91 moveto
+%%glyph 0052
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/o 153 RD
+ddff000004e30d8bf8b6158be8a2e6b9
+e208b9e2cccee0b908dfb9e9a2f38b08
+f7358bf71757f22308f222befb188bfb
+33088bfb3557fb192422082321fb1757
+fb318a082a8c2ea133b60832b748cc5d
+e0085de074f28bf70e0809f7b47c158b
+22a43abd5308bd53c96fd48b08d48bc9
+a7bdc308bcc3a4dc8bf6088bf372db5a
+c30859c34da7428b08428b4d6f595308
+5953723a8b2208090e
+ND
+end end
+/o glyphshow
+1382 91 moveto
+%%glyph 0058
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/u 121 RD
+f721ff000004e30df9558b158bf73305
+6452595f4c6a084c6b487b458a08448c
+4b9a52aa0852aa62b772c40872c47ed9
+8bef088bf93405f7ad8b058bfc7c058b
+fb29902f966a0895699e70a67808a677
+ae81b58b08bb8bb698b1a608b1a5a5ac
+99b20899b292ea8bf72c088bf85405f7
+ad8b058bfeba05090e
+ND
+end end
+/u glyphshow
+1433 91 moveto
+%%glyph 0057
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/t 119 RD
+aaf93e0df8effaba158bfb7405fb548b
+058bfc40058b348d598f7d088e7c947f
+98820898829a869e8b08a58bb194bc9d
+08a3fb6e054a70417d388a08588c5e93
+629c08629c6ea178a60878a67daf84b9
+0885ac88cd8bee088bf86305fb158b05
+8bf77405f7158b058bf76705f7aef738
+058bfc0b05090e
+ND
+end end
+/t glyphshow
+1461 91 moveto
+%%glyph 000c
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/parenright 104 RD
+cef93e0d8dfc4315c2f70bb2e7a2ca08
+a2caa0d49edd089ede9ad994d60894d5
+90d78bd9088bf7337af72a69f7220869
+f7214cf74030f75e08f7538b05f0fb23
+d9fb2cc3fb3508c2fb35a7fb378bfb39
+088bfb1f75fb2a5ffb330859fb4639fb
+44fb07fb4308090e
+ND
+end end
+/parenright glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 261 moveto
+197 262 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+197 262 moveto
+197 758 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+197 758 moveto
+198 1163 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+198 1163 moveto
+198 1673 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+198 1673 moveto
+199 2150 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+199 2150 moveto
+200 2855 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+200 2855 moveto
+201 3538 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+201 3538 moveto
+203 4287 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+203 4287 moveto
+205 4972 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+205 4972 moveto
+207 5430 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+207 5430 moveto
+209 5688 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+209 5688 moveto
+212 5841 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+212 5841 moveto
+214 5936 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+214 5936 moveto
+216 5996 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+216 5996 moveto
+218 6034 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+218 6034 moveto
+220 6057 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+220 6057 moveto
+223 6071 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+223 6071 moveto
+225 6080 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+225 6080 moveto
+227 6085 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+227 6085 moveto
+229 6088 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+229 6088 moveto
+232 6091 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+232 6091 moveto
+234 6092 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+234 6092 moveto
+236 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+236 6093 moveto
+238 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+238 6093 moveto
+240 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+240 6093 moveto
+243 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+243 6094 moveto
+245 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+245 6094 moveto
+247 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+247 6094 moveto
+249 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+249 6094 moveto
+251 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+251 6094 moveto
+253 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+253 6094 moveto
+255 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+255 6094 moveto
+259 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+259 6094 moveto
+262 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+262 6094 moveto
+265 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+265 6094 moveto
+270 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+270 6094 moveto
+275 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+275 6094 moveto
+279 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+279 6094 moveto
+284 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+284 6094 moveto
+289 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+289 6094 moveto
+293 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+293 6094 moveto
+298 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+298 6094 moveto
+303 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+303 6094 moveto
+307 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+307 6094 moveto
+312 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+312 6094 moveto
+317 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+317 6094 moveto
+322 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+322 6094 moveto
+326 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+326 6094 moveto
+331 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+331 6094 moveto
+336 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+336 6094 moveto
+340 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+340 6094 moveto
+345 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+345 6094 moveto
+350 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+350 6094 moveto
+354 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+354 6094 moveto
+359 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+359 6094 moveto
+364 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+364 6094 moveto
+368 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+368 6094 moveto
+373 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+373 6094 moveto
+378 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+378 6094 moveto
+383 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+383 6094 moveto
+387 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+387 6094 moveto
+392 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+392 6094 moveto
+397 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+397 6094 moveto
+401 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+401 6094 moveto
+406 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+406 6094 moveto
+411 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+411 6094 moveto
+415 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+415 6094 moveto
+420 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+420 6094 moveto
+425 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+425 6094 moveto
+430 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+430 6094 moveto
+434 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+434 6094 moveto
+439 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+439 6094 moveto
+444 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+444 6094 moveto
+448 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+448 6094 moveto
+453 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+453 6094 moveto
+458 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+458 6094 moveto
+462 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+462 6094 moveto
+467 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+467 6094 moveto
+472 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+472 6094 moveto
+476 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+476 6094 moveto
+481 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+481 6094 moveto
+486 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+486 6094 moveto
+491 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+491 6094 moveto
+495 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+495 6094 moveto
+500 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+500 6094 moveto
+505 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+505 6094 moveto
+509 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+509 6094 moveto
+514 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+514 6094 moveto
+519 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+519 6094 moveto
+523 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+523 6094 moveto
+528 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+528 6094 moveto
+533 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+533 6094 moveto
+538 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+538 6094 moveto
+542 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+542 6094 moveto
+547 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+547 6094 moveto
+552 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+552 6094 moveto
+556 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+556 6094 moveto
+561 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+561 6094 moveto
+566 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+566 6094 moveto
+570 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+570 6094 moveto
+575 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+575 6094 moveto
+580 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+580 6094 moveto
+584 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+584 6094 moveto
+589 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+589 6094 moveto
+594 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+594 6094 moveto
+599 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+599 6094 moveto
+603 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+603 6094 moveto
+608 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+608 6094 moveto
+613 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+613 6094 moveto
+617 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+617 6094 moveto
+622 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+622 6094 moveto
+627 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+627 6094 moveto
+631 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+631 6094 moveto
+636 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+636 6094 moveto
+641 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+641 6094 moveto
+645 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+645 6094 moveto
+650 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+650 6094 moveto
+655 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+655 6094 moveto
+660 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+660 6094 moveto
+664 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+664 6094 moveto
+666 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+666 6094 moveto
+1134 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1134 6094 moveto
+1139 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1139 6094 moveto
+1143 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1143 6094 moveto
+1148 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1148 6094 moveto
+1153 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1153 6094 moveto
+1157 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1157 6094 moveto
+1160 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1160 6094 moveto
+1163 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1163 6094 moveto
+1166 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1166 6093 moveto
+1168 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1168 6093 moveto
+1171 6092 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1171 6092 moveto
+1174 6090 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1174 6090 moveto
+1176 6084 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1176 6084 moveto
+1178 6074 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1178 6074 moveto
+1181 6052 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1181 6052 moveto
+1183 6006 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1183 6006 moveto
+1185 5911 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1185 5911 moveto
+1188 5716 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1188 5716 moveto
+1190 5323 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1190 5323 moveto
+1193 4573 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1193 4573 moveto
+1196 3298 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1196 3298 moveto
+1197 3022 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1197 3022 moveto
+1198 2440 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1198 2440 moveto
+1198 2301 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1198 2301 moveto
+1199 1974 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1199 1974 moveto
+1199 1823 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1199 1823 moveto
+1200 1762 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1200 1762 moveto
+1200 253 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1200 253 moveto
+1201 251 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1201 251 moveto
+1203 248 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1203 248 moveto
+1205 240 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1205 240 moveto
+1210 226 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1210 226 moveto
+1215 215 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1215 215 moveto
+1219 211 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1219 211 moveto
+1224 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1224 210 moveto
+1228 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1228 210 moveto
+1233 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1233 210 moveto
+1237 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1237 210 moveto
+1242 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1242 210 moveto
+1247 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1247 210 moveto
+1251 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1251 210 moveto
+1256 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1256 210 moveto
+1261 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1261 210 moveto
+1265 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1265 210 moveto
+1270 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1270 210 moveto
+1275 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1275 210 moveto
+1280 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1280 210 moveto
+1284 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1284 210 moveto
+1289 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1289 210 moveto
+1294 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1294 210 moveto
+1298 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1298 210 moveto
+1303 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1303 210 moveto
+1308 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1308 210 moveto
+1312 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1312 210 moveto
+1317 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1317 210 moveto
+1322 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1322 210 moveto
+1326 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1326 210 moveto
+1331 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1331 210 moveto
+1336 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1336 210 moveto
+1341 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1341 210 moveto
+1345 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1345 210 moveto
+1350 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1350 210 moveto
+1355 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1355 210 moveto
+1359 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1359 210 moveto
+1364 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1364 210 moveto
+1369 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1369 210 moveto
+1373 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1373 210 moveto
+1378 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1378 210 moveto
+1383 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1383 210 moveto
+1388 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1388 210 moveto
+1392 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1392 210 moveto
+1397 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1397 210 moveto
+1402 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1402 210 moveto
+1406 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1406 210 moveto
+1411 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1411 210 moveto
+1416 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1416 210 moveto
+1420 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1420 210 moveto
+1425 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1425 210 moveto
+1430 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1430 210 moveto
+1434 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1434 210 moveto
+1439 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1439 210 moveto
+1444 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1444 210 moveto
+1449 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1449 210 moveto
+1453 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1453 210 moveto
+1458 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1458 210 moveto
+1463 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1463 210 moveto
+1467 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1467 210 moveto
+1472 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1472 210 moveto
+1477 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1477 210 moveto
+1481 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1481 210 moveto
+1486 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1486 210 moveto
+1491 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1491 210 moveto
+1496 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1496 210 moveto
+1500 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1500 210 moveto
+1505 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1505 210 moveto
+1510 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1510 210 moveto
+1514 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1514 210 moveto
+1519 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1519 210 moveto
+1524 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1524 210 moveto
+1528 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1528 210 moveto
+1533 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1533 210 moveto
+1538 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1538 210 moveto
+1542 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1542 210 moveto
+1547 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1547 210 moveto
+1552 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1552 210 moveto
+1557 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1557 210 moveto
+1561 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1561 210 moveto
+1566 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1566 210 moveto
+1571 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1571 210 moveto
+1575 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1575 210 moveto
+1580 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1580 210 moveto
+1585 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1585 210 moveto
+1589 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1589 210 moveto
+1594 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1594 210 moveto
+1599 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1599 210 moveto
+1603 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1603 210 moveto
+1608 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1608 210 moveto
+1613 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1613 210 moveto
+1618 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1618 210 moveto
+1622 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1622 210 moveto
+1627 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1627 210 moveto
+1632 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1632 210 moveto
+1636 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1636 210 moveto
+1641 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1641 210 moveto
+1646 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1646 210 moveto
+1650 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1650 210 moveto
+1655 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1655 210 moveto
+1660 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1660 210 moveto
+1665 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1665 210 moveto
+1669 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1669 210 moveto
+1674 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1674 210 moveto
+1679 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1679 210 moveto
+1683 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1683 210 moveto
+1688 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1688 210 moveto
+1693 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1693 210 moveto
+1697 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1697 210 moveto
+1702 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1702 210 moveto
+1707 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1707 210 moveto
+1711 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1711 210 moveto
+1716 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1716 210 moveto
+1721 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1721 210 moveto
+1726 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1726 210 moveto
+1730 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1730 210 moveto
+1735 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1735 210 moveto
+1740 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1740 210 moveto
+1744 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1744 210 moveto
+1749 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1749 210 moveto
+1754 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1754 210 moveto
+1758 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1758 210 moveto
+1763 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1763 210 moveto
+1768 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1768 210 moveto
+1773 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1773 210 moveto
+1777 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1777 210 moveto
+1782 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1782 210 moveto
+1787 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1787 210 moveto
+1791 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1791 210 moveto
+1796 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1796 210 moveto
+1801 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1801 210 moveto
+1805 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1805 210 moveto
+1810 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1810 210 moveto
+1815 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1815 210 moveto
+1819 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1819 210 moveto
+1824 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1824 210 moveto
+1829 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1829 210 moveto
+1834 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1834 210 moveto
+1838 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1838 210 moveto
+1843 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1843 210 moveto
+1848 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1848 210 moveto
+1852 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1852 210 moveto
+1857 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1857 210 moveto
+1873 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1873 210 moveto
+1888 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1888 210 moveto
+1904 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1904 210 moveto
+1919 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1919 210 moveto
+1934 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1934 210 moveto
+1950 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1950 210 moveto
+1965 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1965 210 moveto
+1981 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1981 210 moveto
+1996 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1996 210 moveto
+2012 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2012 210 moveto
+2027 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2027 210 moveto
+2043 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2043 210 moveto
+2058 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2058 210 moveto
+2074 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2074 210 moveto
+2089 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2089 210 moveto
+2105 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2105 210 moveto
+2120 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2120 210 moveto
+2136 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2136 210 moveto
+2151 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2151 210 moveto
+2167 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2167 210 moveto
+2172 210 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2172 210 moveto
+2176 211 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2176 211 moveto
+2181 216 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2181 216 moveto
+2186 228 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2186 228 moveto
+2190 242 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2190 242 moveto
+2195 252 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2195 252 moveto
+2200 258 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2200 258 moveto
+2204 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2204 261 moveto
+2209 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2209 261 moveto
+2214 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2214 261 moveto
+2219 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2219 261 moveto
+2223 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2223 261 moveto
+2228 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2228 261 moveto
+2233 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2233 261 moveto
+2237 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2237 261 moveto
+2242 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2242 261 moveto
+2247 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2247 261 moveto
+2251 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2251 261 moveto
+2256 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2256 261 moveto
+2261 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2261 261 moveto
+2265 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2265 261 moveto
+2270 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2270 261 moveto
+2275 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2275 261 moveto
+2280 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2280 261 moveto
+2284 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2284 261 moveto
+2289 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2289 261 moveto
+2294 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2294 261 moveto
+2298 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2298 261 moveto
+2303 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2303 261 moveto
+2308 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2308 261 moveto
+2312 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2312 261 moveto
+2317 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2317 261 moveto
+2322 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2322 261 moveto
+2327 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2327 261 moveto
+2331 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2331 261 moveto
+2336 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2336 261 moveto
+2341 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2341 261 moveto
+2345 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2345 261 moveto
+2350 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2350 261 moveto
+2355 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2355 261 moveto
+2359 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2359 261 moveto
+2364 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2364 261 moveto
+2369 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2369 261 moveto
+2373 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2373 261 moveto
+2378 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2378 261 moveto
+2383 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2383 261 moveto
+2388 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2388 261 moveto
+2392 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2392 261 moveto
+2397 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2397 261 moveto
+2402 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2402 261 moveto
+2406 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2406 261 moveto
+2411 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2411 261 moveto
+2416 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2416 261 moveto
+2420 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2420 261 moveto
+2425 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2425 261 moveto
+2430 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2430 261 moveto
+2435 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2435 261 moveto
+2439 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2439 261 moveto
+2444 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2444 261 moveto
+2449 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2449 261 moveto
+2453 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2453 261 moveto
+2458 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2458 261 moveto
+2463 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2463 261 moveto
+2467 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2467 261 moveto
+2472 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2472 261 moveto
+2477 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2477 261 moveto
+2481 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2481 261 moveto
+2486 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2486 261 moveto
+2491 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2491 261 moveto
+2496 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2496 261 moveto
+2523 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2523 261 moveto
+2550 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2550 261 moveto
+2577 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2577 261 moveto
+2604 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2604 261 moveto
+2631 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2631 261 moveto
+2658 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2658 261 moveto
+2685 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2685 261 moveto
+2712 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2712 261 moveto
+2739 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2739 261 moveto
+2766 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2766 261 moveto
+2793 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2793 261 moveto
+2820 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2820 261 moveto
+2847 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2847 261 moveto
+2873 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2873 261 moveto
+2900 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2900 261 moveto
+2927 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2927 261 moveto
+2954 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2954 261 moveto
+2981 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2981 261 moveto
+3008 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3008 261 moveto
+3035 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3035 261 moveto
+3477 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3477 261 moveto
+3481 261 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3481 261 moveto
+3482 823 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3482 823 moveto
+3483 1260 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3483 1260 moveto
+3483 2085 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3483 2085 moveto
+3484 2201 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3484 2201 moveto
+3484 2839 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3484 2839 moveto
+3485 3025 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3485 3025 moveto
+3485 3231 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3485 3231 moveto
+3486 3605 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3486 3605 moveto
+3486 3854 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3486 3854 moveto
+3487 4072 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3487 4072 moveto
+3487 4357 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3487 4357 moveto
+3488 4454 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3488 4454 moveto
+3488 4630 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3488 4630 moveto
+3489 4918 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3489 4918 moveto
+3492 5340 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3492 5340 moveto
+3494 5657 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3494 5657 moveto
+3496 5833 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3496 5833 moveto
+3499 5932 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3499 5932 moveto
+3501 5992 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3501 5992 moveto
+3503 6031 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3503 6031 moveto
+3505 6055 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3505 6055 moveto
+3507 6070 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3507 6070 moveto
+3510 6079 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3510 6079 moveto
+3512 6085 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3512 6085 moveto
+3514 6088 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3514 6088 moveto
+3516 6090 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3516 6090 moveto
+3518 6092 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3518 6092 moveto
+3521 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3521 6093 moveto
+3523 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3523 6093 moveto
+3525 6093 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3525 6093 moveto
+3527 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3527 6094 moveto
+3530 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3530 6094 moveto
+3532 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3532 6094 moveto
+3534 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3534 6094 moveto
+3536 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3536 6094 moveto
+3538 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3538 6094 moveto
+3540 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3540 6094 moveto
+3543 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3543 6094 moveto
+3547 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3547 6094 moveto
+3551 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3551 6094 moveto
+3555 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3555 6094 moveto
+3560 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3560 6094 moveto
+3565 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3565 6094 moveto
+3569 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3569 6094 moveto
+3574 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3574 6094 moveto
+3579 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3579 6094 moveto
+3583 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3583 6094 moveto
+3588 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3588 6094 moveto
+3593 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3593 6094 moveto
+3598 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3598 6094 moveto
+3602 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3602 6094 moveto
+3607 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3607 6094 moveto
+3612 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3612 6094 moveto
+3616 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3616 6094 moveto
+3621 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3621 6094 moveto
+3626 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3626 6094 moveto
+3630 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3630 6094 moveto
+3635 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3635 6094 moveto
+3640 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3640 6094 moveto
+3645 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3645 6094 moveto
+3649 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3649 6094 moveto
+3654 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3654 6094 moveto
+3659 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3659 6094 moveto
+3663 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3663 6094 moveto
+3668 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3668 6094 moveto
+3673 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3673 6094 moveto
+3677 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3677 6094 moveto
+3682 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3682 6094 moveto
+3687 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3687 6094 moveto
+3691 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3691 6094 moveto
+3696 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3696 6094 moveto
+3701 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3701 6094 moveto
+3706 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3706 6094 moveto
+3710 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3710 6094 moveto
+3715 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3715 6094 moveto
+3720 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3720 6094 moveto
+3724 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3724 6094 moveto
+3729 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3729 6094 moveto
+3734 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3734 6094 moveto
+3738 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3738 6094 moveto
+3743 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3743 6094 moveto
+3748 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3748 6094 moveto
+3752 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3752 6094 moveto
+3757 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3757 6094 moveto
+3762 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3762 6094 moveto
+3767 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3767 6094 moveto
+3771 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3771 6094 moveto
+3776 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3776 6094 moveto
+3781 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3781 6094 moveto
+3785 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3785 6094 moveto
+3790 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3790 6094 moveto
+3795 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3795 6094 moveto
+3799 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3799 6094 moveto
+3804 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3804 6094 moveto
+3809 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3809 6094 moveto
+3814 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3814 6094 moveto
+3818 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3818 6094 moveto
+3823 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3823 6094 moveto
+3828 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3828 6094 moveto
+3832 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3832 6094 moveto
+3837 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3837 6094 moveto
+3842 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3842 6094 moveto
+3846 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3846 6094 moveto
+3851 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3851 6094 moveto
+3856 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3856 6094 moveto
+3860 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3860 6094 moveto
+3865 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3865 6094 moveto
+3870 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3870 6094 moveto
+3875 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3875 6094 moveto
+3879 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3879 6094 moveto
+3884 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3884 6094 moveto
+3889 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3889 6094 moveto
+3893 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3893 6094 moveto
+3898 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3898 6094 moveto
+3903 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3903 6094 moveto
+3907 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3907 6094 moveto
+3912 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3912 6094 moveto
+3917 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3917 6094 moveto
+3922 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3922 6094 moveto
+3926 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3926 6094 moveto
+3931 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3931 6094 moveto
+3936 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3936 6094 moveto
+3940 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3940 6094 moveto
+3945 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3945 6094 moveto
+3950 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3950 6094 moveto
+3954 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3954 6094 moveto
+3959 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3959 6094 moveto
+3964 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3964 6094 moveto
+3968 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3968 6094 moveto
+3973 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3973 6094 moveto
+3978 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3978 6094 moveto
+3983 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3983 6094 moveto
+3987 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3987 6094 moveto
+3992 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3992 6094 moveto
+3997 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3997 6094 moveto
+4001 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4001 6094 moveto
+4006 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4006 6094 moveto
+4011 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4011 6094 moveto
+4015 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4015 6094 moveto
+4020 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4020 6094 moveto
+4025 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4025 6094 moveto
+4029 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4029 6094 moveto
+4034 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4034 6094 moveto
+4039 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4039 6094 moveto
+4044 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4044 6094 moveto
+4048 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4048 6094 moveto
+4053 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4053 6094 moveto
+4058 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4058 6094 moveto
+4062 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4062 6094 moveto
+4067 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4067 6094 moveto
+4072 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4072 6094 moveto
+4076 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4076 6094 moveto
+4081 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4081 6094 moveto
+4086 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4086 6094 moveto
+4091 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4091 6094 moveto
+4095 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4095 6094 moveto
+4100 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4100 6094 moveto
+4105 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4105 6094 moveto
+4109 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4109 6094 moveto
+4114 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4114 6094 moveto
+4119 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4119 6094 moveto
+4123 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4123 6094 moveto
+4128 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4128 6094 moveto
+4133 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4133 6094 moveto
+4137 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4137 6094 moveto
+4142 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4142 6094 moveto
+4147 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4147 6094 moveto
+4152 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4152 6094 moveto
+4156 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4156 6094 moveto
+4161 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4161 6094 moveto
+4166 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4166 6094 moveto
+4170 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4170 6094 moveto
+4175 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4175 6094 moveto
+4180 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4180 6094 moveto
+4184 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4184 6094 moveto
+4189 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4189 6094 moveto
+4194 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4194 6094 moveto
+4199 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4199 6094 moveto
+4203 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4203 6094 moveto
+4208 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4208 6094 moveto
+4213 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4213 6094 moveto
+4217 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4217 6094 moveto
+4222 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4222 6094 moveto
+4227 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4227 6094 moveto
+4231 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4231 6094 moveto
+4236 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4236 6094 moveto
+4241 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4241 6094 moveto
+4245 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4245 6094 moveto
+4250 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4250 6094 moveto
+4255 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4255 6094 moveto
+4260 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4260 6094 moveto
+4264 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4264 6094 moveto
+4269 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4269 6094 moveto
+4274 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4274 6094 moveto
+4278 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4278 6094 moveto
+4283 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4283 6094 moveto
+4288 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4288 6094 moveto
+4292 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4292 6094 moveto
+4297 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4297 6094 moveto
+4302 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4302 6094 moveto
+4306 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4306 6094 moveto
+4311 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4311 6094 moveto
+4316 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4316 6094 moveto
+4321 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4321 6094 moveto
+4325 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4325 6094 moveto
+4330 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4330 6094 moveto
+4335 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4335 6094 moveto
+4339 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4339 6094 moveto
+4344 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4344 6094 moveto
+4349 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4349 6094 moveto
+4353 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4353 6094 moveto
+4358 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4358 6094 moveto
+4363 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4363 6094 moveto
+4368 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4368 6094 moveto
+4372 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4372 6094 moveto
+4377 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4377 6094 moveto
+4382 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4382 6094 moveto
+4386 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4386 6094 moveto
+4391 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4391 6094 moveto
+4396 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4396 6094 moveto
+4400 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4400 6094 moveto
+4405 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4405 6094 moveto
+4410 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4410 6094 moveto
+4414 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4414 6094 moveto
+4419 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4419 6094 moveto
+4424 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4424 6094 moveto
+4429 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4429 6094 moveto
+4433 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4433 6094 moveto
+4438 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4438 6094 moveto
+4443 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4443 6094 moveto
+4447 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4447 6094 moveto
+4452 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4452 6094 moveto
+4457 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4457 6094 moveto
+4461 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4461 6094 moveto
+4466 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4466 6094 moveto
+4471 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4471 6094 moveto
+4476 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4476 6094 moveto
+4480 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4480 6094 moveto
+4485 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4485 6094 moveto
+4490 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4490 6094 moveto
+4494 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4494 6094 moveto
+4499 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4499 6094 moveto
+4504 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4504 6094 moveto
+4508 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4508 6094 moveto
+4513 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4513 6094 moveto
+4518 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4518 6094 moveto
+4522 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4522 6094 moveto
+4527 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4527 6094 moveto
+4532 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4532 6094 moveto
+4537 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4537 6094 moveto
+4541 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4541 6094 moveto
+4546 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4546 6094 moveto
+4551 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4551 6094 moveto
+4555 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4555 6094 moveto
+4560 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4560 6094 moveto
+4565 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4565 6094 moveto
+4569 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4569 6094 moveto
+4574 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4574 6094 moveto
+4579 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4579 6094 moveto
+4584 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4584 6094 moveto
+4588 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4588 6094 moveto
+4593 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4593 6094 moveto
+4598 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4598 6094 moveto
+4602 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4602 6094 moveto
+4607 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4607 6094 moveto
+4612 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4612 6094 moveto
+4616 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4616 6094 moveto
+4621 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4621 6094 moveto
+4626 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4626 6094 moveto
+4630 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4630 6094 moveto
+4635 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4635 6094 moveto
+4640 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4640 6094 moveto
+4645 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4645 6094 moveto
+4649 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4649 6094 moveto
+4654 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4654 6094 moveto
+4659 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4659 6094 moveto
+4663 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4663 6094 moveto
+4668 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4668 6094 moveto
+4673 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4673 6094 moveto
+4677 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4677 6094 moveto
+4682 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4682 6094 moveto
+4687 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4687 6094 moveto
+4691 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4691 6094 moveto
+4696 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4696 6094 moveto
+4701 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4701 6094 moveto
+4706 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4706 6094 moveto
+4710 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4710 6094 moveto
+4715 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4715 6094 moveto
+4720 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4720 6094 moveto
+4724 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4724 6094 moveto
+4729 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4729 6094 moveto
+4734 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4734 6094 moveto
+4738 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4738 6094 moveto
+4743 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4743 6094 moveto
+4748 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4748 6094 moveto
+4753 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4753 6094 moveto
+4757 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4757 6094 moveto
+4762 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4762 6094 moveto
+4767 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4767 6094 moveto
+4771 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4771 6094 moveto
+4776 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4776 6094 moveto
+4781 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4781 6094 moveto
+4785 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4785 6094 moveto
+4790 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4790 6094 moveto
+4795 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4795 6094 moveto
+4799 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4799 6094 moveto
+4804 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4804 6094 moveto
+4809 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4809 6094 moveto
+4814 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4814 6094 moveto
+4818 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4818 6094 moveto
+4823 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4823 6094 moveto
+4828 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4828 6094 moveto
+4832 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4832 6094 moveto
+4837 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4837 6094 moveto
+4842 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4842 6094 moveto
+4846 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4846 6094 moveto
+4851 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4851 6094 moveto
+4856 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4856 6094 moveto
+4861 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4861 6094 moveto
+4865 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4865 6094 moveto
+4870 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4870 6094 moveto
+4875 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4875 6094 moveto
+4879 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4879 6094 moveto
+4884 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4884 6094 moveto
+4889 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4889 6094 moveto
+4890 6094 lineto
+stroke
+gsave
+3565 14 moveto
+300 0 rlineto
+0 96 rlineto
+-300 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+3565 91 moveto
+/V glyphshow
+3620 91 moveto
+/parenleft glyphshow
+3648 91 moveto
+%%glyph 0051
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/n 124 RD
+f725ff000004e30dfa5c8b15fbad8b05
+8bf8b2058bf70785d57fad087fac78a5
+709e08709e6a94658b085a8b607e6470
+08647071687d5f087c5f843a8bfb0b08
+8bfc7505fbad8b058bfaba05f7998b05
+8bfb3005e8f70cf708c7f7218b08c98b
+c480be7508be74b26fa66808a5689d64
+965f08955f904c8b3908090e
+ND
+end end
+/n glyphshow
+3699 91 moveto
+/zero glyphshow
+3745 91 moveto
+/zero glyphshow
+3791 91 moveto
+/eight glyphshow
+3837 91 moveto
+/parenright glyphshow
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[] 0 setdash
+195 4990 moveto
+196 4997 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+196 4997 moveto
+196 5011 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+196 5011 moveto
+197 5023 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+197 5023 moveto
+197 5855 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+197 5855 moveto
+198 6037 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+198 6037 moveto
+198 6090 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+198 6090 moveto
+199 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+199 6094 moveto
+201 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+201 6094 moveto
+203 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+203 6094 moveto
+205 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+205 6094 moveto
+207 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+207 6094 moveto
+209 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+209 6094 moveto
+212 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+212 6094 moveto
+214 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+214 6094 moveto
+216 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+216 6094 moveto
+218 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+218 6094 moveto
+220 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+220 6094 moveto
+223 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+223 6094 moveto
+225 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+225 6094 moveto
+227 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+227 6094 moveto
+229 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+229 6094 moveto
+232 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+232 6094 moveto
+234 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+234 6094 moveto
+236 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+236 6094 moveto
+238 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+238 6094 moveto
+240 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+240 6094 moveto
+243 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+243 6094 moveto
+245 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+245 6094 moveto
+247 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+247 6094 moveto
+249 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+249 6094 moveto
+251 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+251 6094 moveto
+253 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+253 6094 moveto
+255 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+255 6094 moveto
+259 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+259 6094 moveto
+262 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+262 6094 moveto
+265 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+265 6094 moveto
+270 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+270 6094 moveto
+275 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+275 6094 moveto
+279 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+279 6094 moveto
+284 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+284 6094 moveto
+289 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+289 6094 moveto
+293 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+293 6094 moveto
+298 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+298 6094 moveto
+303 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+303 6094 moveto
+307 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+307 6094 moveto
+312 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+312 6094 moveto
+317 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+317 6094 moveto
+322 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+322 6094 moveto
+326 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+326 6094 moveto
+331 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+331 6094 moveto
+336 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+336 6094 moveto
+340 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+340 6094 moveto
+345 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+345 6094 moveto
+350 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+350 6094 moveto
+354 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+354 6094 moveto
+359 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+359 6094 moveto
+364 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+364 6094 moveto
+368 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+368 6094 moveto
+373 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+373 6094 moveto
+378 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+378 6094 moveto
+383 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+383 6094 moveto
+387 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+387 6094 moveto
+392 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+392 6094 moveto
+397 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+397 6094 moveto
+401 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+401 6094 moveto
+406 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+406 6094 moveto
+411 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+411 6094 moveto
+415 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+415 6094 moveto
+420 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+420 6094 moveto
+425 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+425 6094 moveto
+430 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+430 6094 moveto
+434 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+434 6094 moveto
+439 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+439 6094 moveto
+444 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+444 6094 moveto
+448 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+448 6094 moveto
+453 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+453 6094 moveto
+458 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+458 6094 moveto
+462 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+462 6094 moveto
+467 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+467 6094 moveto
+472 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+472 6094 moveto
+476 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+476 6094 moveto
+481 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+481 6094 moveto
+486 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+486 6094 moveto
+491 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+491 6094 moveto
+495 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+495 6094 moveto
+500 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+500 6094 moveto
+505 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+505 6094 moveto
+509 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+509 6094 moveto
+514 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+514 6094 moveto
+519 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+519 6094 moveto
+523 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+523 6094 moveto
+528 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+528 6094 moveto
+533 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+533 6094 moveto
+538 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+538 6094 moveto
+542 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+542 6094 moveto
+547 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+547 6094 moveto
+552 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+552 6094 moveto
+556 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+556 6094 moveto
+561 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+561 6094 moveto
+566 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+566 6094 moveto
+570 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+570 6094 moveto
+575 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+575 6094 moveto
+580 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+580 6094 moveto
+584 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+584 6094 moveto
+589 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+589 6094 moveto
+594 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+594 6094 moveto
+599 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+599 6094 moveto
+603 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+603 6094 moveto
+608 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+608 6094 moveto
+613 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+613 6094 moveto
+617 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+617 6094 moveto
+622 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+622 6094 moveto
+627 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+627 6094 moveto
+631 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+631 6094 moveto
+636 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+636 6094 moveto
+641 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+641 6094 moveto
+645 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+645 6094 moveto
+650 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+650 6094 moveto
+655 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+655 6094 moveto
+660 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+660 6094 moveto
+664 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+664 6094 moveto
+666 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+666 6094 moveto
+1134 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1134 6094 moveto
+1139 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1139 6094 moveto
+1143 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1143 6094 moveto
+1148 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1148 6094 moveto
+1153 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1153 6094 moveto
+1157 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1157 6094 moveto
+1160 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1160 6094 moveto
+1163 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1163 6094 moveto
+1166 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1166 6094 moveto
+1168 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1168 6094 moveto
+1171 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1171 6094 moveto
+1174 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1174 6094 moveto
+1176 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1176 6094 moveto
+1178 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1178 6094 moveto
+1181 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1181 6094 moveto
+1183 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1183 6094 moveto
+1185 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1185 6094 moveto
+1188 6090 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1188 6090 moveto
+1190 6036 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1190 6036 moveto
+1193 5846 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1193 5846 moveto
+1196 5468 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1196 5468 moveto
+1197 5384 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1197 5384 moveto
+1198 5206 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1198 5206 moveto
+1198 5163 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1198 5163 moveto
+1199 5062 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1199 5062 moveto
+1199 5016 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1199 5016 moveto
+1200 4997 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1200 4997 moveto
+1200 4958 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1200 4958 moveto
+1200 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1200 4990 moveto
+1203 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1203 4990 moveto
+1205 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1205 4990 moveto
+1210 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1210 4990 moveto
+1215 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1215 4990 moveto
+1219 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1219 4990 moveto
+1224 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1224 4990 moveto
+1228 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1228 4990 moveto
+1233 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1233 4990 moveto
+1237 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1237 4990 moveto
+1242 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1242 4990 moveto
+1247 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1247 4990 moveto
+1251 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1251 4990 moveto
+1256 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1256 4990 moveto
+1261 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1261 4990 moveto
+1265 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1265 4990 moveto
+1270 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1270 4990 moveto
+1275 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1275 4990 moveto
+1280 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1280 4990 moveto
+1284 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1284 4990 moveto
+1289 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1289 4990 moveto
+1294 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1294 4990 moveto
+1298 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1298 4990 moveto
+1303 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1303 4990 moveto
+1308 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1308 4990 moveto
+1312 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1312 4990 moveto
+1317 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1317 4990 moveto
+1322 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1322 4990 moveto
+1326 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1326 4990 moveto
+1331 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1331 4990 moveto
+1336 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1336 4990 moveto
+1341 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1341 4990 moveto
+1345 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1345 4990 moveto
+1350 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1350 4990 moveto
+1355 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1355 4990 moveto
+1359 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1359 4990 moveto
+1364 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1364 4990 moveto
+1369 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1369 4990 moveto
+1373 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1373 4990 moveto
+1378 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1378 4990 moveto
+1383 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1383 4990 moveto
+1388 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1388 4990 moveto
+1392 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1392 4990 moveto
+1397 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1397 4990 moveto
+1402 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1402 4990 moveto
+1406 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1406 4990 moveto
+1411 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1411 4990 moveto
+1416 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1416 4990 moveto
+1420 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1420 4990 moveto
+1425 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1425 4990 moveto
+1430 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1430 4990 moveto
+1434 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1434 4990 moveto
+1439 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1439 4990 moveto
+1444 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1444 4990 moveto
+1449 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1449 4990 moveto
+1453 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1453 4990 moveto
+1458 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1458 4990 moveto
+1463 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1463 4990 moveto
+1467 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1467 4990 moveto
+1472 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1472 4990 moveto
+1477 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1477 4990 moveto
+1481 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1481 4990 moveto
+1486 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1486 4990 moveto
+1491 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1491 4990 moveto
+1496 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1496 4990 moveto
+1500 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1500 4990 moveto
+1505 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1505 4990 moveto
+1510 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1510 4990 moveto
+1514 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1514 4990 moveto
+1519 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1519 4990 moveto
+1524 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1524 4990 moveto
+1528 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1528 4990 moveto
+1533 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1533 4990 moveto
+1538 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1538 4990 moveto
+1542 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1542 4990 moveto
+1547 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1547 4990 moveto
+1552 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1552 4990 moveto
+1557 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1557 4990 moveto
+1561 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1561 4990 moveto
+1566 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1566 4990 moveto
+1571 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1571 4990 moveto
+1575 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1575 4990 moveto
+1580 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1580 4990 moveto
+1585 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1585 4990 moveto
+1589 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1589 4990 moveto
+1594 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1594 4990 moveto
+1599 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1599 4990 moveto
+1603 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1603 4990 moveto
+1608 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1608 4990 moveto
+1613 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1613 4990 moveto
+1618 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1618 4990 moveto
+1622 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1622 4990 moveto
+1627 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1627 4990 moveto
+1632 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1632 4990 moveto
+1636 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1636 4990 moveto
+1641 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1641 4990 moveto
+1646 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1646 4990 moveto
+1650 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1650 4990 moveto
+1655 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1655 4990 moveto
+1660 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1660 4990 moveto
+1665 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1665 4990 moveto
+1669 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1669 4990 moveto
+1674 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1674 4990 moveto
+1679 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1679 4990 moveto
+1683 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1683 4990 moveto
+1688 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1688 4990 moveto
+1693 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1693 4990 moveto
+1697 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1697 4990 moveto
+1702 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1702 4990 moveto
+1707 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1707 4990 moveto
+1711 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1711 4990 moveto
+1716 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1716 4990 moveto
+1721 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1721 4990 moveto
+1726 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1726 4990 moveto
+1730 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1730 4990 moveto
+1735 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1735 4990 moveto
+1740 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1740 4990 moveto
+1744 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1744 4990 moveto
+1749 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1749 4990 moveto
+1754 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1754 4990 moveto
+1758 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1758 4990 moveto
+1763 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1763 4990 moveto
+1768 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1768 4990 moveto
+1773 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1773 4990 moveto
+1777 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1777 4990 moveto
+1782 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1782 4990 moveto
+1787 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1787 4990 moveto
+1791 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1791 4990 moveto
+1796 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1796 4990 moveto
+1801 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1801 4990 moveto
+1805 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1805 4990 moveto
+1810 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1810 4990 moveto
+1815 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1815 4990 moveto
+1819 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1819 4990 moveto
+1824 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1824 4990 moveto
+1829 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1829 4990 moveto
+1834 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1834 4990 moveto
+1838 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1838 4990 moveto
+1843 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1843 4990 moveto
+1848 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1848 4990 moveto
+1852 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1852 4990 moveto
+1857 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1857 4990 moveto
+1873 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1873 4990 moveto
+1888 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1888 4990 moveto
+1904 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1904 4990 moveto
+1919 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1919 4990 moveto
+1934 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1934 4990 moveto
+1950 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1950 4990 moveto
+1965 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1965 4990 moveto
+1981 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1981 4990 moveto
+1996 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1996 4990 moveto
+2012 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2012 4990 moveto
+2027 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2027 4990 moveto
+2043 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2043 4990 moveto
+2058 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2058 4990 moveto
+2074 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2074 4990 moveto
+2089 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2089 4990 moveto
+2105 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2105 4990 moveto
+2120 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2120 4990 moveto
+2136 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2136 4990 moveto
+2151 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2151 4990 moveto
+2167 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2167 4990 moveto
+2172 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2172 4990 moveto
+2176 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2176 4990 moveto
+2181 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2181 4990 moveto
+2186 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2186 4990 moveto
+2190 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2190 4990 moveto
+2195 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2195 4990 moveto
+2200 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2200 4990 moveto
+2204 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2204 4990 moveto
+2209 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2209 4990 moveto
+2214 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2214 4990 moveto
+2219 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2219 4990 moveto
+2223 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2223 4990 moveto
+2228 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2228 4990 moveto
+2233 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2233 4990 moveto
+2237 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2237 4990 moveto
+2242 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2242 4990 moveto
+2247 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2247 4990 moveto
+2251 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2251 4990 moveto
+2256 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2256 4990 moveto
+2261 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2261 4990 moveto
+2265 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2265 4990 moveto
+2270 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2270 4990 moveto
+2275 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2275 4990 moveto
+2280 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2280 4990 moveto
+2284 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2284 4990 moveto
+2289 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2289 4990 moveto
+2294 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2294 4990 moveto
+2298 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2298 4990 moveto
+2303 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2303 4990 moveto
+2308 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2308 4990 moveto
+2312 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2312 4990 moveto
+2317 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2317 4990 moveto
+2322 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2322 4990 moveto
+2327 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2327 4990 moveto
+2331 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2331 4990 moveto
+2336 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2336 4990 moveto
+2341 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2341 4990 moveto
+2345 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2345 4990 moveto
+2350 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2350 4990 moveto
+2355 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2355 4990 moveto
+2359 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2359 4990 moveto
+2364 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2364 4990 moveto
+2369 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2369 4990 moveto
+2373 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2373 4990 moveto
+2378 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2378 4990 moveto
+2383 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2383 4990 moveto
+2388 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2388 4990 moveto
+2392 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2392 4990 moveto
+2397 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2397 4990 moveto
+2402 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2402 4990 moveto
+2406 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2406 4990 moveto
+2411 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2411 4990 moveto
+2416 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2416 4990 moveto
+2420 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2420 4990 moveto
+2425 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2425 4990 moveto
+2430 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2430 4990 moveto
+2435 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2435 4990 moveto
+2439 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2439 4990 moveto
+2444 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2444 4990 moveto
+2449 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2449 4990 moveto
+2453 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2453 4990 moveto
+2458 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2458 4990 moveto
+2463 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2463 4990 moveto
+2467 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2467 4990 moveto
+2472 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2472 4990 moveto
+2477 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2477 4990 moveto
+2481 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2481 4990 moveto
+2486 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2486 4990 moveto
+2491 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2491 4990 moveto
+2496 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2496 4990 moveto
+2523 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2523 4990 moveto
+2550 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2550 4990 moveto
+2577 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2577 4990 moveto
+2604 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2604 4990 moveto
+2631 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2631 4990 moveto
+2658 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2658 4990 moveto
+2685 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2685 4990 moveto
+2712 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2712 4990 moveto
+2739 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2739 4990 moveto
+2766 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2766 4990 moveto
+2793 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2793 4990 moveto
+2820 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2820 4990 moveto
+2847 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2847 4990 moveto
+2873 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2873 4990 moveto
+2900 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2900 4990 moveto
+2927 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2927 4990 moveto
+2954 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2954 4990 moveto
+2981 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+2981 4990 moveto
+3008 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3008 4990 moveto
+3035 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3035 4990 moveto
+3477 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3477 4990 moveto
+3481 4990 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3481 4990 moveto
+3482 4996 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3482 4996 moveto
+3482 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3482 6094 moveto
+3484 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3484 6094 moveto
+3486 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3486 6094 moveto
+3487 5755 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3487 5755 moveto
+3487 5789 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3487 5789 moveto
+3488 5819 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3488 5819 moveto
+3488 5871 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3488 5871 moveto
+3489 5952 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3489 5952 moveto
+3492 6050 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3492 6050 moveto
+3494 6089 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3494 6089 moveto
+3496 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3496 6094 moveto
+3499 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3499 6094 moveto
+3501 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3501 6094 moveto
+3503 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3503 6094 moveto
+3505 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3505 6094 moveto
+3507 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3507 6094 moveto
+3510 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3510 6094 moveto
+3512 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3512 6094 moveto
+3514 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3514 6094 moveto
+3516 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3516 6094 moveto
+3518 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3518 6094 moveto
+3521 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3521 6094 moveto
+3523 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3523 6094 moveto
+3525 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3525 6094 moveto
+3527 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3527 6094 moveto
+3530 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3530 6094 moveto
+3532 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3532 6094 moveto
+3534 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3534 6094 moveto
+3536 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3536 6094 moveto
+3538 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3538 6094 moveto
+3540 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3540 6094 moveto
+3543 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3543 6094 moveto
+3547 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3547 6094 moveto
+3551 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3551 6094 moveto
+3555 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3555 6094 moveto
+3560 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3560 6094 moveto
+3565 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3565 6094 moveto
+3569 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3569 6094 moveto
+3574 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3574 6094 moveto
+3579 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3579 6094 moveto
+3583 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3583 6094 moveto
+3588 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3588 6094 moveto
+3593 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3593 6094 moveto
+3598 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3598 6094 moveto
+3602 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3602 6094 moveto
+3607 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3607 6094 moveto
+3612 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3612 6094 moveto
+3616 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3616 6094 moveto
+3621 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3621 6094 moveto
+3626 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3626 6094 moveto
+3630 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3630 6094 moveto
+3635 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3635 6094 moveto
+3640 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3640 6094 moveto
+3645 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3645 6094 moveto
+3649 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3649 6094 moveto
+3654 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3654 6094 moveto
+3659 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3659 6094 moveto
+3663 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3663 6094 moveto
+3668 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3668 6094 moveto
+3673 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3673 6094 moveto
+3677 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3677 6094 moveto
+3682 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3682 6094 moveto
+3687 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3687 6094 moveto
+3691 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3691 6094 moveto
+3696 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3696 6094 moveto
+3701 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3701 6094 moveto
+3706 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3706 6094 moveto
+3710 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3710 6094 moveto
+3715 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3715 6094 moveto
+3720 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3720 6094 moveto
+3724 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3724 6094 moveto
+3729 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3729 6094 moveto
+3734 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3734 6094 moveto
+3738 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3738 6094 moveto
+3743 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3743 6094 moveto
+3748 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3748 6094 moveto
+3752 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3752 6094 moveto
+3757 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3757 6094 moveto
+3762 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3762 6094 moveto
+3767 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3767 6094 moveto
+3771 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3771 6094 moveto
+3776 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3776 6094 moveto
+3781 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3781 6094 moveto
+3785 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3785 6094 moveto
+3790 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3790 6094 moveto
+3795 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3795 6094 moveto
+3799 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3799 6094 moveto
+3804 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3804 6094 moveto
+3809 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3809 6094 moveto
+3814 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3814 6094 moveto
+3818 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3818 6094 moveto
+3823 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3823 6094 moveto
+3828 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3828 6094 moveto
+3832 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3832 6094 moveto
+3837 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3837 6094 moveto
+3842 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3842 6094 moveto
+3846 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3846 6094 moveto
+3851 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3851 6094 moveto
+3856 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3856 6094 moveto
+3860 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3860 6094 moveto
+3865 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3865 6094 moveto
+3870 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3870 6094 moveto
+3875 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3875 6094 moveto
+3879 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3879 6094 moveto
+3884 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3884 6094 moveto
+3889 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3889 6094 moveto
+3893 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3893 6094 moveto
+3898 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3898 6094 moveto
+3903 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3903 6094 moveto
+3907 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3907 6094 moveto
+3912 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3912 6094 moveto
+3917 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3917 6094 moveto
+3922 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3922 6094 moveto
+3926 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3926 6094 moveto
+3931 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3931 6094 moveto
+3936 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3936 6094 moveto
+3940 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3940 6094 moveto
+3945 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3945 6094 moveto
+3950 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3950 6094 moveto
+3954 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3954 6094 moveto
+3959 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3959 6094 moveto
+3964 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3964 6094 moveto
+3968 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3968 6094 moveto
+3973 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3973 6094 moveto
+3978 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3978 6094 moveto
+3983 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3983 6094 moveto
+3987 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3987 6094 moveto
+3992 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3992 6094 moveto
+3997 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+3997 6094 moveto
+4001 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4001 6094 moveto
+4006 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4006 6094 moveto
+4011 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4011 6094 moveto
+4015 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4015 6094 moveto
+4020 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4020 6094 moveto
+4025 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4025 6094 moveto
+4029 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4029 6094 moveto
+4034 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4034 6094 moveto
+4039 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4039 6094 moveto
+4044 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4044 6094 moveto
+4048 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4048 6094 moveto
+4053 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4053 6094 moveto
+4058 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4058 6094 moveto
+4062 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4062 6094 moveto
+4067 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4067 6094 moveto
+4072 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4072 6094 moveto
+4076 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4076 6094 moveto
+4081 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4081 6094 moveto
+4086 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4086 6094 moveto
+4091 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4091 6094 moveto
+4095 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4095 6094 moveto
+4100 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4100 6094 moveto
+4105 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4105 6094 moveto
+4109 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4109 6094 moveto
+4114 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4114 6094 moveto
+4119 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4119 6094 moveto
+4123 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4123 6094 moveto
+4128 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4128 6094 moveto
+4133 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4133 6094 moveto
+4137 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4137 6094 moveto
+4142 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4142 6094 moveto
+4147 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4147 6094 moveto
+4152 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4152 6094 moveto
+4156 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4156 6094 moveto
+4161 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4161 6094 moveto
+4166 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4166 6094 moveto
+4170 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4170 6094 moveto
+4175 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4175 6094 moveto
+4180 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4180 6094 moveto
+4184 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4184 6094 moveto
+4189 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4189 6094 moveto
+4194 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4194 6094 moveto
+4199 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4199 6094 moveto
+4203 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4203 6094 moveto
+4208 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4208 6094 moveto
+4213 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4213 6094 moveto
+4217 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4217 6094 moveto
+4222 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4222 6094 moveto
+4227 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4227 6094 moveto
+4231 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4231 6094 moveto
+4236 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4236 6094 moveto
+4241 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4241 6094 moveto
+4245 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4245 6094 moveto
+4250 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4250 6094 moveto
+4255 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4255 6094 moveto
+4260 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4260 6094 moveto
+4264 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4264 6094 moveto
+4269 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4269 6094 moveto
+4274 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4274 6094 moveto
+4278 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4278 6094 moveto
+4283 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4283 6094 moveto
+4288 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4288 6094 moveto
+4292 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4292 6094 moveto
+4297 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4297 6094 moveto
+4302 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4302 6094 moveto
+4306 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4306 6094 moveto
+4311 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4311 6094 moveto
+4316 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4316 6094 moveto
+4321 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4321 6094 moveto
+4325 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4325 6094 moveto
+4330 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4330 6094 moveto
+4335 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4335 6094 moveto
+4339 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4339 6094 moveto
+4344 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4344 6094 moveto
+4349 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4349 6094 moveto
+4353 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4353 6094 moveto
+4358 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4358 6094 moveto
+4363 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4363 6094 moveto
+4368 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4368 6094 moveto
+4372 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4372 6094 moveto
+4377 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4377 6094 moveto
+4382 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4382 6094 moveto
+4386 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4386 6094 moveto
+4391 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4391 6094 moveto
+4396 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4396 6094 moveto
+4400 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4400 6094 moveto
+4405 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4405 6094 moveto
+4410 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4410 6094 moveto
+4414 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4414 6094 moveto
+4419 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4419 6094 moveto
+4424 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4424 6094 moveto
+4429 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4429 6094 moveto
+4433 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4433 6094 moveto
+4438 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4438 6094 moveto
+4443 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4443 6094 moveto
+4447 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4447 6094 moveto
+4452 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4452 6094 moveto
+4457 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4457 6094 moveto
+4461 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4461 6094 moveto
+4466 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4466 6094 moveto
+4471 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4471 6094 moveto
+4476 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4476 6094 moveto
+4480 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4480 6094 moveto
+4485 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4485 6094 moveto
+4490 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4490 6094 moveto
+4494 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4494 6094 moveto
+4499 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4499 6094 moveto
+4504 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4504 6094 moveto
+4508 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4508 6094 moveto
+4513 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4513 6094 moveto
+4518 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4518 6094 moveto
+4522 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4522 6094 moveto
+4527 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4527 6094 moveto
+4532 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4532 6094 moveto
+4537 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4537 6094 moveto
+4541 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4541 6094 moveto
+4546 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4546 6094 moveto
+4551 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4551 6094 moveto
+4555 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4555 6094 moveto
+4560 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4560 6094 moveto
+4565 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4565 6094 moveto
+4569 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4569 6094 moveto
+4574 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4574 6094 moveto
+4579 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4579 6094 moveto
+4584 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4584 6094 moveto
+4588 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4588 6094 moveto
+4593 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4593 6094 moveto
+4598 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4598 6094 moveto
+4602 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4602 6094 moveto
+4607 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4607 6094 moveto
+4612 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4612 6094 moveto
+4616 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4616 6094 moveto
+4621 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4621 6094 moveto
+4626 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4626 6094 moveto
+4630 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4630 6094 moveto
+4635 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4635 6094 moveto
+4640 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4640 6094 moveto
+4645 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4645 6094 moveto
+4649 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4649 6094 moveto
+4654 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4654 6094 moveto
+4659 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4659 6094 moveto
+4663 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4663 6094 moveto
+4668 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4668 6094 moveto
+4673 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4673 6094 moveto
+4677 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4677 6094 moveto
+4682 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4682 6094 moveto
+4687 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4687 6094 moveto
+4691 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4691 6094 moveto
+4696 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4696 6094 moveto
+4701 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4701 6094 moveto
+4706 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4706 6094 moveto
+4710 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4710 6094 moveto
+4715 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4715 6094 moveto
+4720 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4720 6094 moveto
+4724 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4724 6094 moveto
+4729 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4729 6094 moveto
+4734 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4734 6094 moveto
+4738 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4738 6094 moveto
+4743 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4743 6094 moveto
+4748 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4748 6094 moveto
+4753 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4753 6094 moveto
+4757 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4757 6094 moveto
+4762 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4762 6094 moveto
+4767 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4767 6094 moveto
+4771 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4771 6094 moveto
+4776 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4776 6094 moveto
+4781 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4781 6094 moveto
+4785 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4785 6094 moveto
+4790 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4790 6094 moveto
+4795 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4795 6094 moveto
+4799 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4799 6094 moveto
+4804 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4804 6094 moveto
+4809 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4809 6094 moveto
+4814 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4814 6094 moveto
+4818 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4818 6094 moveto
+4823 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4823 6094 moveto
+4828 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4828 6094 moveto
+4832 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4832 6094 moveto
+4837 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4837 6094 moveto
+4842 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4842 6094 moveto
+4846 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4846 6094 moveto
+4851 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4851 6094 moveto
+4856 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4856 6094 moveto
+4861 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4861 6094 moveto
+4865 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4865 6094 moveto
+4870 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4870 6094 moveto
+4875 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4875 6094 moveto
+4879 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4879 6094 moveto
+4884 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4884 6094 moveto
+4889 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+4889 6094 moveto
+4890 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[20] 0 setdash
+3482 153 moveto
+3482 6094 lineto
+stroke
+0.00 0.00 0.00 setrgbcolor
+1 setlinewidth 1 setlinejoin 1 setlinecap
+[20] 0 setdash
+195 261 moveto
+4890 261 lineto
+stroke
+gsave
+195 6238 moveto
+1254 0 rlineto
+0 96 rlineto
+-1254 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[83 0 0 -83 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+195 6315 moveto
+/V glyphshow
+250 6315 moveto
+/parenleft glyphshow
+278 6315 moveto
+/o glyphshow
+329 6315 moveto
+/u glyphshow
+380 6315 moveto
+/t glyphshow
+408 6315 moveto
+/parenright glyphshow
+436 6315 moveto
+%%glyph 001d
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/colon 41 RD
+f75df93e0d8bf9a1158bf7ad05f7ad8b
+058bfbad0509fbadfda1158bf7ad05f7
+ad8b058bfbad05090e
+ND
+end end
+/colon glyphshow
+464 6315 moveto
+%%glyph 0003
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/space 5 RD
+8bf8cd0d0e
+ND
+end end
+/space glyphshow
+487 6315 moveto
+/parenleft glyphshow
+515 6315 moveto
+/seven glyphshow
+561 6315 moveto
+%%glyph 0011
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/period 22 RD
+f727f8cd0d8b8b158bf7ad05f7ad8b05
+8bfbad05090e
+ND
+end end
+/period glyphshow
+584 6315 moveto
+/zero glyphshow
+630 6315 moveto
+/zero glyphshow
+676 6315 moveto
+/zero glyphshow
+722 6315 moveto
+/one glyphshow
+768 6315 moveto
+/two glyphshow
+814 6315 moveto
+/four glyphshow
+860 6315 moveto
+/two glyphshow
+906 6315 moveto
+/s glyphshow
+952 6315 moveto
+%%glyph 000f
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/comma 62 RD
+f709f8cd0da2f7ad15f7ad8b058bfb5d
+058b3a844b7d5c087d5c716164660864
+66596d4f750854f70805c49eb3a5a3ac
+08a3ac98b78cc308fb1c8b05090e
+ND
+end end
+/comma glyphshow
+975 6315 moveto
+/one glyphshow
+1021 6315 moveto
+/one glyphshow
+1067 6315 moveto
+/period glyphshow
+1090 6315 moveto
+/seven glyphshow
+1136 6315 moveto
+/eight glyphshow
+1182 6315 moveto
+/zero glyphshow
+1228 6315 moveto
+/nine glyphshow
+1274 6315 moveto
+/two glyphshow
+1320 6315 moveto
+/eight glyphshow
+1366 6315 moveto
+/V glyphshow
+1421 6315 moveto
+/parenright glyphshow
+gsave
+1187 6349 moveto
+2710 0 rlineto
+0 115 rlineto
+-2710 0 rlineto
+closepath
+1.00 1.00 1.00 setrgbcolor
+fill
+grestore
+0.00 0.00 0.00 setrgbcolor
+/Arial-BoldMT findfont
+[100 0 0 -100 0 0]
+makefont setfont
+0.00 0.00 0.00 setrgbcolor
+1187 6442 moveto
+/space glyphshow
+1215 6442 moveto
+%%glyph 0010
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/hyphen 23 RD
+f707f93e0d59f81b158bf7ad05f8bc8b
+058bfbad05090e
+ND
+end end
+/hyphen glyphshow
+1248 6442 moveto
+/hyphen glyphshow
+1281 6442 moveto
+/hyphen glyphshow
+1314 6442 moveto
+/space glyphshow
+1342 6442 moveto
+/space glyphshow
+1370 6442 moveto
+%%glyph 0026
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/C 163 RD
+ecff000005c70dfa72f8af15f7b33005
+5ffb3442fb0b253e08243dfb1665fb31
+8a08fb578cfb34cdfb11f71908fb11f7
+194cf7498bf77b088bf788caf752f712
+f71b08f712f71bf73acef7618b08f747
+8bf72656f7042108ce4cbd31acfb0908
+fbb945057ad767c754b70854b748a13c
+8b08fb018b3364483d08473d69fb128b
+fb43088bfb4dacfb18ce3c08ce3ce164
+f68b08da8bcea4c4bd08c4bdb3daa4f6
+08090e
+ND
+end end
+/C glyphshow
+1442 6442 moveto
+/colon glyphshow
+1475 6442 moveto
+%%glyph 003f
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/backslash 29 RD
+88f8cd0d8bff000005d315f7638b05f8
+03fffffffa1405fb678b05090e
+ND
+end end
+/backslash glyphshow
+1503 6442 moveto
+/u glyphshow
+1564 6442 moveto
+/s glyphshow
+1620 6442 moveto
+%%glyph 0048
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/e 153 RD
+ccff000004730df94df7e615f7ac5c05
+6724523d3e56083d552a71fb098a08fb
+4d8cfb1cc632f70d0845ec68f70e8bf7
+27088bf744b9f71ee7ef08e7eef708bd
+f7218b08f7328bf71157e62308e622b7
+fb3487fb6b08fd548b058d38a24ab65d
+08b65cc174cc8b08b78bb097a9a308a9
+a3a2b29ac008099bf7b01589dc76c963
+b60863b55aa0528b084e8b5875635e08
+635e774f8c3e08090e
+ND
+end end
+/e glyphshow
+1676 6442 moveto
+%%glyph 0055
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/r 82 RD
+f71bf9b10df7ad8b15fbad8b058bfaba
+05f7998b058bfb2b05b8d2b3baafa208
+aea2b496b88b08cb8bc979c6680834fb
+89055caa5f9a628b08648b6980707608
+707575647c52087b5283fb0a8bfb4908
+090e
+ND
+end end
+/r glyphshow
+1715 6442 moveto
+/s glyphshow
+1771 6442 moveto
+/backslash glyphshow
+1799 6442 moveto
+%%glyph 0044
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/a 243 RD
+d4ff000004730df7b0f97615fb93b905
+a8f2bcd7d1bc08d1bcf3a4f71e8b08f7
+118be97cc86e08c86db765a45e08a45d
+97378bfb0e0888fbdc058b2e9046945f
+08945e9b5ca45808fbaa8b05849e82a6
+80b008869c88968990085b5c58685474
+08547451804d8a08fb018c35a84cc608
+4cc66bd68be6088bc799c1a8ba08a8ba
+b3afbfa408bea4d6a0ec9e08f717a4e6
+a2bea0088ba7058bc17eb270a20870a2
+5996418b08598b64816f78086f777468
+7a5a0809f80cfb7815677f527d3d7a08
+3d7a587b737b086671796a8b63088b64
+9a69a86e08a86eb17db88b08be8bbb9c
+b9ac08ada4a1aa96b00892a38fb98bce
+08090e
+ND
+end end
+/a glyphshow
+1855 6442 moveto
+/r glyphshow
+1894 6442 moveto
+/e glyphshow
+1950 6442 moveto
+/n glyphshow
+2011 6442 moveto
+%%glyph 0047
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/d 150 RD
+dfff000004e30dfaa18b15fb998b058b
+f73005604e585e506e08506e4f7c4f8a
+08fb0e8c23bb34ee0834ed5ff71d8bf7
+44088bf748b5f71de0e908e0e8f6baf7
+158b08f70b8bf15ae228088bf8a405f7
+ad8b0509fd82fe24158bfb059b39aa58
+08b842cb66dc8b08cc8bc2a7b8c208b8
+c2a2dd8bf701088bf70e75e35fc1085f
+c053a6468b08488b54715e56085e5674
+3b8b2208090e
+ND
+end end
+/d glyphshow
+2072 6442 moveto
+%%glyph 004d
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/j 114 RD
+2df8cd0df77fff000004b6158bf79805
+f7ad8b058bfb9805098bfb24158bfe99
+058bfb1b822c7a53087954695f596c08
+586c4b7b3d8a086f8c6d8d6b90086b90
+6893659408bcf7840599899889968908
+968a968a958a08a88ca2919e97089d98
+979a919c08919c8ebf8be1088bfa8905
+090e
+ND
+end end
+/j glyphshow
+2100 6442 moveto
+/a glyphshow
+2156 6442 moveto
+/n glyphshow
+2217 6442 moveto
+/backslash glyphshow
+2245 6442 moveto
+%%glyph 0030
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/M 83 RD
+f725ff000006aa0d8b8b158bff000005
+ba05f84f8b05f79efe7c05f79bfa7c05
+f8508b058bfffffffa4605fba78b058b
+ff0000048205fbb7fffffffb7e05fbb1
+8b05fbb6ff00000482058bfffffffb7e
+05090e
+ND
+end end
+/M glyphshow
+2328 6442 moveto
+%%glyph 005c
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/y 100 RD
+99ff000004730d8bfaba15f7bf8b05f7
+92fd8605f78cf98605f7b78b05fc0bfe
+920548fb4d05724e745c756a08746a72
+716e76086e77677b61800860805b8556
+8a08558c569057960872f77005b783b3
+87ae8a08cc8cbc9eaab108aab2a3bb9c
+c608090e
+ND
+end end
+/y glyphshow
+2384 6442 moveto
+/space glyphshow
+2412 6442 moveto
+%%glyph 0027
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/D 162 RD
+f728ff000005c70d8bff000005ba15f8
+b18b05f70e8be882cb7808e172d55ec8
+4a08c84aba3cab2e08ab2d9bfb088bfb
+1d088bfb0d7c236d3408662057354749
+0858594564346f084a763381fb018b08
+fcc18b0509f7bcff000004c2158bfe5f
+05f7718b05de8bc690b09408bb97b39f
+aba808aaa8a5ba9fcd089fcc95e58bf7
+05088bf70581e277c80877c86fba67ad
+0867ad5da254970862943a90fb0d8b08
+090e
+ND
+end end
+/D glyphshow
+2484 6442 moveto
+/o glyphshow
+2545 6442 moveto
+%%glyph 0046
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/c 149 RD
+e0ff000004730dfa70f98015fba95905
+82c276b56aa7086aa76099568b08458b
+5373625b08615a763a8bfb05088bfb12
+a032b65708b557c471d28b08c08bb79a
+adaa08ada9a3bf99d508f7a85c056efb
+13542c3a4a083a4afb016cfb1d8a08fb
+2f8cfb10bb2fed082eed5df71c8bf741
+088bf743b9f71de8ed08e8ecf711bcf7
+328b08f7158bf26fd85408d753c236ac
+fb0608090e
+ND
+end end
+/c glyphshow
+2601 6442 moveto
+/u glyphshow
+2662 6442 moveto
+%%glyph 0050
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/m 190 RD
+f712ff0000071d0d8bfaba15f7978b05
+8bfb2505e8f705f702c3f7148b08cf8b
+c67dbd6f08bd6fb461ab5208bac4bdb5
+c1a708c1a7c599c88b08d98bcd7bc16c
+08c16bb35ca64e089e5e95418b26088b
+fd3b05fbad8b058bf8f3058bf481cf78
+aa0871b3639f558b08648b667f687308
+687372687c5d087c5c83428b27088bfc
+9205fbad8b058bf8da058bf286ce81a9
+0881a97ca1769a08769a6e92678b0860
+8b647f687408687473697c5f087c5f83
+428b25088bfc9805fbad8b05090e
+ND
+end end
+/m glyphshow
+2751 6442 moveto
+/e glyphshow
+2807 6442 moveto
+/n glyphshow
+2868 6442 moveto
+/t glyphshow
+2901 6442 moveto
+/s glyphshow
+2957 6442 moveto
+/backslash glyphshow
+2985 6442 moveto
+%%glyph 0053
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/p 157 RD
+f71fff000004e30d8bfaba15f79a8b05
+8bfb3005adc0b9b7c5ac08c5accb9cd2
+8b08f70f8bf45be12a08e12ab6fb1a8b
+fb41088bfb4560fb1e3429083428225b
+fb0f8a08508c56965ca2085ba259b356
+c4088bfcab05fbad8b0509f7aafa4d15
+8bfb0ba333ba5208ba52c56ecf8b08cc
+8bc2a5b6c008b6bfa1e18bf70b088bf7
+0375de5ec1085ec154a6498b08468b52
+715e56085e56743c8b2308090e
+ND
+end end
+/p glyphshow
+3046 6442 moveto
+%%glyph 005a
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/w 69 RD
+94ff000006390df7e48b15fbe4faba05
+f7a58b05f75bfd4c05f74bf94c05f7a3
+8b05f745fd4c05f75ff94c05f7a98b05
+fbe9feba05fba28b05fb4bf93f05fb48
+fd3f05090e
+ND
+end end
+/w glyphshow
+3124 6442 moveto
+/r glyphshow
+3163 6442 moveto
+%%glyph 0032
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/O 183 RD
+e4ff000006390d8bf968158bf729a1f7
+12b8f008acd6b9cec5c608c4c6cab7d0
+a808e6b2f59ef70b8b08f76c8bf74148
+f716fb1a08f715fb1accfb4e8bfb8308
+8bfb814bfb4dfb15fb1908fb15fb1afb
+4049fb6b8a08fb6e8cfb41cdfb15f719
+08fb15f7194bf74b8bf77d0809f7c595
+158bfb3ab1fb12d83608d835ec60f70a
+8b08f70a8becb6d7e008d6e0b1f7138b
+f73e088bf73c66f71142de0841de29b4
+fb0e8b08fb0e8b2961403808403766fb
+128bfb3d08090e
+ND
+end end
+/O glyphshow
+3241 6442 moveto
+/n glyphshow
+3302 6442 moveto
+%%glyph 0033
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/P 144 RD
+f729ff000005560d8b8b158bff000005
+ba05f86f8b05f7488bf70984c27c08df
+75d15bc44208c441a72c8bfb09088b31
+7b3f6a4e086a4e625b59680858685873
+578008447d2584fb1a8b08fb558b058b
+fcbd05098bff000004c2158bfc3405f7
+368b05f7098bd993b29a08b29aaaa3a2
+ac08a1ac96b18bb6088bc07bb76cae08
+6cae63a05b94086892448e208b08090e
+ND
+end end
+/P glyphshow
+3369 6442 moveto
+/C glyphshow
+3441 6442 moveto
+%%glyph 0025
+/Arial-BoldMT findfont dup
+/Private get begin
+/CharStrings get begin
+/B 230 RD
+f72aff000005c70d8bff000005ba15f8
+de8b05f7088be286c48208c481be77b8
+6c08b86cb063a95808a9589a518b4c08
+8b46794c665208665258604c6e08e471
+d05fbb4c08bb4ca3428b36088b487c4b
+6c4c086c4c6058566608556549743c82
+085a86fb0b87fb518a08fc878b0509f7
+bcff000004c6158bfbe705f7568b05f7
+078bd38da78e08be91b39da8a808a8a8
+99b18bba088bb87fb072a80872a7659c
+5a91086e8e368dfb1f8b0809fb3efcdb
+158bfc1c05f7a68b05f68bce8ea89108
+b793af9fa7aa08a6aa99b48bbf088bb7
+80b076aa0876aa6ca163990862993492
+fb1b8b08090e
+ND
+end end
+/B glyphshow
+3513 6442 moveto
+/period glyphshow
+3541 6442 moveto
+/r glyphshow
+3580 6442 moveto
+/a glyphshow
+3636 6442 moveto
+/w glyphshow
+3714 6442 moveto
+/space glyphshow
+3742 6442 moveto
+/space glyphshow
+3770 6442 moveto
+/hyphen glyphshow
+3803 6442 moveto
+/hyphen glyphshow
+3836 6442 moveto
+/hyphen glyphshow
+3869 6442 moveto
+/space glyphshow
+pgsave restore
+showpage
+%%Trailer
+%%BoundingBox: 8 8 603 783
+%%Pages: 1
+%%EOF

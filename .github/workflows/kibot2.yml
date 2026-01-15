@@ -33,7 +33,7 @@ jobs:
       run: |
         echo "SCH_NAME=${{ matrix.project }}" >> $GITHUB_ENV
     - uses: actions/checkout@v4
-    - uses: INTI-CMNB/KiBot@v2_k8
+    - uses: INTI-CMNB/KiBot@v2_k9
       with:
         # Required - kibot config file
         config: ${{ matrix.project }}/kibot_generated.kibot.yaml

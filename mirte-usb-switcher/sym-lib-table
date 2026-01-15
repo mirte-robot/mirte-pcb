@@ -3,4 +3,5 @@
   (lib (name "SiP32509")(type "KiCad")(uri "${KIPRJMOD}/libs/SiP32509/SiP32509.kicad_sym")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/libs/lcsc/lcsc.kicad_sym")(options "")(descr ""))
   (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/libs/usb/usb.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/../mirte-master/libraries/easyeda.kicad_sym")(options "")(descr ""))
 )
