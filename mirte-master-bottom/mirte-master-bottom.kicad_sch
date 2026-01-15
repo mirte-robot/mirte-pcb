@@ -8719,7 +8719,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31e020ae-f9e5-49b0-9219-0282d3249c39")
 		(property "Reference" "J24"
 			(at 336.55 173.99 0)
@@ -8731,7 +8730,7 @@
 			)
 		)
 		(property "Value" "IMU MPU-9250"
-			(at 336.55 176.53 0)
+			(at 313.944 174.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)

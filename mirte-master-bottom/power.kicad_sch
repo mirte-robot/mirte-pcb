@@ -4213,7 +4213,7 @@
 	)
 	(text "10k: VIN>7v\n32k if no D4"
 		(exclude_from_sim no)
-		(at 447.802 111.252 0)
+		(at 434.594 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4241,7 +4241,7 @@
 		)
 		(uuid "812bff53-8ae8-47a2-af8a-f7545652b4b7")
 	)
-	(text "Idea:\nOn power-on, no energy flowing anywhere\nSW1 starts the system\nQ3 switches the main power when Q5 is on\nQ5 Gate should be around 3v3 if VIN_SWITCHED is high\nD4 (zener diode) keeps it at max 3v3\n\nWhen the microcontroller wants to turn off the power, \nit switches PWR_IN_SIG to low, turnin off Q5, turning off Q3\n\n\nR33 is to deplete Q5 when VIN_SWITCHED is off\nR32 is to deplete Q3 when Q3 is off"
+	(text "Idea:\nOn power-on, no energy flowing anywhere\nSW1 starts the system\nQ3 switches the main power when U5 is on\n\nWhen the microcontroller wants to turn off the power, \nit switches PWR_IN_SIG to low, turnin off Q5, turning off Q3\n\nU5 stays flowing, when ref is 2.5V or higher\n10k chosen to allow 8.5V Vin, to allow MCU to shut off before we shut off.\n"
 		(exclude_from_sim no)
 		(at 488.188 28.194 0)
 		(effects
@@ -4293,7 +4293,7 @@
 	)
 	(text "turn on 0.7-3.3V@2V-5V\nturn off 0.6-2V@2V-5V\n\noff-trigger @ V-in = 9V\n9V/1.5V = 1:4\n"
 		(exclude_from_sim no)
-		(at 394.208 73.152 0)
+		(at 489.458 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4303,7 +4303,7 @@
 	)
 	(text "switch"
 		(exclude_from_sim no)
-		(at 356.108 49.022 0)
+		(at 334.264 43.434 0)
 		(effects
 			(font
 				(size 1.27 1.27)
