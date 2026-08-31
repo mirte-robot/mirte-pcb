@@ -54,3 +54,4 @@ mirte-pioneer/jlcpcb/production_files/GERBER-mirte_combination.zip
 *.kicad_sch_old
 *.step
 !/*/libs/*.step
+!/*/libraries/**/*.step
